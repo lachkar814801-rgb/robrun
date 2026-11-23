@@ -1,19 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import LangSwitcher from '@/components/LangSwitcher';
 
 export default function App() {
-  const { t, i18n } = useTranslation();
-  const [langDir, setLangDir] = useState<'ltr' | 'rtl'>(i18n.dir() === 'rtl' ? 'rtl' : 'ltr');
-
-  useEffect(() => {
-    const updateDir = () => setLangDir(i18n.dir() === 'rtl' ? 'rtl' : 'ltr');
-    i18n.on('languageChanged', updateDir);
-    return () => i18n.off('languageChanged', updateDir);
-  }, [i18n]);
+  const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-tunisian-dark text-white" dir={langDir}>
+    <div className="min-h-screen bg-tunisian-dark text-white">
       <header className="border-b border-white/10 bg-black/80 sticky top-0 z-50 backdrop-blur">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
@@ -21,7 +14,7 @@ export default function App() {
               <span>ROB RUN</span>
               <span className="text-white">Companion</span>
             </Link>
-            <nav className="flex gap-4 text-sm">
+            <nav className="hidden md:flex gap-4 text-sm">
               {Object.entries({
                 [t('nav.home')]: '/',
                 [t('nav.weapons')]: '/weapons',
@@ -38,13 +31,7 @@ export default function App() {
                 </Link>
               ))}
             </nav>
-            <button
-              onClick={() => i18n.changeLanguage(i18n.language === 'ar' ? 'fr' : i18n.language === 'fr' ? 'en' : 'ar')}
-              className="text-tunisian-sand hover:text-white transition-colors"
-              aria-label={t('btn.changeLanguage')}
-            >
-              {i18n.language.toUpperCase()}
-            </button>
+            <LangSwitcher />
           </div>
         </div>
       </header>
