@@ -6,11 +6,24 @@
 
 ---
 
-## 1. Quartiers (correction appliquée depuis everygamestat robrun.json `map.districts`)
+## 1. Cas ambigus (catégories avec mêmes comptes)
+
+Le guide signale que quand deux catégories ont le même nombre d'items (17/17, 10/10, 6/6/6, 5/5), il faut trancher avec le sens du texte russe. Tous les cas ci-dessous ont des sens distincts, ils ne sont donc pas réellement ambigus, mais sont listés pour revue humaine.
+
+| Compte | Catégories (clé EN) | Sens russe | Statut |
+|--------|---------------------|------------|--------|
+| 17 | `workbenches_upgrades` / `vehicle_upgrades` | Верстаки и апгрейды / Авто-апгрейdes | ✅ Sens distinct, clé assignée |
+| 10 | `medical` / `weapon_maintenance` | Медицина / Обслуживание оружия | ✅ Sens distinct, clé assignée |
+| 6 | `armor` / `keys` / `protection` | Броня / Ключи / Защита | ✅ Sens distinct, clé assignée |
+| 5 | `documents` / `ammo` | Документы / Патроны | ✅ Sens distinct, clé assignée |
+
+---
+
+## 2. Quartiers (correction appliquée depuis everygamestat robrun.json `map.districts`)
 
 | Clé EN | Nom EN | Nom FR | Nom AR | Statut |
 |--------|--------|--------|--------|--------|
-| `loraine_hills` | Loraine Hills | Loraine Hills | لوراين هيلZ | À vérifier — nom AR à confirmer |
+| `loraine_hills` | Loraine Hills | Loraine Hills | لوراين هيلز | À vérifier — nom AR à confirmer |
 | `palmside` | Palmside | Palmside | بالمسايد | À vérifier — nom AR à confirmer |
 | `sunny_beach` | Sunny Beach | Sunny Beach | سني بيتش | Déjà dans le guide |
 | `downtown` | Downtown | Downtown | داونتاون | Déjà dans le guide |
@@ -19,7 +32,7 @@
 
 ---
 
-## 2. Raretés (6 niveaux d'everygamestat, 5 dans le CSV)
+## 3. Raretés (6 niveaux d'everygamestat, 5 dans le CSV)
 
 | Clé EN | Nom EN | Nom FR | Nom AR | Statut |
 |--------|--------|--------|--------|--------|
@@ -32,18 +45,18 @@
 
 ---
 
-## 3. Bâtiments (28 bâtiments du CSV, en russe)
+## 4. Bâtiments (28 bâtiments du CSV, en russe)
 
-À traduire une fois le key-map.json construit. Signaler ici les noms dont la traduction AR est incertaine.
-
----
-
-## 4. Types de points de carte (9 types techniques → libellés lisibles)
-
-Déjà dans le guide section TRADUCTION. Vérifier les traductions AR lors de la phase P3.
+Tous les bâtiments ont été traduits dans glossary.json. Les noms AR sont des traductions littérales et doivent être vérifiés par un locuteur natif.
 
 ---
 
-## 5. Guides
+## 5. Types de points de carte (9 types techniques → libellés lisibles)
+
+Tous les types ont été traduits dans glossary.json. Les noms AR sont des traductions littérales et doivent être vérifiés par un locuteur natif.
+
+---
+
+## 6. Guides
 
 Aucun guide encore traduit. Les traductions FR/AR sont à produire lors de la phase P7. Signaler ici tout guide pour lequel une information fiable manque.
