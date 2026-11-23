@@ -1,0 +1,160 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - complementary "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "robrun.space home" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "robrun.space logo" [ref=e7]
+          - generic [ref=e8]:
+            - text: Robrun.space
+            - generic [ref=e9]: Fan database
+        - button "Switch to light mode" [ref=e11] [cursor=pointer]
+      - button "Search items, guides and FAQ" [ref=e18] [cursor=pointer]:
+        - generic [ref=e22]: Search the database
+        - generic [ref=e23]: Ctrl K
+      - 'link "ROB RUN server status: Checking…. Opens isrobrundown.com" [ref=e24] [cursor=pointer]':
+        - /url: https://isrobrundown.com/
+        - generic [ref=e26]:
+          - generic [ref=e27]: Server status
+          - generic [ref=e28]: Checking…
+      - navigation "Explore" [ref=e29]:
+        - button "Explore" [expanded] [ref=e30] [cursor=pointer]
+        - generic [ref=e35]:
+          - link "Home" [ref=e36] [cursor=pointer]:
+            - /url: /
+          - link "Interactive Map" [ref=e41] [cursor=pointer]:
+            - /url: /map/
+          - link "Questions & Answers 209" [ref=e45] [cursor=pointer]:
+            - /url: /faq/
+            - generic [ref=e49]: Questions & Answers
+            - generic [ref=e50]: "209"
+          - link "Guides 8" [ref=e51] [cursor=pointer]:
+            - /url: /guides/
+            - generic [ref=e54]: Guides
+            - generic [ref=e55]: "8"
+          - link "Updates 19" [ref=e56] [cursor=pointer]:
+            - /url: /updates/
+            - generic [ref=e60]: Updates
+            - generic [ref=e61]: "19"
+      - navigation "Catalog" [ref=e62]:
+        - button "Catalog" [expanded] [ref=e63] [cursor=pointer]
+        - generic [ref=e67]:
+          - link "All Items 533" [ref=e69] [cursor=pointer]:
+            - /url: /items/
+            - generic [ref=e75]: All Items
+            - generic [ref=e76]: "533"
+          - generic [ref=e77]:
+            - link "Weapons 50" [ref=e78] [cursor=pointer]:
+              - /url: /items/weapons/
+              - generic [ref=e81]: Weapons
+              - generic [ref=e82]: "50"
+            - link "Ammo 4" [ref=e83] [cursor=pointer]:
+              - /url: /items/ammo/
+              - generic [ref=e88]: Ammo
+              - generic [ref=e89]: "4"
+            - link "Gear 19" [ref=e90] [cursor=pointer]:
+              - /url: /items/gear/
+              - generic [ref=e95]: Gear
+              - generic [ref=e96]: "19"
+            - link "Keys & Tools 54" [ref=e97] [cursor=pointer]:
+              - /url: /items/keys-and-tools/
+              - generic [ref=e101]: Keys & Tools
+              - generic [ref=e102]: "54"
+            - link "Vehicles 25" [ref=e103] [cursor=pointer]:
+              - /url: /items/vehicles/
+              - generic [ref=e108]: Vehicles
+              - generic [ref=e109]: "25"
+            - link "Base & Plot 82" [ref=e110] [cursor=pointer]:
+              - /url: /items/base-and-plot/
+              - generic [ref=e114]: Base & Plot
+              - generic [ref=e115]: "82"
+            - link "Valuables 251" [ref=e116] [cursor=pointer]:
+              - /url: /items/valuables/
+              - generic [ref=e120]: Valuables
+              - generic [ref=e121]: "251"
+            - link "Contraband 48" [ref=e122] [cursor=pointer]:
+              - /url: /items/contraband/
+              - generic [ref=e126]: Contraband
+              - generic [ref=e127]: "48"
+          - generic [ref=e128]:
+            - link "Collections 34" [ref=e129] [cursor=pointer]:
+              - /url: /collections/
+              - generic [ref=e134]: Collections
+              - generic [ref=e135]: "34"
+            - link "Locations 28" [ref=e136] [cursor=pointer]:
+              - /url: /locations/looty-bay/
+              - generic [ref=e140]: Locations
+              - generic [ref=e141]: "28"
+            - link "Mechanics 15" [ref=e142] [cursor=pointer]:
+              - /url: /mechanics/
+              - generic [ref=e154]: Mechanics
+              - generic [ref=e155]: "15"
+      - generic [ref=e156]:
+        - navigation "Legal" [ref=e157]:
+          - link "About" [ref=e158] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e159] [cursor=pointer]:
+            - /url: /contact/
+          - link "Privacy" [ref=e160] [cursor=pointer]:
+            - /url: /privacy/
+          - link "Terms" [ref=e161] [cursor=pointer]:
+            - /url: /terms/
+          - button "Cookies" [ref=e162] [cursor=pointer]
+          - link "Discord" [ref=e163] [cursor=pointer]:
+            - /url: https://discord.gg/eRRYCjjSVa
+        - paragraph [ref=e164]: Unofficial fan site. Not affiliated with KEFIR or the ROB RUN team.
+    - generic [ref=e165]:
+      - main [ref=e166]:
+        - generic [ref=e167]:
+          - navigation "Breadcrumb" [ref=e168]:
+            - link "Home" [ref=e169] [cursor=pointer]:
+              - /url: /
+            - generic [ref=e170]:
+              - generic [aria-hidden] [ref=e171]: /
+              - generic [ref=e172]: Page not found
+          - generic [ref=e173]: Error 404
+          - heading "Confiscated." [level=1] [ref=e174]
+          - paragraph [ref=e175]: This page isn't here. Either the feds took it or the link is wrong.
+          - button "Search the database" [ref=e176] [cursor=pointer]:
+            - generic [ref=e180]: Search 533 items, 200+ answers, guides and places
+            - generic [ref=e181]: /
+          - generic [ref=e182]:
+            - link "Back to home" [ref=e183] [cursor=pointer]:
+              - /url: /
+            - link "FAQ" [ref=e184] [cursor=pointer]:
+              - /url: /faq/
+            - link "Weapons" [ref=e185] [cursor=pointer]:
+              - /url: /items/weapons/
+            - link "Map" [ref=e186] [cursor=pointer]:
+              - /url: /map/
+      - contentinfo [ref=e187]:
+        - paragraph [ref=e188]: robrun.space is an unofficial fan-made site. It is not affiliated with, endorsed by or sponsored by KEFIR or the ROB RUN team. ROB RUN and all related names, images and game content are the property of their respective owners.
+        - navigation "Footer" [ref=e189]:
+          - link "About" [ref=e190] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e191] [cursor=pointer]:
+            - /url: /contact/
+          - link "Privacy" [ref=e192] [cursor=pointer]:
+            - /url: /privacy/
+          - link "Terms" [ref=e193] [cursor=pointer]:
+            - /url: /terms/
+          - link "Discord" [ref=e194] [cursor=pointer]:
+            - /url: https://discord.gg/eRRYCjjSVa
+          - link "YouTube" [ref=e195] [cursor=pointer]:
+            - /url: https://www.youtube.com/@robrun_space
+          - button "Cookie settings" [ref=e196] [cursor=pointer]
+        - paragraph [ref=e197]: © 2026 robrun.space
+  - alert [ref=e198]
+  - region "Cookie consent" [ref=e199]:
+    - generic [ref=e200]:
+      - generic [ref=e201]: Cookies on robrun.space
+      - paragraph [ref=e202]:
+        - text: We'd like to use Google Analytics and Microsoft Clarity to see which pages help players and what to fix. They set cookies, and Clarity records anonymised clicks and scrolls. Nothing loads unless you agree.
+        - link "Privacy Policy" [ref=e203] [cursor=pointer]:
+          - /url: /privacy/
+    - generic [ref=e204]:
+      - button "Reject all" [ref=e205] [cursor=pointer]
+      - button "Customize" [ref=e206] [cursor=pointer]
+      - button "Accept all" [ref=e207] [cursor=pointer]

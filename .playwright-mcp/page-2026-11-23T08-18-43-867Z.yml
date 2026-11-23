@@ -1,0 +1,257 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - complementary "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "robrun.space home" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "robrun.space logo" [ref=e7]
+          - generic [ref=e8]:
+            - text: Robrun.space
+            - generic [ref=e9]: Fan database
+        - button "Switch to dark mode" [ref=e11] [cursor=pointer]
+      - button "Search items, guides and FAQ" [ref=e14] [cursor=pointer]:
+        - generic [ref=e18]: Search the database
+        - generic [ref=e19]: Ctrl K
+      - 'link "ROB RUN server status: Checking…. Opens isrobrundown.com" [ref=e20] [cursor=pointer]':
+        - /url: https://isrobrundown.com/
+        - generic [ref=e22]:
+          - generic [ref=e23]: Server status
+          - generic [ref=e24]: Checking…
+      - navigation "Explore" [ref=e25]:
+        - button "Explore" [expanded] [ref=e26] [cursor=pointer]
+        - generic [ref=e31]:
+          - link "Home" [ref=e32] [cursor=pointer]:
+            - /url: /
+          - link "Interactive Map" [ref=e37] [cursor=pointer]:
+            - /url: /map/
+          - link "Questions & Answers 209" [ref=e41] [cursor=pointer]:
+            - /url: /faq/
+            - generic [ref=e45]: Questions & Answers
+            - generic [ref=e46]: "209"
+          - link "Guides 8" [ref=e47] [cursor=pointer]:
+            - /url: /guides/
+            - generic [ref=e50]: Guides
+            - generic [ref=e51]: "8"
+          - link "Updates 19" [ref=e52] [cursor=pointer]:
+            - /url: /updates/
+            - generic [ref=e56]: Updates
+            - generic [ref=e57]: "19"
+      - navigation "Catalog" [ref=e58]:
+        - button "Catalog" [expanded] [ref=e59] [cursor=pointer]
+        - generic [ref=e63]:
+          - link "All Items 533" [ref=e65] [cursor=pointer]:
+            - /url: /items/
+            - generic [ref=e71]: All Items
+            - generic [ref=e72]: "533"
+          - generic [ref=e73]:
+            - link "Weapons 50" [ref=e74] [cursor=pointer]:
+              - /url: /items/weapons/
+              - generic [ref=e77]: Weapons
+              - generic [ref=e78]: "50"
+            - link "Ammo 4" [ref=e79] [cursor=pointer]:
+              - /url: /items/ammo/
+              - generic [ref=e84]: Ammo
+              - generic [ref=e85]: "4"
+            - link "Gear 19" [ref=e86] [cursor=pointer]:
+              - /url: /items/gear/
+              - generic [ref=e91]: Gear
+              - generic [ref=e92]: "19"
+            - link "Keys & Tools 54" [ref=e93] [cursor=pointer]:
+              - /url: /items/keys-and-tools/
+              - generic [ref=e97]: Keys & Tools
+              - generic [ref=e98]: "54"
+            - link "Vehicles 25" [ref=e99] [cursor=pointer]:
+              - /url: /items/vehicles/
+              - generic [ref=e104]: Vehicles
+              - generic [ref=e105]: "25"
+            - link "Base & Plot 82" [ref=e106] [cursor=pointer]:
+              - /url: /items/base-and-plot/
+              - generic [ref=e110]: Base & Plot
+              - generic [ref=e111]: "82"
+            - link "Valuables 251" [ref=e112] [cursor=pointer]:
+              - /url: /items/valuables/
+              - generic [ref=e116]: Valuables
+              - generic [ref=e117]: "251"
+            - link "Contraband 48" [ref=e118] [cursor=pointer]:
+              - /url: /items/contraband/
+              - generic [ref=e122]: Contraband
+              - generic [ref=e123]: "48"
+          - generic [ref=e124]:
+            - link "Collections 34" [ref=e125] [cursor=pointer]:
+              - /url: /collections/
+              - generic [ref=e130]: Collections
+              - generic [ref=e131]: "34"
+            - link "Locations 28" [ref=e132] [cursor=pointer]:
+              - /url: /locations/looty-bay/
+              - generic [ref=e136]: Locations
+              - generic [ref=e137]: "28"
+            - link "Mechanics 15" [ref=e138] [cursor=pointer]:
+              - /url: /mechanics/
+              - generic [ref=e150]: Mechanics
+              - generic [ref=e151]: "15"
+      - generic [ref=e152]:
+        - navigation "Legal" [ref=e153]:
+          - link "About" [ref=e154] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e155] [cursor=pointer]:
+            - /url: /contact/
+          - link "Privacy" [ref=e156] [cursor=pointer]:
+            - /url: /privacy/
+          - link "Terms" [ref=e157] [cursor=pointer]:
+            - /url: /terms/
+          - button "Cookies" [ref=e158] [cursor=pointer]
+          - link "Discord" [ref=e159] [cursor=pointer]:
+            - /url: https://discord.gg/eRRYCjjSVa
+        - paragraph [ref=e160]: Unofficial fan site. Not affiliated with KEFIR or the ROB RUN team.
+    - generic [ref=e161]:
+      - main [ref=e162]:
+        - navigation "Breadcrumb" [ref=e163]:
+          - link "Home" [ref=e164] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e165]:
+            - generic [aria-hidden] [ref=e166]: /
+            - link "Locations" [ref=e167] [cursor=pointer]:
+              - /url: /locations/looty-bay/
+          - generic [ref=e168]:
+            - generic [aria-hidden] [ref=e169]: /
+            - generic [ref=e170]: Looty Bay Bank
+        - generic [ref=e171]:
+          - heading "Looty Bay Bank" [level=1] [ref=e172]
+          - paragraph [ref=e173]: "The biggest score in the city: 8 Gold Bars at $52,000 each and 5 Bank Money Bags, plus deposit boxes and 3 bank safes you can open with a Mini Drill. The vault door needs a Drill, which you barter from an Action Camera, two USB Hacking Tools and $50,000. The gold vault opens with an ID Card, traded for Deposit Box Keys."
+          - generic [ref=e174]:
+            - generic [ref=e175]: Downtown, Looty Bay
+            - generic [ref=e176]: Clan-battle objective · Tier III
+          - generic [ref=e177]:
+            - link "Show on map" [ref=e178] [cursor=pointer]:
+              - /url: /map/#loc=looty-bay-bank
+            - link "All of Downtown" [ref=e179] [cursor=pointer]:
+              - /url: /locations/looty-bay/#downtown
+        - region "Clan-battle objective" [ref=e180]:
+          - heading "Clan-battle objective" [level=2] [ref=e181]
+          - generic [ref=e182]:
+            - generic [ref=e183]:
+              - generic [ref=e184]: Tier
+              - generic [ref=e185]: III
+            - generic [ref=e186]:
+              - generic [ref=e187]: Minimum bet
+              - generic [ref=e188]: $200,000
+            - generic [ref=e189]:
+              - generic [ref=e190]: Cash reward
+              - generic [ref=e191]: $900,000
+          - paragraph [ref=e192]: Clans can fight to control this business. Seizing it starts at the information stand by the entrance. After the claims are in, the two clans willing to put up the most at the sit-down fight it out during conflict hours, 20:00 to 06:00. Holding it pays regular income and bonuses to every member.
+        - region "Fixed spawns" [ref=e193]:
+          - heading "Fixed spawns" [level=2] [ref=e195]
+          - table "Fixed spawns at Looty Bay Bank" [ref=e197]:
+            - caption [ref=e198]: Fixed spawns at Looty Bay Bank
+            - rowgroup [ref=e199]:
+              - row [ref=e200]:
+                - columnheader "Item" [ref=e201]
+                - columnheader "Rarity" [ref=e202]
+                - columnheader "Spawns" [ref=e203]
+                - columnheader "Value" [ref=e204]
+            - rowgroup [ref=e205]:
+              - row [ref=e206]:
+                - cell [ref=e207]:
+                  - link "Bank Money Bag" [ref=e208] [cursor=pointer]:
+                    - /url: /items/contraband/#bank-money-bag
+                - cell "Legendary" [ref=e212]
+                - cell "×5" [ref=e214]
+                - cell "$60,000" [ref=e215]
+              - row [ref=e216]:
+                - cell [ref=e217]:
+                  - link "Gold Bar" [ref=e218] [cursor=pointer]:
+                    - /url: /items/loot-prices/#gold-bar
+                - cell "Legendary" [ref=e222]
+                - cell "×8" [ref=e224]
+                - cell "$52,000" [ref=e225]
+              - row [ref=e226]:
+                - cell [ref=e227]:
+                  - link "Cash" [ref=e228] [cursor=pointer]:
+                    - /url: /items/cash/
+                - cell "Uncommon" [ref=e232]
+                - cell "×6" [ref=e234]
+                - cell "—" [ref=e235]
+        - region "May appear here" [ref=e236]:
+          - generic [ref=e237]:
+            - heading "May appear here" [level=2] [ref=e238]
+            - generic [ref=e239]: 1 items
+          - paragraph [ref=e240]: Items in this location's loot pool, most valuable first. Any search spot here can roll them.
+          - link "Ruby in Case For sale · Legendary $20,000" [ref=e242] [cursor=pointer]:
+            - /url: /items/loot-prices/#ruby-in-case
+            - generic [ref=e245]:
+              - generic [ref=e246]: Ruby in Case
+              - generic [ref=e247]: For sale · Legendary
+              - generic [ref=e248]: $20,000
+        - region "Doors and safes" [ref=e249]:
+          - heading "Doors and safes" [level=2] [ref=e251]
+          - table "Keys and tools that open things at Looty Bay Bank" [ref=e253]:
+            - caption [ref=e254]: Keys and tools that open things at Looty Bay Bank
+            - rowgroup [ref=e255]:
+              - row [ref=e256]:
+                - columnheader "Key or tool" [ref=e257]
+                - columnheader "Rarity" [ref=e258]
+                - columnheader "Opens" [ref=e259]
+                - columnheader "How many" [ref=e260]
+            - rowgroup [ref=e261]:
+              - row [ref=e262]:
+                - cell [ref=e263]:
+                  - link "Drill" [ref=e264] [cursor=pointer]:
+                    - /url: /items/drill/
+                - cell "Legendary" [ref=e268]
+                - cell "Vault door" [ref=e270]
+                - cell "1" [ref=e271]
+              - row [ref=e272]:
+                - cell [ref=e273]:
+                  - link "ID Card" [ref=e274] [cursor=pointer]:
+                    - /url: /items/id-card-looty-bay-bank/
+                - cell "Exotic" [ref=e278]
+                - cell "Locked door" [ref=e280]
+                - cell "1" [ref=e281]
+              - row [ref=e282]:
+                - cell [ref=e283]:
+                  - link "Mini Drill" [ref=e284] [cursor=pointer]:
+                    - /url: /items/mini-drill/
+                - cell "Epic" [ref=e288]
+                - cell "Bank safe" [ref=e290]
+                - cell "×3" [ref=e291]
+        - region "Also in Downtown" [ref=e292]:
+          - heading "Also in Downtown" [level=2] [ref=e294]
+          - generic [ref=e295]:
+            - link "Convenience Store · Downtown · Center" [ref=e296] [cursor=pointer]:
+              - /url: /locations/looty-bay/convenience-store-downtown-center/
+            - link "Convenience Store · Downtown · North" [ref=e297] [cursor=pointer]:
+              - /url: /locations/looty-bay/convenience-store-downtown-north/
+            - link "Electronics Store · Downtown" [ref=e298] [cursor=pointer]:
+              - /url: /locations/looty-bay/electronics-store-downtown/
+            - 'link "Equipment Store: East" [ref=e299] [cursor=pointer]':
+              - /url: /locations/looty-bay/equipment-store-east/
+            - link "Gas Station" [ref=e300] [cursor=pointer]:
+              - /url: /locations/looty-bay/gas-station/
+            - 'link "Gun Shop: East" [ref=e301] [cursor=pointer]':
+              - /url: /locations/looty-bay/gun-shop-east/
+            - 'link "Jewelry Store: East" [ref=e302] [cursor=pointer]':
+              - /url: /locations/looty-bay/jewelry-store-east/
+            - link "Pharmacy · Downtown" [ref=e303] [cursor=pointer]:
+              - /url: /locations/looty-bay/pharmacy-downtown/
+            - link "Rusty Burgers Café" [ref=e304] [cursor=pointer]:
+              - /url: /locations/looty-bay/rusty-burgers-cafe/
+      - contentinfo [ref=e305]:
+        - paragraph [ref=e306]: robrun.space is an unofficial fan-made site. It is not affiliated with, endorsed by or sponsored by KEFIR or the ROB RUN team. ROB RUN and all related names, images and game content are the property of their respective owners.
+        - navigation "Footer" [ref=e307]:
+          - link "About" [ref=e308] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e309] [cursor=pointer]:
+            - /url: /contact/
+          - link "Privacy" [ref=e310] [cursor=pointer]:
+            - /url: /privacy/
+          - link "Terms" [ref=e311] [cursor=pointer]:
+            - /url: /terms/
+          - link "Discord" [ref=e312] [cursor=pointer]:
+            - /url: https://discord.gg/eRRYCjjSVa
+          - link "YouTube" [ref=e313] [cursor=pointer]:
+            - /url: https://www.youtube.com/@robrun_space
+          - button "Cookie settings" [ref=e314] [cursor=pointer]
+        - paragraph [ref=e315]: © 2026 robrun.space
+  - alert [ref=e316]

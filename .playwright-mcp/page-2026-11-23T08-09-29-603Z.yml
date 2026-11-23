@@ -1,0 +1,438 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "EveryGameStat" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: EVERYGAMESTAT
+      - button "Alpha" [ref=e8] [cursor=pointer]
+      - generic [ref=e11]:
+        - link "Player search" [ref=e12] [cursor=pointer]:
+          - /url: /tracker
+        - link "Leaderboard" [ref=e13] [cursor=pointer]:
+          - /url: /leaderboard
+        - link "VS" [ref=e14] [cursor=pointer]:
+          - /url: /vs
+        - link "Overlays" [ref=e15] [cursor=pointer]:
+          - /url: /overlay
+        - link "Game hubs" [ref=e16] [cursor=pointer]:
+          - /url: /hubs
+        - link "Player counts" [ref=e17] [cursor=pointer]:
+          - /url: /player-count
+        - link "How it works" [ref=e18] [cursor=pointer]:
+          - /url: /#how
+        - button "Switch language" [ref=e20] [cursor=pointer]: EN
+        - button "Log in" [ref=e21] [cursor=pointer]
+        - button "Create account" [ref=e22] [cursor=pointer]
+  - main [ref=e23]:
+    - text: + + + + + + ?
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - complementary "ROB RUN" [ref=e26]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: ROB RUN
+            - generic [ref=e31]: Kefir · Game hub
+          - link "Playing on Steam now 171,844" [ref=e134] [cursor=pointer]:
+            - /url: /player-count/4262460-rob-run
+            - generic [ref=e33]: Playing on Steam now
+            - generic [ref=e34]: 171,844
+          - search [ref=e37]:
+            - searchbox "Search items, the map or ask a question" [ref=e41]
+          - generic [ref=e42]:
+            - generic [ref=e135]: Sections
+            - navigation [ref=e136]:
+              - link "Overview" [ref=e137] [cursor=pointer]:
+                - /url: /rob-run
+              - link "Items 547" [ref=e139] [cursor=pointer]:
+                - /url: /rob-run/items
+                - generic [ref=e140]: Items
+                - generic [ref=e141]: "547"
+              - link "Shipments 171" [ref=e142] [cursor=pointer]:
+                - /url: /rob-run/shipments
+                - generic [ref=e143]: Shipments
+                - generic [ref=e144]: "171"
+              - link "Interactive map 35" [ref=e145] [cursor=pointer]:
+                - /url: /rob-run/map
+                - generic [ref=e146]: Interactive map
+                - generic [ref=e147]: "35"
+              - link "Codex 22" [ref=e148] [cursor=pointer]:
+                - /url: /rob-run/codex
+                - generic [ref=e149]: Codex
+                - generic [ref=e150]: "22"
+              - link "Tips 40" [ref=e151] [cursor=pointer]:
+                - /url: /rob-run/tips
+                - generic [ref=e152]: Tips
+                - generic [ref=e153]: "40"
+              - link "Tattoos 23" [ref=e154] [cursor=pointer]:
+                - /url: /rob-run/tattoos
+                - generic [ref=e155]: Tattoos
+                - generic [ref=e156]: "23"
+              - link "Police ranks 5" [ref=e157] [cursor=pointer]:
+                - /url: /rob-run/police
+                - generic [ref=e158]: Police ranks
+                - generic [ref=e159]: "5"
+              - link "Guides 9" [ref=e160] [cursor=pointer]:
+                - /url: /rob-run/guides
+                - generic [ref=e161]: Guides
+                - generic [ref=e162]: "9"
+              - link "FAQ 29" [ref=e163] [cursor=pointer]:
+                - /url: /rob-run/faq
+                - generic [ref=e164]: FAQ
+                - generic [ref=e165]: "29"
+            - generic [ref=e166]: Item catalog
+            - navigation [ref=e167]:
+              - link "Weapons 50" [ref=e168] [cursor=pointer]:
+                - /url: /rob-run/items/weapons
+                - generic [ref=e169]: Weapons
+                - generic [ref=e170]: "50"
+              - link "Ammo 4" [ref=e171] [cursor=pointer]:
+                - /url: /rob-run/items/ammo
+                - generic [ref=e172]: Ammo
+                - generic [ref=e173]: "4"
+              - link "Gear 19" [ref=e174] [cursor=pointer]:
+                - /url: /rob-run/items/gear
+                - generic [ref=e175]: Gear
+                - generic [ref=e176]: "19"
+              - link "Keys and tools 63" [ref=e177] [cursor=pointer]:
+                - /url: /rob-run/items/keys-and-tools
+                - generic [ref=e178]: Keys and tools
+                - generic [ref=e179]: "63"
+              - link "Vehicles 25" [ref=e180] [cursor=pointer]:
+                - /url: /rob-run/items/vehicles
+                - generic [ref=e181]: Vehicles
+                - generic [ref=e182]: "25"
+              - link "Base and plot 83" [ref=e183] [cursor=pointer]:
+                - /url: /rob-run/items/base-and-plot
+                - generic [ref=e184]: Base and plot
+                - generic [ref=e185]: "83"
+              - link "Valuables 255" [ref=e186] [cursor=pointer]:
+                - /url: /rob-run/items/valuables
+                - generic [ref=e187]: Valuables
+                - generic [ref=e188]: "255"
+              - link "Contraband 48" [ref=e189] [cursor=pointer]:
+                - /url: /rob-run/items/contraband
+                - generic [ref=e190]: Contraband
+                - generic [ref=e191]: "48"
+            - generic [ref=e192]: Your game
+            - navigation [ref=e193]:
+              - link "Track your runs" [ref=e194] [cursor=pointer]:
+                - /url: /companion
+              - link "Your ROB RUN hours" [ref=e198] [cursor=pointer]:
+                - /url: /me
+        - main [ref=e93]:
+          - generic [ref=e203]:
+            - navigation "Breadcrumb" [ref=e204]:
+              - link "ROB RUN" [ref=e205] [cursor=pointer]:
+                - /url: /rob-run
+            - heading "ROB RUN tips" [level=1] [ref=e206]
+          - generic [ref=e94]:
+            - generic [ref=e207]:
+              - generic [ref=e208]:
+                - heading "Base and housing" [level=2] [ref=e209]
+                - generic [ref=e210]: "6"
+              - generic [ref=e211]:
+                - link "Plot Plan Use the Plot Plan on your home territory to place a house and other buildings." [ref=e212] [cursor=pointer]:
+                  - /url: /rob-run/tips/plot-plan
+                  - generic [ref=e214]:
+                    - generic [ref=e215]: Plot Plan
+                    - generic [ref=e216]: Use the Plot Plan on your home territory to place a house and other buildings.
+                - link "Structure Plan Place furniture boxes on the Structure Plan to add functions to your base." [ref=e217] [cursor=pointer]:
+                  - /url: /rob-run/tips/structure-plan
+                  - generic [ref=e219]:
+                    - generic [ref=e220]: Structure Plan
+                    - generic [ref=e221]: Place furniture boxes on the Structure Plan to add functions to your base.
+                - link "Attacking and Defending Bases Fuses protect your base. Decoders hack an enemy base. Fully hacking the security system gives limited access to the building." [ref=e222] [cursor=pointer]:
+                  - /url: /rob-run/tips/attacking-and-defending-bases
+                  - generic [ref=e224]:
+                    - generic [ref=e225]: Attacking and Defending Bases
+                    - generic [ref=e226]: Fuses protect your base. Decoders hack an enemy base. Fully hacking the security system gives limited access to the building.
+                - link "First Aid Cabinet Extra First Aid Cabinets at your base let you heal and choose where you respawn if you die in your settlement." [ref=e227] [cursor=pointer]:
+                  - /url: /rob-run/tips/first-aid-cabinet
+                  - generic [ref=e229]:
+                    - generic [ref=e230]: First Aid Cabinet
+                    - generic [ref=e231]: Extra First Aid Cabinets at your base let you heal and choose where you respawn if you die in your settlement.
+                - link "Buying a Plot A Land Plot Title lets you rent land for a house. The title level must match the district level. After buying it, go to a player-owned settlement and use it on a free plot." [ref=e232] [cursor=pointer]:
+                  - /url: /rob-run/tips/buying-a-plot
+                  - generic [ref=e234]:
+                    - generic [ref=e235]: Buying a Plot
+                    - generic [ref=e236]: A Land Plot Title lets you rent land for a house. The title level must match the district level. After buying it, go to a player-owned settlement and use it on a free plot.
+                - link "Buying a Settlement A Settlement Title lets you buy a whole settlement. Find an unclaimed one of the matching district level on the global map and use the title. Once claimed it opens to residents. As owner you reserve a plot for free and earn tax whenever residents launder cash or trade on the Black Market." [ref=e237] [cursor=pointer]:
+                  - /url: /rob-run/tips/buying-a-settlement
+                  - generic [ref=e239]:
+                    - generic [ref=e240]: Buying a Settlement
+                    - generic [ref=e241]: A Settlement Title lets you buy a whole settlement. Find an unclaimed one of the matching district level on the global map and use the title. Once claimed it opens to residents. As owner you reserve a plot for free and earn tax whenever residents launder cash or trade on the Black Market.
+            - generic [ref=e242]:
+              - generic [ref=e243]:
+                - heading "Vehicles" [level=2] [ref=e244]
+                - generic [ref=e245]: "4"
+              - generic [ref=e246]:
+                - link "Vehicle Selection Put a car key in an empty slot of the Key Locker to make that vehicle appear in your garage. If you left it somewhere outside, interact with its garage spot to bring it back." [ref=e247] [cursor=pointer]:
+                  - /url: /rob-run/tips/vehicle-selection
+                  - generic [ref=e249]:
+                    - generic [ref=e250]: Vehicle Selection
+                    - generic [ref=e251]: Put a car key in an empty slot of the Key Locker to make that vehicle appear in your garage. If you left it somewhere outside, interact with its garage spot to bring it back.
+                - link "Rent Vehicle No car of your own? Rent one at your base from the Parking Terminal or the Key Locker. When you get your own car the rental is taken back and anything in its trunk drops on the ground." [ref=e252] [cursor=pointer]:
+                  - /url: /rob-run/tips/rent-vehicle
+                  - generic [ref=e254]:
+                    - generic [ref=e255]: Rent Vehicle
+                    - generic [ref=e256]: No car of your own? Rent one at your base from the Parking Terminal or the Key Locker. When you get your own car the rental is taken back and anything in its trunk drops on the ground.
+                - link "Trunk Car trunks carry cargo and other items. Trunk size depends on the car model and its upgrades." [ref=e257] [cursor=pointer]:
+                  - /url: /rob-run/tips/trunk
+                  - generic [ref=e259]:
+                    - generic [ref=e260]: Trunk
+                    - generic [ref=e261]: Car trunks carry cargo and other items. Trunk size depends on the car model and its upgrades.
+                - link "Vehicle Modification Upgrades improve a car's performance and are not lost when you die." [ref=e262] [cursor=pointer]:
+                  - /url: /rob-run/tips/vehicle-modification
+                  - generic [ref=e264]:
+                    - generic [ref=e265]: Vehicle Modification
+                    - generic [ref=e266]: Upgrades improve a car's performance and are not lost when you die.
+            - generic [ref=e267]:
+              - generic [ref=e268]:
+                - heading "Map" [level=2] [ref=e269]
+                - generic [ref=e270]: "2"
+              - generic [ref=e271]:
+                - link "Leaving the Location Cross the border of the current location to open the global map." [ref=e272] [cursor=pointer]:
+                  - /url: /rob-run/tips/leaving-the-location
+                  - generic [ref=e274]:
+                    - generic [ref=e275]: Leaving the Location
+                    - generic [ref=e276]: Cross the border of the current location to open the global map.
+                - link "Global Map The map of the whole state. Pick a location for details and zoom in to look at its settlements up close." [ref=e277] [cursor=pointer]:
+                  - /url: /rob-run/tips/global-map
+                  - generic [ref=e279]:
+                    - generic [ref=e280]: Global Map
+                    - generic [ref=e281]: The map of the whole state. Pick a location for details and zoom in to look at its settlements up close.
+            - generic [ref=e282]:
+              - generic [ref=e283]:
+                - heading "Roles" [level=2] [ref=e284]
+                - generic [ref=e285]: "2"
+              - generic [ref=e286]:
+                - link "Roles in Looty Bay Looty Bay has three roles. Civilians explore safely and keep their items when they die. Police officers earn confiscated items by protecting the city and also keep their items on death. Criminals rob and steal, but lose their inventory when they die. You pick the side." [ref=e287] [cursor=pointer]:
+                  - /url: /rob-run/tips/roles-in-looty-bay
+                  - generic [ref=e289]:
+                    - generic [ref=e290]: Roles in Looty Bay
+                    - generic [ref=e291]: Looty Bay has three roles. Civilians explore safely and keep their items when they die. Police officers earn confiscated items by protecting the city and also keep their items on death. Criminals rob and steal, but lose their inventory when they die. You pick the side.
+                - link "Criminal Mode Criminal mode lets you commit crimes, and the police will hunt you. Leaving the city turns it off." [ref=e292] [cursor=pointer]:
+                  - /url: /rob-run/tips/criminal-mode
+                  - generic [ref=e294]:
+                    - generic [ref=e295]: Criminal Mode
+                    - generic [ref=e296]: Criminal mode lets you commit crimes, and the police will hunt you. Leaving the city turns it off.
+            - generic [ref=e297]:
+              - generic [ref=e298]:
+                - heading "Money and selling" [level=2] [ref=e299]
+                - generic [ref=e300]: "8"
+              - generic [ref=e301]:
+                - link "Black Market Buy items with cash on the Black Market. More items appear with new shipments or when you move to a higher-level district." [ref=e302] [cursor=pointer]:
+                  - /url: /rob-run/tips/black-market
+                  - generic [ref=e304]:
+                    - generic [ref=e305]: Black Market
+                    - generic [ref=e306]: Buy items with cash on the Black Market. More items appear with new shipments or when you move to a higher-level district.
+                - 'link "Cash Laundering Put cash in the Laundering Desk to keep it safe: money in your personal account cannot be stolen. Laundering runs on its own and the desk can be upgraded to go faster. Withdraw cash at ATMs." [ref=e307] [cursor=pointer]':
+                  - /url: /rob-run/tips/cash-laundering
+                  - generic [ref=e309]:
+                    - generic [ref=e310]: Cash Laundering
+                    - generic [ref=e311]: "Put cash in the Laundering Desk to keep it safe: money in your personal account cannot be stolen. Laundering runs on its own and the desk can be upgraded to go faster. Withdraw cash at ATMs."
+                - link "Collection Completion Pack stolen items into collections and sell them for a good price. Upgrading the Collection Table unlocks new collections." [ref=e312] [cursor=pointer]:
+                  - /url: /rob-run/tips/collection-completion
+                  - generic [ref=e314]:
+                    - generic [ref=e315]: Collection Completion
+                    - generic [ref=e316]: Pack stolen items into collections and sell them for a good price. Upgrading the Collection Table unlocks new collections.
+                - link "Notoriety Criminals gain Notoriety by breaking the law. More Notoriety means bigger bonuses." [ref=e317] [cursor=pointer]:
+                  - /url: /rob-run/tips/notoriety
+                  - generic [ref=e319]:
+                    - generic [ref=e320]: Notoriety
+                    - generic [ref=e321]: Criminals gain Notoriety by breaking the law. More Notoriety means bigger bonuses.
+                - link "Roulette Bet chips on numbers or sectors. The more precise the bet, the bigger the win. Swap winning chips for cash." [ref=e322] [cursor=pointer]:
+                  - /url: /rob-run/tips/roulette
+                  - generic [ref=e324]:
+                    - generic [ref=e325]: Roulette
+                    - generic [ref=e326]: Bet chips on numbers or sectors. The more precise the bet, the bigger the win. Swap winning chips for cash.
+                - link "Fence The Fence buys stolen goods for cash. The price depends on your Notoriety level and the value of the loot." [ref=e327] [cursor=pointer]:
+                  - /url: /rob-run/tips/fence
+                  - generic [ref=e329]:
+                    - generic [ref=e330]: Fence
+                    - generic [ref=e331]: The Fence buys stolen goods for cash. The price depends on your Notoriety level and the value of the loot.
+                - link "Shipments Shipments unlock new weapons, vehicles and other gear, which then appear on the Black Market." [ref=e332] [cursor=pointer]:
+                  - /url: /rob-run/tips/shipments
+                  - generic [ref=e334]:
+                    - generic [ref=e335]: Shipments
+                    - generic [ref=e336]: Shipments unlock new weapons, vehicles and other gear, which then appear on the Black Market.
+                - link "Cash Withdrawal Withdraw money from your bank account as dirty cash at bank employees or ATMs." [ref=e337] [cursor=pointer]:
+                  - /url: /rob-run/tips/cash-withdrawal
+                  - generic [ref=e339]:
+                    - generic [ref=e340]: Cash Withdrawal
+                    - generic [ref=e341]: Withdraw money from your bank account as dirty cash at bank employees or ATMs.
+            - generic [ref=e342]:
+              - generic [ref=e343]:
+                - heading "Police" [level=2] [ref=e344]
+                - generic [ref=e345]: "3"
+              - generic [ref=e346]:
+                - link "Police Duty Officers earn money to their account for lawful actions. At the end of a shift that amount is paid out as confiscated goods. Arresting a criminal alive pays extra." [ref=e347] [cursor=pointer]:
+                  - /url: /rob-run/tips/police-duty
+                  - generic [ref=e349]:
+                    - generic [ref=e350]: Police Duty
+                    - generic [ref=e351]: Officers earn money to their account for lawful actions. At the end of a shift that amount is paid out as confiscated goods. Arresting a criminal alive pays extra.
+                - link "Arresting a Criminal Officers can arrest criminals who surrender or are knocked out, and get an extra reward for it. The criminal loses their bag contents but keeps their equipment." [ref=e352] [cursor=pointer]:
+                  - /url: /rob-run/tips/arresting-a-criminal
+                  - generic [ref=e354]:
+                    - generic [ref=e355]: Arresting a Criminal
+                    - generic [ref=e356]: Officers can arrest criminals who surrender or are knocked out, and get an extra reward for it. The criminal loses their bag contents but keeps their equipment.
+                - link "Police Backup When the police department asks for backup, accepting gives you a salary bonus for a limited time." [ref=e357] [cursor=pointer]:
+                  - /url: /rob-run/tips/police-backup
+                  - generic [ref=e359]:
+                    - generic [ref=e360]: Police Backup
+                    - generic [ref=e361]: When the police department asks for backup, accepting gives you a salary bonus for a limited time.
+            - generic [ref=e362]:
+              - generic [ref=e363]:
+                - heading "Cargo and production" [level=2] [ref=e364]
+                - generic [ref=e365]: "6"
+              - generic [ref=e366]:
+                - link "Cargo Opening Open stolen cargo at a Cargo Workbench to get what is inside. Upgrades make it faster and add cargo slots." [ref=e367] [cursor=pointer]:
+                  - /url: /rob-run/tips/cargo-opening
+                  - generic [ref=e369]:
+                    - generic [ref=e370]: Cargo Opening
+                    - generic [ref=e371]: Open stolen cargo at a Cargo Workbench to get what is inside. Upgrades make it faster and add cargo slots.
+                - link "Contraband Purchase Buy contraband from Lenny or at the Sales Center and repack it at a Contraband Workbench. Repacked cargo is worth a lot more." [ref=e372] [cursor=pointer]:
+                  - /url: /rob-run/tips/contraband-purchase
+                  - generic [ref=e374]:
+                    - generic [ref=e375]: Contraband Purchase
+                    - generic [ref=e376]: Buy contraband from Lenny or at the Sales Center and repack it at a Contraband Workbench. Repacked cargo is worth a lot more.
+                - link "Contraband Sale Sell contraband and other cargo to the Smuggler for cash. The payout depends on how much cargo you bring and its value." [ref=e377] [cursor=pointer]:
+                  - /url: /rob-run/tips/contraband-sale
+                  - generic [ref=e379]:
+                    - generic [ref=e380]: Contraband Sale
+                    - generic [ref=e381]: Sell contraband and other cargo to the Smuggler for cash. The payout depends on how much cargo you bring and its value.
+                - link "Laboratory Pour reagents into the Laboratory to start producing cargo with the substance. Smoke above the building shows the lab is active." [ref=e382] [cursor=pointer]:
+                  - /url: /rob-run/tips/laboratory
+                  - generic [ref=e384]:
+                    - generic [ref=e385]: Laboratory
+                    - generic [ref=e386]: Pour reagents into the Laboratory to start producing cargo with the substance. Smoke above the building shows the lab is active.
+                - link "Stolen Cargo Stolen cargo can be sold as contraband or opened at a Cargo Workbench. Move it in a car trunk or store it at home on racks." [ref=e387] [cursor=pointer]:
+                  - /url: /rob-run/tips/stolen-cargo
+                  - generic [ref=e389]:
+                    - generic [ref=e390]: Stolen Cargo
+                    - generic [ref=e391]: Stolen cargo can be sold as contraband or opened at a Cargo Workbench. Move it in a car trunk or store it at home on racks.
+                - link "Grow Room Set up a Grow Room to grow rare plants and sell the harvest to the Fence. Better equipment speeds up growth." [ref=e392] [cursor=pointer]:
+                  - /url: /rob-run/tips/grow-room
+                  - generic [ref=e394]:
+                    - generic [ref=e395]: Grow Room
+                    - generic [ref=e396]: Set up a Grow Room to grow rare plants and sell the harvest to the Fence. Better equipment speeds up growth.
+            - generic [ref=e397]:
+              - generic [ref=e398]:
+                - heading "Prison and jail time" [level=2] [ref=e399]
+                - generic [ref=e400]: "4"
+              - generic [ref=e401]:
+                - link "Jail Time Jail time measures your standing in the criminal world. The more jail time you build up, the more rewards you unlock, including tattoos." [ref=e402] [cursor=pointer]:
+                  - /url: /rob-run/tips/jail-time
+                  - generic [ref=e404]:
+                    - generic [ref=e405]: Jail Time
+                    - generic [ref=e406]: Jail time measures your standing in the criminal world. The more jail time you build up, the more rewards you unlock, including tattoos.
+                - link "Prison Break Use escape points to get back out. You can pick which available state you escape to." [ref=e407] [cursor=pointer]:
+                  - /url: /rob-run/tips/prison-break
+                  - generic [ref=e409]:
+                    - generic [ref=e410]: Prison Break
+                    - generic [ref=e411]: Use escape points to get back out. You can pick which available state you escape to.
+                - link "Violation and Detention Officers and civilians can be locked up at the police station for traffic violations. Behind bars you cannot use personal items or switch roles." [ref=e412] [cursor=pointer]:
+                  - /url: /rob-run/tips/violation-and-detention
+                  - generic [ref=e414]:
+                    - generic [ref=e415]: Violation and Detention
+                    - generic [ref=e416]: Officers and civilians can be locked up at the police station for traffic violations. Behind bars you cannot use personal items or switch roles.
+                - link "Confiscation Federal agents are investigating and will take all ill-gotten assets. The more of your belongings get confiscated, the longer your jail sentence and the greater your authority. Residents of Highlands can move to a new state and keep their property, but will face the toughest criminals there." [ref=e417] [cursor=pointer]:
+                  - /url: /rob-run/tips/confiscation
+                  - generic [ref=e419]:
+                    - generic [ref=e420]: Confiscation
+                    - generic [ref=e421]: Federal agents are investigating and will take all ill-gotten assets. The more of your belongings get confiscated, the longer your jail sentence and the greater your authority. Residents of Highlands can move to a new state and keep their property, but will face the toughest criminals there.
+            - generic [ref=e422]:
+              - generic [ref=e423]:
+                - heading "Clans" [level=2] [ref=e424]
+                - generic [ref=e425]: "2"
+              - generic [ref=e426]:
+                - link "Control Clans can take control of districts and businesses. Their claim has to win the conflict, and they must beat rival clans in a showdown." [ref=e427] [cursor=pointer]:
+                  - /url: /rob-run/tips/control
+                  - generic [ref=e429]:
+                    - generic [ref=e430]: Control
+                    - generic [ref=e431]: Clans can take control of districts and businesses. Their claim has to win the conflict, and they must beat rival clans in a showdown.
+                - link "Tax Collection Settlement owners collect a laundering tax from residents at the Debt Collectors' Van. Clans collect taxes from businesses and districts they control." [ref=e432] [cursor=pointer]:
+                  - /url: /rob-run/tips/tax-collection
+                  - generic [ref=e434]:
+                    - generic [ref=e435]: Tax Collection
+                    - generic [ref=e436]: Settlement owners collect a laundering tax from residents at the Debt Collectors' Van. Clans collect taxes from businesses and districts they control.
+            - generic [ref=e437]:
+              - generic [ref=e438]:
+                - heading "Heists" [level=2] [ref=e439]
+                - generic [ref=e440]: "3"
+              - generic [ref=e441]:
+                - link "Bank Vault Place a Drill to break into the Bank Vault. As soon as it is placed, everyone in Looty Bay gets a notification." [ref=e442] [cursor=pointer]:
+                  - /url: /rob-run/tips/bank-vault
+                  - generic [ref=e444]:
+                    - generic [ref=e445]: Bank Vault
+                    - generic [ref=e446]: Place a Drill to break into the Bank Vault. As soon as it is placed, everyone in Looty Bay gets a notification.
+                - link "Keys Keys for small safes and locked doors are scattered around the city. Picking one up marks its lock on your map. Only criminals can use keys." [ref=e447] [cursor=pointer]:
+                  - /url: /rob-run/tips/keys
+                  - generic [ref=e449]:
+                    - generic [ref=e450]: Keys
+                    - generic [ref=e451]: Keys for small safes and locked doors are scattered around the city. Picking one up marks its lock on your map. Only criminals can use keys.
+                - link "Barter Behind a suspicious door at Lenny's Motel you can swap items for heist gear like drills and keys." [ref=e452] [cursor=pointer]:
+                  - /url: /rob-run/tips/barter
+                  - generic [ref=e454]:
+                    - generic [ref=e455]: Barter
+                    - generic [ref=e456]: Behind a suspicious door at Lenny's Motel you can swap items for heist gear like drills and keys.
+            - paragraph [ref=e457]: "Source: in-game codex, build 0.7.0.4008, read 6 Nov 2026. Text in our own words, images from the game."
+          - paragraph [ref=e102]: Built by EveryGameStat from the in-game codex, the in-game map and Kefir's help center. Not affiliated with Kefir.
+      - generic [ref=e459]:
+        - heading "About the ROB RUN hub" [level=2] [ref=e460]
+        - paragraph [ref=e461]: "ROB RUN is a free Early Access crime game by Kefir, set in the city of Looty Bay. You play as a civilian, a criminal or a police officer, and the game explains its rules in an in-game codex. This hub puts that codex on the web: every status and effect, every tip, every tattoo on the Trust No One track and every police rank with its loadout, each with its own page. The interactive map shows every location from the in-game map with its own icon, the district it is in, its special job and the loot you can find there, and the search bar answers plain questions such as how much harder solo mode is."
+        - paragraph [ref=e462]:
+          - text: "We built this hub ourselves from the game: the codex and the map were recorded in build 0.7.0.4008 on 6 November 2026, and the guides and answers are written in our own words on the basis of the codex and Kefir's official help center. The"
+          - link "item catalog" [ref=e463] [cursor=pointer]:
+            - /url: /rob-run/items
+          - text: (every weapon, piece of gear, key, vehicle and valuable with its stats, prices and locations) uses data from the game files; the explanations around it are our own. Images come from the game. EveryGameStat is not affiliated with Kefir, and as the game is in Early Access, numbers can change with updates. Live ROB RUN player numbers come from the Steam Web API on the
+          - link "ROB RUN player count page" [ref=e464] [cursor=pointer]:
+            - /url: /player-count/4262460-rob-run
+          - text: .
+    - dialog "Cookies" [ref=e465]:
+      - generic [ref=e466]:
+        - generic [ref=e467]:
+          - generic [ref=e468]: Cookies
+          - paragraph [ref=e469]: We use only what's needed to keep you signed in. Analytics stays off until you allow it. Advertising is handled separately by Google's own consent notice.
+        - generic [ref=e470]:
+          - button "Accept all" [ref=e471] [cursor=pointer]
+          - button "Only what's needed" [ref=e472] [cursor=pointer]
+          - button "Choose myself" [ref=e473] [cursor=pointer]
+  - contentinfo [ref=e103]:
+    - link "Download the app EGS Companion for Windows · free · read-only" [ref=e105] [cursor=pointer]:
+      - /url: /companion
+      - generic [ref=e108]:
+        - generic [ref=e109]: Download the app
+        - generic [ref=e110]: EGS Companion for Windows · free · read-only
+    - generic "EveryGameStat on social media" [ref=e111]:
+      - link "Discord" [ref=e112] [cursor=pointer]:
+        - /url: /discord?ref=site
+      - link "Instagram" [ref=e115] [cursor=pointer]:
+        - /url: /instagram?ref=footer
+    - generic [ref=e118]:
+      - generic [ref=e119]: © 2026 EveryGameStat ·Every Game Stat · every game stats, every platform
+      - generic [ref=e120]: Built for players · read-only · free
+      - generic [ref=e121]:
+        - link "Game hubs" [ref=e122] [cursor=pointer]:
+          - /url: /hubs
+        - link "Stream overlays" [ref=e123] [cursor=pointer]:
+          - /url: /overlay
+        - link "About" [ref=e124] [cursor=pointer]:
+          - /url: /about
+        - link "Guides" [ref=e125] [cursor=pointer]:
+          - /url: /guides
+        - link "FAQ" [ref=e126] [cursor=pointer]:
+          - /url: /faq
+        - link "Contact" [ref=e127] [cursor=pointer]:
+          - /url: /contact
+        - link "Changelog" [ref=e128] [cursor=pointer]:
+          - /url: /changelog
+        - link "Support EGS" [ref=e129] [cursor=pointer]:
+          - /url: /support?ref=footer
+        - link "Privacy" [ref=e130] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e131] [cursor=pointer]:
+          - /url: /terms
+    - paragraph [ref=e133]: Steam and the Steam logo are trademarks of Valve Corporation. All game titles, artwork and logos are property of their respective owners. EveryGameStat is an independent fan project and is not affiliated with, endorsed by or sponsored by Valve or any game publisher. All platform access is read-only.
+  - text: ▸ ▸ ▸

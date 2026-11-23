@@ -1,0 +1,433 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - complementary "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "robrun.space home" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "robrun.space logo" [ref=e7]
+          - generic [ref=e8]:
+            - text: Robrun.space
+            - generic [ref=e9]: Fan database
+        - button "Switch to dark mode" [ref=e11] [cursor=pointer]
+      - button "Search items, guides and FAQ" [ref=e14] [cursor=pointer]:
+        - generic [ref=e18]: Search the database
+        - generic [ref=e19]: Ctrl K
+      - 'link "ROB RUN server status: Checking…. Opens isrobrundown.com" [ref=e20] [cursor=pointer]':
+        - /url: https://isrobrundown.com/
+        - generic [ref=e22]:
+          - generic [ref=e23]: Server status
+          - generic [ref=e24]: Checking…
+      - navigation "Explore" [ref=e25]:
+        - button "Explore" [expanded] [ref=e26] [cursor=pointer]
+        - generic [ref=e31]:
+          - link "Home" [ref=e32] [cursor=pointer]:
+            - /url: /
+          - link "Interactive Map" [ref=e37] [cursor=pointer]:
+            - /url: /map/
+          - link "Questions & Answers 209" [ref=e41] [cursor=pointer]:
+            - /url: /faq/
+            - generic [ref=e45]: Questions & Answers
+            - generic [ref=e46]: "209"
+          - link "Guides 8" [ref=e47] [cursor=pointer]:
+            - /url: /guides/
+            - generic [ref=e50]: Guides
+            - generic [ref=e51]: "8"
+          - link "Updates 19" [ref=e52] [cursor=pointer]:
+            - /url: /updates/
+            - generic [ref=e56]: Updates
+            - generic [ref=e57]: "19"
+      - navigation "Catalog" [ref=e58]:
+        - button "Catalog" [expanded] [ref=e59] [cursor=pointer]
+        - generic [ref=e63]:
+          - link "All Items 533" [ref=e65] [cursor=pointer]:
+            - /url: /items/
+            - generic [ref=e71]: All Items
+            - generic [ref=e72]: "533"
+          - generic [ref=e73]:
+            - link "Weapons 50" [ref=e74] [cursor=pointer]:
+              - /url: /items/weapons/
+              - generic [ref=e77]: Weapons
+              - generic [ref=e78]: "50"
+            - link "Ammo 4" [ref=e79] [cursor=pointer]:
+              - /url: /items/ammo/
+              - generic [ref=e84]: Ammo
+              - generic [ref=e85]: "4"
+            - link "Gear 19" [ref=e86] [cursor=pointer]:
+              - /url: /items/gear/
+              - generic [ref=e91]: Gear
+              - generic [ref=e92]: "19"
+            - link "Keys & Tools 54" [ref=e93] [cursor=pointer]:
+              - /url: /items/keys-and-tools/
+              - generic [ref=e97]: Keys & Tools
+              - generic [ref=e98]: "54"
+            - link "Vehicles 25" [ref=e99] [cursor=pointer]:
+              - /url: /items/vehicles/
+              - generic [ref=e104]: Vehicles
+              - generic [ref=e105]: "25"
+            - link "Base & Plot 82" [ref=e106] [cursor=pointer]:
+              - /url: /items/base-and-plot/
+              - generic [ref=e110]: Base & Plot
+              - generic [ref=e111]: "82"
+            - link "Valuables 251" [ref=e112] [cursor=pointer]:
+              - /url: /items/valuables/
+              - generic [ref=e116]: Valuables
+              - generic [ref=e117]: "251"
+            - link "Contraband 48" [ref=e118] [cursor=pointer]:
+              - /url: /items/contraband/
+              - generic [ref=e122]: Contraband
+              - generic [ref=e123]: "48"
+          - generic [ref=e124]:
+            - link "Collections 34" [ref=e125] [cursor=pointer]:
+              - /url: /collections/
+              - generic [ref=e130]: Collections
+              - generic [ref=e131]: "34"
+            - link "Locations 28" [ref=e132] [cursor=pointer]:
+              - /url: /locations/looty-bay/
+              - generic [ref=e136]: Locations
+              - generic [ref=e137]: "28"
+            - link "Mechanics 15" [ref=e138] [cursor=pointer]:
+              - /url: /mechanics/
+              - generic [ref=e150]: Mechanics
+              - generic [ref=e151]: "15"
+      - generic [ref=e152]:
+        - navigation "Legal" [ref=e153]:
+          - link "About" [ref=e154] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e155] [cursor=pointer]:
+            - /url: /contact/
+          - link "Privacy" [ref=e156] [cursor=pointer]:
+            - /url: /privacy/
+          - link "Terms" [ref=e157] [cursor=pointer]:
+            - /url: /terms/
+          - button "Cookies" [ref=e158] [cursor=pointer]
+          - link "Discord" [ref=e159] [cursor=pointer]:
+            - /url: https://discord.gg/eRRYCjjSVa
+        - paragraph [ref=e160]: Unofficial fan site. Not affiliated with KEFIR or the ROB RUN team.
+    - generic [ref=e161]:
+      - main [ref=e162]:
+        - navigation "Breadcrumb" [ref=e163]:
+          - link "Home" [ref=e164] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e165]:
+            - generic [aria-hidden] [ref=e166]: /
+            - link "All Items" [ref=e167] [cursor=pointer]:
+              - /url: /items/
+          - generic [ref=e168]:
+            - generic [aria-hidden] [ref=e169]: /
+            - link "Weapons" [ref=e170] [cursor=pointer]:
+              - /url: /items/weapons/
+          - generic [ref=e171]:
+            - generic [aria-hidden] [ref=e172]: /
+            - generic [ref=e173]: AP Scalar Mk1
+        - generic [ref=e177]:
+          - heading "AP Scalar Mk1" [level=1] [ref=e178]
+          - generic [ref=e179]:
+            - generic [ref=e180]: Legendary
+            - generic [ref=e181]: Submachine Gun
+            - generic [ref=e182]: Size 3 × 2
+            - generic "Game item ID" [ref=e183]: apscalar_m1
+          - paragraph [ref=e184]: “A modern improved, submachine gun.”
+          - button "Copy link to AP Scalar Mk1" [ref=e186] [cursor=pointer]: Copy link
+        - navigation "Sections" [ref=e190]:
+          - link "Stats" [ref=e191] [cursor=pointer]:
+            - /url: "#stats"
+          - link "How to get" [ref=e192] [cursor=pointer]:
+            - /url: "#how-to-get"
+          - link "Used for" [ref=e193] [cursor=pointer]:
+            - /url: "#used-for"
+          - link "Prices" [ref=e194] [cursor=pointer]:
+            - /url: "#prices"
+          - link "Questions" [ref=e195] [cursor=pointer]:
+            - /url: "#questions"
+          - link "Related" [ref=e196] [cursor=pointer]:
+            - /url: "#related"
+        - generic [ref=e197]:
+          - heading "Stats" [level=2] [ref=e198]
+          - paragraph [ref=e199]: Bars compare against the best submachine gun in the game.
+          - generic [ref=e200]:
+            - 'generic "Damage: 14" [ref=e201]':
+              - generic [ref=e202]:
+                - generic [ref=e203]: Damage
+                - generic [ref=e204]: 14 · head 21
+            - 'generic "Magazine: 25" [ref=e207]':
+              - generic [ref=e208]:
+                - generic [ref=e209]: Magazine
+                - generic [ref=e210]: 25 rounds
+            - 'generic "Full-damage range: 30" [ref=e213]':
+              - generic [ref=e214]:
+                - generic [ref=e215]: Full-damage range
+                - generic [ref=e216]: 30 m
+            - 'generic "Reload: 2.3" [ref=e219]':
+              - generic [ref=e220]:
+                - generic [ref=e221]: Reload
+                - generic [ref=e222]: 2.3 s · fast 2 s
+            - 'generic "Aim time: 0.25" [ref=e225]':
+              - generic [ref=e226]:
+                - generic [ref=e227]: Aim time
+                - generic [ref=e228]: 0.25 s
+            - 'generic "Draw time: 0.35" [ref=e231]':
+              - generic [ref=e232]:
+                - generic [ref=e233]: Draw time
+                - generic [ref=e234]: 0.35 s
+            - generic [ref=e237]:
+              - generic [ref=e238]: Fire mode
+              - generic [ref=e239]: Auto
+            - generic [ref=e240]:
+              - generic [ref=e241]: Ammo
+              - link "SMG Ammo" [ref=e243] [cursor=pointer]:
+                - /url: /items/ammo/#smg-ammo
+          - heading "Damage falloff" [level=3] [ref=e247]
+          - paragraph [ref=e248]: Full damage (14) up to 30 m. After that the damage per hit drops in a straight line from one point to the next, and stays at the last value beyond the last point.
+          - table [ref=e250]:
+            - rowgroup [ref=e251]:
+              - row [ref=e252]:
+                - columnheader "Distance" [ref=e253]
+                - columnheader "Damage per hit" [ref=e254]
+            - rowgroup [ref=e255]:
+              - row [ref=e256]:
+                - cell "0–30 m (full damage)" [ref=e257]
+                - cell "14" [ref=e258]
+              - row [ref=e259]:
+                - cell "At 60 m" [ref=e260]
+                - cell "7" [ref=e261]
+              - row [ref=e262]:
+                - cell "At 110 m" [ref=e263]
+                - cell "3" [ref=e264]
+              - row [ref=e265]:
+                - cell "At 150 m and beyond" [ref=e266]
+                - cell "3" [ref=e267]
+          - heading "Spread" [level=3] [ref=e268]
+          - table [ref=e270]:
+            - rowgroup [ref=e271]:
+              - row [ref=e272]:
+                - columnheader "Stance" [ref=e273]
+                - columnheader "Min" [ref=e274]
+                - columnheader "Max" [ref=e275]
+            - rowgroup [ref=e276]:
+              - row [ref=e277]:
+                - cell "Aiming" [ref=e278]
+                - cell "0.2" [ref=e279]
+                - cell "0.7" [ref=e280]
+              - row [ref=e281]:
+                - cell "Standing" [ref=e282]
+                - cell "2" [ref=e283]
+                - cell "4.5" [ref=e284]
+              - row [ref=e285]:
+                - cell "Crouching" [ref=e286]
+                - cell "1.5" [ref=e287]
+                - cell "4.5" [ref=e288]
+              - row [ref=e289]:
+                - cell "Moving" [ref=e290]
+                - cell "2.5" [ref=e291]
+                - cell "4.5" [ref=e292]
+              - row [ref=e293]:
+                - cell "Jumping" [ref=e294]
+                - cell "6.5" [ref=e295]
+                - cell "8" [ref=e296]
+          - paragraph [ref=e297]: Spread values ×100, lower is more accurate.
+        - generic [ref=e298]:
+          - heading "How to get AP Scalar Mk1" [level=2] [ref=e299]
+          - generic [ref=e300]:
+            - generic [ref=e301]:
+              - heading "Lenny's Tree" [level=3] [ref=e302]
+              - list [ref=e303]:
+                - listitem [ref=e304]:
+                  - text: "Branch:"
+                  - strong [ref=e305]: Weapons
+                - listitem [ref=e306]:
+                  - text: "Research:"
+                  - strong [ref=e307]: $400,000
+                  - text: (one-time)
+                - listitem [ref=e308]:
+                  - text: "Vendor tier:"
+                  - strong [ref=e309]: III
+                  - text: (needs a plot in a level 3 district)
+                - listitem [ref=e310]:
+                  - text: "Unlock first:"
+                  - link "JP-7 Mk1" [ref=e311] [cursor=pointer]:
+                    - /url: /items/jp-7-mk1/
+            - generic [ref=e315]:
+              - heading "Trade Laptop" [level=3] [ref=e316]
+              - list [ref=e317]:
+                - listitem [ref=e318]:
+                  - text: "Price:"
+                  - strong [ref=e319]: $115,000
+                - listitem [ref=e320]: "Condition: tier III"
+                - listitem [ref=e321]:
+                  - text: "City store: Arms Dealer at"
+                  - strong [ref=e322]: $345,000
+                  - text: (3× price, Civilians only)
+        - generic [ref=e323]:
+          - heading "Used for" [level=2] [ref=e324]
+          - generic [ref=e325]:
+            - generic [ref=e326]:
+              - heading "Combat" [level=3] [ref=e327]
+              - paragraph [ref=e328]: Submachine Gun.
+              - list [ref=e329]:
+                - listitem [ref=e330]:
+                  - text: "Fire mode:"
+                  - strong [ref=e331]: auto
+                - listitem [ref=e332]:
+                  - text: "Ammo:"
+                  - link "SMG Ammo" [ref=e333] [cursor=pointer]:
+                    - /url: /items/ammo/#smg-ammo
+                - listitem [ref=e337]:
+                  - text: "Magazine:"
+                  - strong [ref=e338]: "25"
+                  - text: rounds
+                - listitem [ref=e339]:
+                  - text: "Reload:"
+                  - strong [ref=e340]: 2.3 s
+              - paragraph [ref=e341]:
+                - link "Compare all weapons →" [ref=e343] [cursor=pointer]:
+                  - /url: /items/weapons/
+            - generic [ref=e344]:
+              - heading "Unlocks in Lenny's Tree" [level=3] [ref=e345]
+              - list [ref=e346]:
+                - listitem [ref=e347]:
+                  - link "AP Scalar Mk2" [ref=e348] [cursor=pointer]:
+                    - /url: /items/ap-scalar-mk2/
+        - generic [ref=e352]:
+          - heading "Fence price" [level=2] [ref=e353]
+          - paragraph [ref=e354]:
+            - text: By Notoriety level.
+            - link "How Notoriety works" [ref=e355] [cursor=pointer]:
+              - /url: /mechanics/notoriety/
+          - generic [ref=e356]:
+            - generic [ref=e357]:
+              - generic [ref=e358]: Level 1
+              - generic [ref=e359]: $46,000
+              - generic [ref=e360]: base
+            - generic [ref=e361]:
+              - generic [ref=e362]: Level 2
+              - generic [ref=e363]: $50,600
+              - generic [ref=e364]: +10%
+            - generic [ref=e365]:
+              - generic [ref=e366]: Level 3
+              - generic [ref=e367]: $55,200
+              - generic [ref=e368]: +20%
+            - generic [ref=e369]:
+              - generic [ref=e370]: Level 4
+              - generic [ref=e371]: $62,100
+              - generic [ref=e372]: +35%
+            - generic [ref=e373]:
+              - generic [ref=e374]: Level 5
+              - generic [ref=e375]: $69,000
+              - generic [ref=e376]: +50%
+        - generic [ref=e377]:
+          - 'heading "AP Scalar Mk1: common questions" [level=2] [ref=e378]'
+          - generic [ref=e379]:
+            - heading [level=3] [ref=e380]:
+              - link "What do Mk1, Mk2 and Mk3 mean?" [ref=e381] [cursor=pointer]:
+                - /url: /faq/items-gear-and-weapons/#what-do-mk1-mk2-and-mk3-mean
+            - paragraph [ref=e383]: Upgrade levels of the same gun. Damage and fire rate stay the same. Mk2 aims faster, and Mk3 adds a bigger magazine and a little more range.
+          - generic [ref=e384]:
+            - heading [level=3] [ref=e385]:
+              - link "What's the best weapon?" [ref=e386] [cursor=pointer]:
+                - /url: /faq/items-gear-and-weapons/#whats-the-best-weapon
+            - paragraph [ref=e388]: It depends on your budget. The RC 5.56 is the best-value rifle, the SR Reaper and DRM-14 are top-tier Legendaries, and the AP Scalar is the strongest SMG. Compare the exact numbers in the weapons table.
+          - generic [ref=e389]:
+            - heading [level=3] [ref=e390]:
+              - link "How do I repair my weapons?" [ref=e391] [cursor=pointer]:
+                - /url: /faq/items-gear-and-weapons/#how-do-i-repair-my-weapons
+            - paragraph [ref=e393]: You can't yet. Kefir says repair is planned.
+        - generic [ref=e394]:
+          - heading "Read more" [level=2] [ref=e395]
+          - list [ref=e396]:
+            - listitem [ref=e397]:
+              - link "Roles and death" [ref=e398] [cursor=pointer]:
+                - /url: /mechanics/roles-and-death/
+              - generic [ref=e399]: "Civilian, Criminal, Cop and Settler: what each role can do, and exactly what you lose when you die, surrender or get raided."
+            - listitem [ref=e400]:
+              - 'link "Your first hour: Hobo to first plot" [ref=e401] [cursor=pointer]':
+                - /url: /guides/first-hour/
+              - generic [ref=e402]: What to do from the moment you wake up at Lenny’s Motel until you sign for your first plot, with the exact costs.
+        - generic [ref=e403]:
+          - heading "Related" [level=2] [ref=e404]
+          - generic [ref=e405]: Same family
+          - generic [ref=e406]:
+            - link "AP Scalar Mk2 Submachine Gun · Legendary $46,000" [ref=e407] [cursor=pointer]:
+              - /url: /items/ap-scalar-mk2/
+              - generic [ref=e410]:
+                - generic [ref=e411]: AP Scalar Mk2
+                - generic [ref=e412]: Submachine Gun · Legendary
+                - generic [ref=e413]: $46,000
+            - link "AP Scalar Mk3 Submachine Gun · Legendary $46,000" [ref=e414] [cursor=pointer]:
+              - /url: /items/ap-scalar-mk3/
+              - generic [ref=e417]:
+                - generic [ref=e418]: AP Scalar Mk3
+                - generic [ref=e419]: Submachine Gun · Legendary
+                - generic [ref=e420]: $46,000
+          - generic [ref=e421]: More submachine gun
+          - generic [ref=e422]:
+            - link "PDW90 Mk1 Submachine Gun · Epic $12,320" [ref=e423] [cursor=pointer]:
+              - /url: /items/pdw90-mk1/
+              - generic [ref=e426]:
+                - generic [ref=e427]: PDW90 Mk1
+                - generic [ref=e428]: Submachine Gun · Epic
+                - generic [ref=e429]: $12,320
+            - link "PDW90 Mk2 Submachine Gun · Epic $12,320" [ref=e430] [cursor=pointer]:
+              - /url: /items/pdw90-mk2/
+              - generic [ref=e433]:
+                - generic [ref=e434]: PDW90 Mk2
+                - generic [ref=e435]: Submachine Gun · Epic
+                - generic [ref=e436]: $12,320
+            - link "PDW90 Mk3 Submachine Gun · Epic $12,320" [ref=e437] [cursor=pointer]:
+              - /url: /items/pdw90-mk3/
+              - generic [ref=e440]:
+                - generic [ref=e441]: PDW90 Mk3
+                - generic [ref=e442]: Submachine Gun · Epic
+                - generic [ref=e443]: $12,320
+            - link "JP-7 Mk1 Submachine Gun · Epic $11,600" [ref=e444] [cursor=pointer]:
+              - /url: /items/jp-7-mk1/
+              - generic [ref=e447]:
+                - generic [ref=e448]: JP-7 Mk1
+                - generic [ref=e449]: Submachine Gun · Epic
+                - generic [ref=e450]: $11,600
+            - link "JP-7 Mk2 Submachine Gun · Epic $11,600" [ref=e451] [cursor=pointer]:
+              - /url: /items/jp-7-mk2/
+              - generic [ref=e454]:
+                - generic [ref=e455]: JP-7 Mk2
+                - generic [ref=e456]: Submachine Gun · Epic
+                - generic [ref=e457]: $11,600
+            - link "JP-7 Mk3 Submachine Gun · Epic $11,600" [ref=e458] [cursor=pointer]:
+              - /url: /items/jp-7-mk3/
+              - generic [ref=e461]:
+                - generic [ref=e462]: JP-7 Mk3
+                - generic [ref=e463]: Submachine Gun · Epic
+                - generic [ref=e464]: $11,600
+          - paragraph [ref=e465]:
+            - link "All weapons →" [ref=e466] [cursor=pointer]:
+              - /url: /items/weapons/
+        - paragraph [ref=e467]: Legendary · ID apscalar_m1 · Prices and drops can change with patches; research prices can differ between servers.
+      - contentinfo [ref=e468]:
+        - paragraph [ref=e469]: robrun.space is an unofficial fan-made site. It is not affiliated with, endorsed by or sponsored by KEFIR or the ROB RUN team. ROB RUN and all related names, images and game content are the property of their respective owners.
+        - navigation "Footer" [ref=e470]:
+          - link "About" [ref=e471] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e472] [cursor=pointer]:
+            - /url: /contact/
+          - link "Privacy" [ref=e473] [cursor=pointer]:
+            - /url: /privacy/
+          - link "Terms" [ref=e474] [cursor=pointer]:
+            - /url: /terms/
+          - link "Discord" [ref=e475] [cursor=pointer]:
+            - /url: https://discord.gg/eRRYCjjSVa
+          - link "YouTube" [ref=e476] [cursor=pointer]:
+            - /url: https://www.youtube.com/@robrun_space
+          - button "Cookie settings" [ref=e477] [cursor=pointer]
+        - paragraph [ref=e478]: © 2026 robrun.space
+  - alert [ref=e479]
+  - region "Cookie consent" [ref=e480]:
+    - generic [ref=e481]:
+      - generic [ref=e482]: Cookies on robrun.space
+      - paragraph [ref=e483]:
+        - text: We'd like to use Google Analytics and Microsoft Clarity to see which pages help players and what to fix. They set cookies, and Clarity records anonymised clicks and scrolls. Nothing loads unless you agree.
+        - link "Privacy Policy" [ref=e484] [cursor=pointer]:
+          - /url: /privacy/
+    - generic [ref=e485]:
+      - button "Reject all" [ref=e486] [cursor=pointer]
+      - button "Customize" [ref=e487] [cursor=pointer]
+      - button "Accept all" [ref=e488] [cursor=pointer]

@@ -1,0 +1,126 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "EveryGameStat" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: EVERYGAMESTAT
+      - button "Alpha" [ref=e8] [cursor=pointer]
+      - generic [ref=e11]:
+        - link "Player search" [ref=e12] [cursor=pointer]:
+          - /url: /tracker
+        - link "Leaderboard" [ref=e13] [cursor=pointer]:
+          - /url: /leaderboard
+        - link "VS" [ref=e14] [cursor=pointer]:
+          - /url: /vs
+        - link "Overlays" [ref=e15] [cursor=pointer]:
+          - /url: /overlay
+        - link "Game hubs" [ref=e16] [cursor=pointer]:
+          - /url: /hubs
+        - link "Player counts" [ref=e17] [cursor=pointer]:
+          - /url: /player-count
+        - link "How it works" [ref=e18] [cursor=pointer]:
+          - /url: /#how
+        - button "Switch language" [ref=e20] [cursor=pointer]: EN
+        - button "Log in" [ref=e21] [cursor=pointer]
+        - button "Create account" [ref=e22] [cursor=pointer]
+  - main [ref=e23]:
+    - text: + + + + + + ?
+    - generic [ref=e25]:
+      - complementary "ROB RUN" [ref=e26]:
+        - generic [ref=e29]:
+          - generic [ref=e30]: ROB RUN
+          - generic [ref=e31]: Kefir · Game hub
+        - link "Playing on Steam now –" [ref=e32] [cursor=pointer]:
+          - /url: /player-count/4262460-rob-run
+          - generic [ref=e33]: Playing on Steam now
+          - generic [ref=e34]: –
+        - search [ref=e37]:
+          - searchbox "Search items, the map or ask a question" [ref=e41]
+        - generic [ref=e42]:
+          - generic [ref=e43]: Sections
+          - navigation [ref=e44]:
+            - link "Overview" [ref=e45] [cursor=pointer]:
+              - /url: /rob-run
+            - link "Items" [ref=e47] [cursor=pointer]:
+              - /url: /rob-run/items
+            - link "Shipments" [ref=e49] [cursor=pointer]:
+              - /url: /rob-run/shipments
+            - link "Interactive map" [ref=e51] [cursor=pointer]:
+              - /url: /rob-run/map
+            - link "Codex" [ref=e53] [cursor=pointer]:
+              - /url: /rob-run/codex
+            - link "Tips" [ref=e55] [cursor=pointer]:
+              - /url: /rob-run/tips
+            - link "Tattoos" [ref=e57] [cursor=pointer]:
+              - /url: /rob-run/tattoos
+            - link "Police ranks" [ref=e59] [cursor=pointer]:
+              - /url: /rob-run/police
+            - link "Guides" [ref=e61] [cursor=pointer]:
+              - /url: /rob-run/guides
+            - link "FAQ" [ref=e63] [cursor=pointer]:
+              - /url: /rob-run/faq
+          - generic [ref=e65]: Item catalog
+          - navigation [ref=e66]:
+            - link "Weapons" [ref=e67] [cursor=pointer]:
+              - /url: /rob-run/items/weapons
+            - link "Ammo" [ref=e69] [cursor=pointer]:
+              - /url: /rob-run/items/ammo
+            - link "Gear" [ref=e71] [cursor=pointer]:
+              - /url: /rob-run/items/gear
+            - link "Keys and tools" [ref=e73] [cursor=pointer]:
+              - /url: /rob-run/items/keys-and-tools
+            - link "Vehicles" [ref=e75] [cursor=pointer]:
+              - /url: /rob-run/items/vehicles
+            - link "Base and plot" [ref=e77] [cursor=pointer]:
+              - /url: /rob-run/items/base-and-plot
+            - link "Valuables" [ref=e79] [cursor=pointer]:
+              - /url: /rob-run/items/valuables
+            - link "Contraband" [ref=e81] [cursor=pointer]:
+              - /url: /rob-run/items/contraband
+          - generic [ref=e83]: Your game
+          - navigation [ref=e84]:
+            - link "Track your runs" [ref=e85] [cursor=pointer]:
+              - /url: /companion
+            - link "Your ROB RUN hours" [ref=e89] [cursor=pointer]:
+              - /url: /me
+      - main [ref=e93]:
+        - paragraph [ref=e102]: Built by EveryGameStat from the in-game codex, the in-game map and Kefir's help center. Not affiliated with Kefir.
+  - contentinfo [ref=e103]:
+    - link "Download the app EGS Companion for Windows · free · read-only" [ref=e105] [cursor=pointer]:
+      - /url: /companion
+      - generic [ref=e108]:
+        - generic [ref=e109]: Download the app
+        - generic [ref=e110]: EGS Companion for Windows · free · read-only
+    - generic "EveryGameStat on social media" [ref=e111]:
+      - link "Discord" [ref=e112] [cursor=pointer]:
+        - /url: /discord?ref=site
+      - link "Instagram" [ref=e115] [cursor=pointer]:
+        - /url: /instagram?ref=footer
+    - generic [ref=e118]:
+      - generic [ref=e119]: © 2026 EveryGameStat ·Every Game Stat · every game stats, every platform
+      - generic [ref=e120]: Built for players · read-only · free
+      - generic [ref=e121]:
+        - link "Game hubs" [ref=e122] [cursor=pointer]:
+          - /url: /hubs
+        - link "Stream overlays" [ref=e123] [cursor=pointer]:
+          - /url: /overlay
+        - link "About" [ref=e124] [cursor=pointer]:
+          - /url: /about
+        - link "Guides" [ref=e125] [cursor=pointer]:
+          - /url: /guides
+        - link "FAQ" [ref=e126] [cursor=pointer]:
+          - /url: /faq
+        - link "Contact" [ref=e127] [cursor=pointer]:
+          - /url: /contact
+        - link "Changelog" [ref=e128] [cursor=pointer]:
+          - /url: /changelog
+        - link "Support EGS" [ref=e129] [cursor=pointer]:
+          - /url: /support?ref=footer
+        - link "Privacy" [ref=e130] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e131] [cursor=pointer]:
+          - /url: /terms
+    - paragraph [ref=e133]: Steam and the Steam logo are trademarks of Valve Corporation. All game titles, artwork and logos are property of their respective owners. EveryGameStat is an independent fan project and is not affiliated with, endorsed by or sponsored by Valve or any game publisher. All platform access is read-only.
+  - text: ▸ ▸ ▸

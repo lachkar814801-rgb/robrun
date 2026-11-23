@@ -1,0 +1,89 @@
+- generic [ref=f6e3]:
+  - iframe [ref=f6e6]:
+    - generic [ref=f8e1]:
+      - generic [ref=f8e2]:
+        - generic [ref=f8e3]:
+          - generic [ref=f8e4]: H
+          - generic [ref=f8e5]: Hola VPN
+        - generic [ref=f8e6]: 160M+ users worldwide
+      - generic [ref=f8e7]:
+        - paragraph [ref=f8e8]:
+          - text: Hola VPN gives you free, unrestricted access to content from 190+ countries. Download and install Hola VPN today to browse without limits. Get started now by clicking the
+          - strong [ref=f8e9]: CONTINUE
+          - text: button below.
+        - generic [ref=f8e10]:
+          - generic [ref=f8e11]:
+            - generic [ref=f8e12]: ✔
+            - generic [ref=f8e13]: Unblocks 190+ countries
+          - generic [ref=f8e14]:
+            - generic [ref=f8e15]: ✔
+            - generic [ref=f8e16]: No data cap on free plan
+          - generic [ref=f8e17]:
+            - generic [ref=f8e18]: ✔
+            - generic [ref=f8e19]: Built-in ad blocker
+          - generic [ref=f8e20]:
+            - generic [ref=f8e21]: ✔
+            - generic [ref=f8e22]: No IP or DNS leaks
+          - generic [ref=f8e23]:
+            - generic [ref=f8e24]: ✔
+            - generic [ref=f8e25]: Works on all devices
+          - generic [ref=f8e26]:
+            - generic [ref=f8e27]: ✔
+            - generic [ref=f8e28]: 160M+ community network
+        - generic [ref=f8e29]:
+          - button "CONTINUE" [ref=f8e30] [cursor=pointer]
+          - paragraph [ref=f8e31]:
+            - text: By clicking the "CONTINUE" button above, I agree to download & install Hola VPN and confirm my understanding and agreement to the
+            - link "EULA" [ref=f8e32] [cursor=pointer]:
+              - /url: https://hola.org/legal/eula
+            - text: and
+            - link "Privacy Policy" [ref=f8e33] [cursor=pointer]:
+              - /url: https://hola.org/legal/privacy
+            - text: .
+        - separator [ref=f8e34]
+        - paragraph [ref=f8e35]: "How it works in 3 easy steps:"
+        - list [ref=f8e36]:
+          - listitem [ref=f8e37]:
+            - generic [ref=f8e38]: "1"
+            - generic [ref=f8e39]:
+              - generic [ref=f8e40]: Click the "CONTINUE" button above to start downloading Hola VPN.
+              - generic [ref=f8e41]: The download starts automatically — no account required.
+          - listitem [ref=f8e42]:
+            - generic [ref=f8e43]: "2"
+            - generic [ref=f8e44]:
+              - generic [ref=f8e45]: Once your download completes, click the file to launch the installation.
+              - generic [ref=f8e46]: Takes about 30 seconds. Just follow the on-screen prompts.
+          - listitem [ref=f8e47]:
+            - generic [ref=f8e48]: "3"
+            - generic [ref=f8e49]:
+              - generic [ref=f8e50]: Once installed, open Hola VPN, pick a country, and connect.
+              - generic [ref=f8e51]: You're protected — browse freely from anywhere in the world.
+        - generic [ref=f8e52]:
+          - generic [ref=f8e53]: Available on
+          - generic [ref=f8e54]: Windows
+          - generic [ref=f8e55]: Mac
+          - generic [ref=f8e56]: Android
+          - generic [ref=f8e57]: iOS
+          - generic [ref=f8e58]: Chrome
+          - generic [ref=f8e59]: Firefox
+          - generic [ref=f8e60]: Edge
+          - generic [ref=f8e61]: Smart TV
+      - generic [ref=f8e62]:
+        - text: © 2026 Hola Networks Ltd. ·
+        - link "Privacy Policy" [ref=f8e63] [cursor=pointer]:
+          - /url: https://hola.org/legal/privacy
+        - text: ·
+        - link "EULA" [ref=f8e64] [cursor=pointer]:
+          - /url: https://hola.org/legal/eula
+        - text: ·
+        - link "Terms of Service" [ref=f8e65] [cursor=pointer]:
+          - /url: https://hola.org/legal/tos
+  - generic [ref=f6e8]:
+    - img [ref=f6e9] [cursor=pointer]
+    - generic [ref=f6e11]:
+      - paragraph [ref=f6e12]: We value your privacy
+      - paragraph [ref=f6e13]: We recommend you accept all cookies for the optimal experience when using our website.
+    - generic [ref=f6e14]:
+      - button "Cookie settings" [ref=f6e15] [cursor=pointer]
+      - button "Analytics only" [ref=f6e16] [cursor=pointer]
+      - button "Accept all" [ref=f6e17] [cursor=pointer]

@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data recon scratch files (do not commit)
+data/recon/_*.json
+data/recon/_*.txt
+data/recon/_*.log
+
+# Playwright MCP scratch files (do not commit)
+.playwright-mcp/
+
+# TypeScript
+*.tsbuildinfo

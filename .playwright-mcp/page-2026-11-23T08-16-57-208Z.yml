@@ -1,0 +1,82 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "RR ROB RUN Wiki" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: RR
+        - generic [ref=e7]: ROB RUN Wiki
+      - generic [ref=e8]:
+        - button "Toggle theme" [ref=e9] [cursor=pointer]
+        - button "Menu" [ref=e10] [cursor=pointer]
+  - main [ref=e11]:
+    - article [ref=e12]:
+      - heading "Terms of Service" [level=1] [ref=e13]
+      - generic [ref=e14]:
+        - paragraph [ref=e15]: ROB RUN Wiki covers ROB RUN.
+        - paragraph [ref=e16]: Content is provided for informational and entertainment purposes. Game details may change.
+        - paragraph [ref=e17]: Do not misuse this site, attempt unauthorized access or present it as an official game property.
+  - contentinfo [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - heading "ROB RUN Wiki" [level=3] [ref=e22]
+          - paragraph [ref=e23]: Explore the ROB RUN wiki for beginner guides, heists, police roles, clans, base building, vehicles, server information, and verified news for Steam players.
+        - generic [ref=e24]:
+          - heading "Guides" [level=4] [ref=e25]
+          - list [ref=e26]:
+            - listitem [ref=e27]:
+              - link "Guide" [ref=e28] [cursor=pointer]:
+                - /url: /guide
+            - listitem [ref=e29]:
+              - link "Money" [ref=e30] [cursor=pointer]:
+                - /url: /money
+            - listitem [ref=e31]:
+              - link "Housing" [ref=e32] [cursor=pointer]:
+                - /url: /housing
+            - listitem [ref=e33]:
+              - link "Items" [ref=e34] [cursor=pointer]:
+                - /url: /items
+            - listitem [ref=e35]:
+              - link "Multiplayer" [ref=e36] [cursor=pointer]:
+                - /url: /multiplayer
+            - listitem [ref=e37]:
+              - link "Support" [ref=e38] [cursor=pointer]:
+                - /url: /support
+            - listitem [ref=e39]:
+              - link "Access" [ref=e40] [cursor=pointer]:
+                - /url: /access
+            - listitem [ref=e41]:
+              - link "Community" [ref=e42] [cursor=pointer]:
+                - /url: /community
+        - generic [ref=e43]:
+          - heading "Legal" [level=4] [ref=e44]
+          - list [ref=e45]:
+            - listitem [ref=e46]:
+              - link "About" [ref=e47] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e48]:
+              - link "Copyright" [ref=e49] [cursor=pointer]:
+                - /url: /copyright
+            - listitem [ref=e50]:
+              - link "Privacy Policy" [ref=e51] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=e52]:
+              - link "Terms Of Service" [ref=e53] [cursor=pointer]:
+                - /url: /terms-of-service
+        - generic [ref=e54]:
+          - heading "Official Links" [level=4] [ref=e55]
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Kefir ROB RUN" [ref=e58] [cursor=pointer]:
+                - /url: https://kefirgames.com/games/rob-run
+            - listitem [ref=e59]:
+              - link "Steam Store" [ref=e60] [cursor=pointer]:
+                - /url: https://store.steampowered.com/app/4262460/ROB_RUN/
+            - listitem [ref=e61]:
+              - link "ROB RUN Help Center" [ref=e62] [cursor=pointer]:
+                - /url: https://kefirgames.helpshift.com/hc/en/14-rob-run/?p=android
+            - listitem [ref=e63]:
+              - link "Steam Community" [ref=e64] [cursor=pointer]:
+                - /url: https://steamcommunity.com/app/4262460/
+      - paragraph [ref=e65]: © 2026 ROB RUN Wiki. Independent fan site, not affiliated with Kefir. Game trademarks belong to their respective owners.
+  - alert [ref=e66]

@@ -1,0 +1,201 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "EveryGameStat" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: EVERYGAMESTAT
+      - button "Alpha" [ref=e8] [cursor=pointer]
+      - generic [ref=e11]:
+        - link "Player search" [ref=e12] [cursor=pointer]:
+          - /url: /tracker
+        - link "Leaderboard" [ref=e13] [cursor=pointer]:
+          - /url: /leaderboard
+        - link "VS" [ref=e14] [cursor=pointer]:
+          - /url: /vs
+        - link "Overlays" [ref=e15] [cursor=pointer]:
+          - /url: /overlay
+        - link "Game hubs" [ref=e16] [cursor=pointer]:
+          - /url: /hubs
+        - link "Player counts" [ref=e17] [cursor=pointer]:
+          - /url: /player-count
+        - link "How it works" [ref=e18] [cursor=pointer]:
+          - /url: /#how
+        - button "Switch language" [ref=e20] [cursor=pointer]: EN
+        - button "Log in" [ref=e21] [cursor=pointer]
+        - button "Create account" [ref=e22] [cursor=pointer]
+  - main [ref=e23]:
+    - text: + + + + + +
+    - generic [ref=e25]:
+      - link "← Back to site" [ref=e26] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e27]:
+        - heading "What we store, and why" [level=1] [ref=e28]
+        - generic [ref=e29]: "Last updated: 17 October 2026"
+        - paragraph [ref=e31]:
+          - strong [ref=e32]: The short version.
+          - text: EveryGameStat reads your public gaming stats and puts them on one page. We never write anything back to your game accounts and we do not sell your data. The site shows ads from Google AdSense, and Google uses cookies for that. You can delete your account and everything linked to it in one click.
+        - heading "Who is responsible" [level=2] [ref=e33]
+        - paragraph [ref=e34]: EveryGameStat is an independent project run by one developer in the Netherlands. It is not affiliated with Valve, Microsoft, Sony, Riot Games, Supercell, Krafton, Epic Games or any other game company. Questions, or a request about your data? Email the address at the bottom of this page.
+        - heading "What we keep when you have an account" [level=2] [ref=e35]
+        - table [ref=e36]:
+          - rowgroup [ref=e37]:
+            - row [ref=e38]:
+              - columnheader "Data" [ref=e39]
+              - columnheader "Why" [ref=e40]
+            - row [ref=e41]:
+              - cell "Email address, and how you signed up (email, Google, Discord or Twitch)" [ref=e42]
+              - cell "To sign you in, let you reset your password and send the emails described below." [ref=e43]
+            - row [ref=e44]:
+              - cell "Display name and avatar" [ref=e45]
+              - cell "Shown on your player card. The avatar comes from a linked platform or from your sign-in provider." [ref=e46]
+            - row [ref=e47]:
+              - cell "Linked account IDs" [ref=e48]
+              - cell "Steam ID, Xbox XUID, PlayStation account, Riot ID, Supercell player tags, Epic name, PUBG account. Needed to fetch your stats." [ref=e49]
+            - row [ref=e50]:
+              - cell "Game library and statistics" [ref=e51]
+              - cell "Titles, playtime, achievements, ranks and per-game stats. The core of the site." [ref=e52]
+            - row [ref=e53]:
+              - cell "Daily snapshots" [ref=e54]
+              - cell "One row per stat per day, so graphs and recaps can show a trend." [ref=e55]
+            - row [ref=e56]:
+              - cell "Profile settings" [ref=e57]
+              - cell "Your profile name, card settings and whether your profile is public." [ref=e58]
+            - row [ref=e59]:
+              - cell "Social" [ref=e60]
+              - cell "Friends, friend requests, duels, rivals and the direct messages you send through Social, so they can be delivered." [ref=e61]
+            - row [ref=e62]:
+              - cell "Discord" [ref=e63]
+              - 'cell "If you link Discord through our bot or Activity: your Discord user ID, and the servers where the bot saw you, for server leaderboards." [ref=e64]'
+            - row [ref=e65]:
+              - cell "EGS Companion" [ref=e66]
+              - 'cell "If you install the desktop app: device name, app version, Windows version, play sessions (game, start, end and, for Minecraft or FiveM, the server), match stats for supported games and what you are playing right now. Unless you turn it off in the app''s settings, also error reports: the error message, where in the app it happened and the version, with your Windows user name and PC name removed. Problem reports you send yourself, with the app''s log file if you choose to include it. Single error reports are kept for 60 days." [ref=e67]'
+            - row [ref=e68]:
+              - cell "Notifications" [ref=e69]
+              - 'cell "If you turn on push notifications: the address your browser gives us to deliver them, and which messages you have read." [ref=e70]'
+            - row [ref=e71]:
+              - cell "Where you came from" [ref=e72]
+              - cell "The referral or campaign tag of your first visit, if there was one, saved when you sign up." [ref=e73]
+        - paragraph [ref=e74]:
+          - text: We store
+          - strong [ref=e75]: "no"
+          - text: game account passwords and no payment details.
+        - heading "Usage statistics, only with your permission" [level=2] [ref=e76]
+        - paragraph [ref=e77]: If you allow analytics in the cookie bar, our own pages record which pages you open and what you click, for example where linking a platform fails. Each record has a random session ID, your device type (phone or computer), your language, the country derived from your connection and, if you are signed in, your account. When linking fails our own format check, the first 40 characters of what you typed are kept, so we can see why. We do not store your IP address. Without your permission nothing is recorded. If you delete your account, these records lose the link to it.
+        - heading "Advertising" [level=2] [ref=e78]
+        - paragraph [ref=e79]: EveryGameStat uses Google AdSense to show ads. Third-party vendors, including Google, use cookies to serve ads based on your earlier visits to this website or other websites. Google's advertising cookies let Google and its partners show you ads based on your visits to this site and other sites on the internet.
+        - paragraph [ref=e80]:
+          - text: You can turn off personalised ads in
+          - link "Google's Ads Settings" [ref=e81] [cursor=pointer]:
+            - /url: https://adssettings.google.com
+          - text: ", and opt out of other vendors' cookies at"
+          - link "aboutads.info" [ref=e82] [cursor=pointer]:
+            - /url: https://www.aboutads.info/choices/
+          - text: or, in Europe,
+          - link "youronlinechoices.eu" [ref=e83] [cursor=pointer]:
+            - /url: https://www.youronlinechoices.eu/
+          - text: ". In the EU, the UK and Switzerland, Google first asks for your consent through its own consent message and only uses advertising cookies as you choose there. How Google uses information from sites like this one:"
+          - link "policies.google.com/technologies/partner-sites" [ref=e84] [cursor=pointer]:
+            - /url: https://policies.google.com/technologies/partner-sites
+          - text: .
+        - paragraph [ref=e85]: The EGS Companion desktop app shows no ads.
+        - heading "Cookies and local storage" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Necessary and always on: your login session, your language and your cookie choice, kept in your browser's local storage. The site does not work without them. Log out and the session is gone."
+        - paragraph [ref=e88]:
+          - text: Analytics only runs after you allow it in the cookie bar. You can change that at any time via
+          - strong [ref=e89]: Cookie settings
+          - text: in the menu. Advertising cookies are set by Google, as described above, and you manage them in Google's consent message.
+        - heading "Emails" [level=2] [ref=e90]
+        - paragraph [ref=e91]: "We email you about your account: confirming your address, signing in and resetting your password. We also send a weekly recap of what you played, and a reminder when your card is still empty. Every recap and reminder has a link to stop them. Emails are delivered through an email delivery service."
+        - heading "Where it lives and who handles it" [level=2] [ref=e92]
+        - list [ref=e93]:
+          - listitem [ref=e94]:
+            - strong [ref=e95]: Database and sign-in
+            - text: . Your account and data sit with a database provider in a data centre in Frankfurt (EU). Row level security ties every row to its account.
+          - listitem [ref=e96]:
+            - strong [ref=e97]: Hosting
+            - text: . The website is served through a global network that also protects it against abuse.
+          - listitem [ref=e98]:
+            - strong [ref=e99]: Email
+            - text: . An email delivery service sends our emails.
+          - listitem [ref=e100]:
+            - strong [ref=e101]: Google
+            - text: . AdSense advertising, and Google sign-in if you use it.
+          - listitem [ref=e102]:
+            - strong [ref=e103]: Discord
+            - text: and
+            - strong [ref=e104]: Twitch
+            - text: . Sign-in if you choose them; Discord also for our bot and Activity.
+        - paragraph [ref=e105]: Some of these companies are based outside the EU, so data they handle can be processed outside the EU.
+        - heading "Game platforms we query" [level=2] [ref=e106]
+        - paragraph [ref=e107]: "To fetch stats we send the account ID you linked, or the name you search for, to Valve (Steam Web API), OpenXBL (Xbox), Sony (PlayStation Network), Riot Games, Supercell through the RoyaleAPI proxy, Krafton (PUBG), fortnite-api.com and Blizzard. Game information such as covers comes from IGDB (Twitch), without any personal data. All access is read-only: we cannot change anything in your game accounts, even if we wanted to."
+        - heading "What others can see" [level=2] [ref=e108]
+        - paragraph [ref=e109]: Your profile is private by default. Make it public and your player card becomes reachable through a link with your chosen name, showing your display name, avatar, game count, playtime, achievements, linked platforms and, if you use the Companion, what you are playing right now. Switch it back to private and that link stops working.
+        - heading "Your rights" [level=2] [ref=e110]
+        - paragraph [ref=e111]:
+          - text: "Under the GDPR you may access, correct, export or erase your data, and object to how we use it. The fastest route is doing it yourself: your profile has a"
+          - strong [ref=e112]: Delete account
+          - text: button that removes your account plus every linked library, stat, history, Companion and social row. That is permanent; there is no recycle bin.
+        - paragraph [ref=e113]: You can also unlink a single platform without closing your account. Prefer email? That works too. If you think we handle your data wrongly, you can complain to the Dutch Data Protection Authority (Autoriteit Persoonsgegevens).
+        - heading "Retention" [level=2] [ref=e114]
+        - paragraph [ref=e115]: We keep your data for as long as your account exists. Delete it and it goes immediately. Usage statistics without a link to an account are kept to see how the site is used over time; they contain no name, email address or IP address.
+        - heading "Children" [level=2] [ref=e116]
+        - paragraph [ref=e117]: EveryGameStat is not aimed at children under 16. If you are younger, use the site with a parent or guardian's permission.
+        - heading "Changes" [level=2] [ref=e118]
+        - paragraph [ref=e119]: If something material changes we update the date at the top and mention it on the site. Continuing to use the site means the new version applies.
+        - heading "Contact" [level=2] [ref=e120]
+        - paragraph [ref=e121]:
+          - text: Email
+          - strong [ref=e122]: noreply@everygamestat.com
+          - text: . Despite the name, that mailbox is read, and replies come from the same address. You can also reach us on
+          - link "Discord" [ref=e123] [cursor=pointer]:
+            - /url: /discord
+          - text: .
+    - text: "?"
+    - dialog "Cookies" [ref=e155]:
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - generic [ref=e158]: Cookies
+          - paragraph [ref=e159]: We use only what's needed to keep you signed in. Analytics stays off until you allow it. Advertising is handled separately by Google's own consent notice.
+        - generic [ref=e160]:
+          - button "Accept all" [ref=e161] [cursor=pointer]
+          - button "Only what's needed" [ref=e162] [cursor=pointer]
+          - button "Choose myself" [ref=e163] [cursor=pointer]
+  - contentinfo [ref=e124]:
+    - link "Download the app EGS Companion for Windows · free · read-only" [ref=e126] [cursor=pointer]:
+      - /url: /companion
+      - generic [ref=e129]:
+        - generic [ref=e130]: Download the app
+        - generic [ref=e131]: EGS Companion for Windows · free · read-only
+    - generic "EveryGameStat on social media" [ref=e132]:
+      - link "Discord" [ref=e133] [cursor=pointer]:
+        - /url: /discord?ref=site
+      - link "Instagram" [ref=e136] [cursor=pointer]:
+        - /url: /instagram?ref=footer
+    - generic [ref=e139]:
+      - generic [ref=e140]: © 2026 EveryGameStat ·Every Game Stat · every game stats, every platform
+      - generic [ref=e141]: Built for players · read-only · free
+      - generic [ref=e142]:
+        - link "Game hubs" [ref=e143] [cursor=pointer]:
+          - /url: /hubs
+        - link "Stream overlays" [ref=e144] [cursor=pointer]:
+          - /url: /overlay
+        - link "About" [ref=e145] [cursor=pointer]:
+          - /url: /about
+        - link "Guides" [ref=e146] [cursor=pointer]:
+          - /url: /guides
+        - link "FAQ" [ref=e147] [cursor=pointer]:
+          - /url: /faq
+        - link "Contact" [ref=e148] [cursor=pointer]:
+          - /url: /contact
+        - link "Changelog" [ref=e149] [cursor=pointer]:
+          - /url: /changelog
+        - link "Support EGS" [ref=e150] [cursor=pointer]:
+          - /url: /support?ref=footer
+        - link "Privacy" [ref=e151] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e152] [cursor=pointer]:
+          - /url: /terms
+    - paragraph [ref=e154]: Steam and the Steam logo are trademarks of Valve Corporation. All game titles, artwork and logos are property of their respective owners. EveryGameStat is an independent fan project and is not affiliated with, endorsed by or sponsored by Valve or any game publisher. All platform access is read-only.
+  - text: ▸ ▸ ▸

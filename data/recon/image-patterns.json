@@ -1,0 +1,82 @@
+{
+  "note": "URLs réelles d'images chargées par le navigateur (Playwright). Vérifiées par HEAD request. Aucun téléchargement en masse n'a été effectué.",
+  "patterns": {
+    "robrun.space": {
+      "base": "https://www.robrun.space",
+      "item_images": "/items/{id}.webp",
+      "map_background": "/map/looty-bay.webp (156 162 o)",
+      "map_icons": "/map/icons/{type}.webp",
+      "weapon_examples": [
+        "https://www.robrun.space/items/apscalar_m1.webp (200, webp, 10716 o)",
+        "https://www.robrun.space/items/jp7_m1.webp (200, webp, 7456 o)",
+        "https://www.robrun.space/items/apscalar_m2.webp (200, webp, 11888 o)"
+      ],
+      "item_examples": [
+        "https://www.robrun.space/items/afak_1.webp (200, webp, 5352 o)",
+        "https://www.robrun.space/items/painkiller_1.webp (200, webp, 3614 o)",
+        "https://www.robrun.space/items/injector_1.webp (200, webp, 3274 o)"
+      ],
+      "building_examples": [
+        "https://www.robrun.space/map/looty-bay.webp (200, webp, 156162 o)",
+        "https://www.robrun.space/map/icons/bank.webp (200, webp, 2532 o)",
+        "https://www.robrun.space/map/icons/gun.webp (200, webp, 1340 o)"
+      ],
+      "note": "Les noms de fichier utilisent l'id du CSV (ex: apscalar_m1, pas ap-scalar-mk1)."
+    },
+    "everygamestat.com": {
+      "base": "https://everygamestat.com",
+      "image_pattern": "/art/robrun/{name}.webp ou /art/v1/{hash}.webp",
+      "map_background": "/art/robrun/map-looty-bay-hq.webp (2048x1678, depuis robrun.json)",
+      "examples": [
+        "https://everygamestat.com/art/robrun/brand.webp (200)",
+        "https://everygamestat.com/art/v1/s-252950.webp (200)",
+        "https://everygamestat.com/art/robrun/tip-first-aid-cabinet-1.webp (200)"
+      ]
+    },
+    "robrun.pro": {
+      "base": "https://robrun.pro",
+      "image_pattern": "/icons/{name}.webp",
+      "examples": [
+        "https://robrun.pro/icons/police_radio_1.webp (200)",
+        "https://robrun.pro/icons/Cargo_Safe_01.webp (200)"
+      ]
+    },
+    "robrunguide.app": {
+      "base": "https://assets.robrunguide.app",
+      "image_pattern": "/assets/{hash}.webp",
+      "examples": [
+        "https://assets.robrunguide.app/assets/27c93885f72d5e626db9b690918c5038dccca2dca5e54141ffd043ffdcb21dac.webp (200)"
+      ]
+    },
+    "rob-run.app": {
+      "base": "https://img.rob-run.app",
+      "image_pattern": "/s_573s140e6s4m20/{name}.webp",
+      "examples": [
+        "https://img.rob-run.app/s_573s140e6s4m20/police-car-chase.ee204b1bcc.webp (200)"
+      ]
+    },
+    "robrunwiki.com": {
+      "base": "https://robrunwiki.com",
+      "image_pattern": "/assets/{name}.webp ou /branding/{name}.png",
+      "examples": [
+        "https://robrunwiki.com/assets/home-world-map.webp (200)",
+        "https://robrunwiki.com/branding/rob-run-wiki-header.png (200)"
+      ]
+    },
+    "robrun-wiki.wiki": {
+      "base": "https://robrun-wiki.wiki",
+      "image_pattern": "/images/{name}.webp",
+      "examples": [
+        "https://robrun-wiki.wiki/images/hero.webp (200)"
+      ]
+    }
+  },
+  "strategie_recommandee": [
+    "everygamestat.com items.json est la meilleure source de données d'items (JSON complet, 320 KB, 547 items).",
+    "robrun.space est la meilleure source pour les images d'items (.webp, noms = id du CSV).",
+    "robrun.space /map/looty-bay.webp est le fond de carte Looty Bay ; les icônes de marqueurs sont dans /map/icons/.",
+    "everygamestat robrun.json contient une clé 'map' avec 40 pins coordonnés [type, x, y %] et image de fond 2048x1678 — meilleure source pour coordonnées de carte.",
+    "Aucune source ne fournit de coordonnées pour les 927 points du CSV (seulement 40 pins dans everygamestat).",
+    "Aucune source ne fournit de lien loot ↔ lieu pour tous les points (robrun.space a 28 locations avec loot détaillé)."
+  ]
+}

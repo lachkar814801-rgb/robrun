@@ -1,0 +1,311 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Aller au contenu" [ref=e3] [cursor=pointer]:
+      - /url: "#conteudo"
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "Rob Run Guide — accueil" [ref=e6] [cursor=pointer]:
+          - /url: /fr
+          - generic [ref=e7]: Rob Run Guide
+        - link "Chargement des joueurs…" [ref=e8] [cursor=pointer]:
+          - /url: https://steamdb.info/app/4262460/charts/
+      - search [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: Rechercher un objet
+          - generic [ref=e14]:
+            - searchbox "Rechercher un objet" [ref=e15]
+            - button "Rechercher" [ref=e16] [cursor=pointer]
+      - navigation "Navigation principale" [ref=e20]:
+        - generic [ref=e21]:
+          - heading "Sections" [level=2] [ref=e22]
+          - list "Sections" [ref=e23]:
+            - listitem [ref=e24]:
+              - link "Accueil" [ref=e25] [cursor=pointer]:
+                - /url: /fr
+            - listitem [ref=e29]:
+              - link "Objets , 550 objets" [ref=e30] [cursor=pointer]:
+                - /url: /fr/items
+                - generic [ref=e33]: Objets
+                - generic [ref=e34]:
+                  - text: "550"
+                  - generic [ref=e35]: ", 550 objets"
+            - listitem [ref=e36]:
+              - link "Production , 40 productions" [ref=e37] [cursor=pointer]:
+                - /url: /fr/production
+                - generic [ref=e40]: Production
+                - generic [ref=e41]:
+                  - text: "40"
+                  - generic [ref=e42]: ", 40 productions"
+            - listitem [ref=e43]:
+              - link "Propriétés , 29 entrées" [ref=e44] [cursor=pointer]:
+                - /url: /fr/properties
+                - generic [ref=e47]: Propriétés
+                - generic [ref=e48]:
+                  - text: "29"
+                  - generic [ref=e49]: ", 29 entrées"
+            - listitem [ref=e50]:
+              - link "Livraisons , 172 livraisons" [ref=e51] [cursor=pointer]:
+                - /url: /fr/shipments
+                - generic [ref=e54]: Livraisons
+                - generic [ref=e55]:
+                  - text: "172"
+                  - generic [ref=e56]: ", 172 livraisons"
+            - listitem [ref=e57]:
+              - link "Guides , 7 guides pratiques" [ref=e58] [cursor=pointer]:
+                - /url: /fr/guides
+                - generic [ref=e61]: Guides
+                - generic [ref=e62]:
+                  - text: "7"
+                  - generic [ref=e63]: ", 7 guides pratiques"
+            - listitem [ref=e64]:
+              - link "Carte , 560 lieux à Rocky Valley" [ref=e65] [cursor=pointer]:
+                - /url: /fr/map
+                - generic [ref=e68]: Carte
+                - generic [ref=e69]:
+                  - text: "560"
+                  - generic [ref=e70]: ", 560 lieux à Rocky Valley"
+        - generic [ref=e71]:
+          - heading "Catalogue" [level=2] [ref=e72]
+          - list "Catalogue" [ref=e73]:
+            - listitem [ref=e74]:
+              - link "Armes , 50 objets" [ref=e75] [cursor=pointer]:
+                - /url: /fr/items?category=weapons
+                - generic [ref=e76]: Armes
+                - generic [ref=e77]:
+                  - text: "50"
+                  - generic [ref=e78]: ", 50 objets"
+            - listitem [ref=e79]:
+              - link "Équipements , 49 objets" [ref=e80] [cursor=pointer]:
+                - /url: /fr/items?category=equipment
+                - generic [ref=e81]: Équipements
+                - generic [ref=e82]:
+                  - text: "49"
+                  - generic [ref=e83]: ", 49 objets"
+            - listitem [ref=e84]:
+              - link "Objets de valeur , 125 objets" [ref=e85] [cursor=pointer]:
+                - /url: /fr/items?category=valuables
+                - generic [ref=e86]: Objets de valeur
+                - generic [ref=e87]:
+                  - text: "125"
+                  - generic [ref=e88]: ", 125 objets"
+            - listitem [ref=e89]:
+              - link "Électronique , 48 objets" [ref=e90] [cursor=pointer]:
+                - /url: /fr/items?category=electronics
+                - generic [ref=e91]: Électronique
+                - generic [ref=e92]:
+                  - text: "48"
+                  - generic [ref=e93]: ", 48 objets"
+            - listitem [ref=e94]:
+              - link "Fournitures , 48 objets" [ref=e95] [cursor=pointer]:
+                - /url: /fr/items?category=supplies
+                - generic [ref=e96]: Fournitures
+                - generic [ref=e97]:
+                  - text: "48"
+                  - generic [ref=e98]: ", 48 objets"
+            - listitem [ref=e99]:
+              - link "Contrebande , 51 objets" [ref=e100] [cursor=pointer]:
+                - /url: /fr/items?category=contraband
+                - generic [ref=e101]: Contrebande
+                - generic [ref=e102]:
+                  - text: "51"
+                  - generic [ref=e103]: ", 51 objets"
+            - listitem [ref=e104]:
+              - link "Clés et accès , 48 objets" [ref=e105] [cursor=pointer]:
+                - /url: /fr/items?category=keys
+                - generic [ref=e106]: Clés et accès
+                - generic [ref=e107]:
+                  - text: "48"
+                  - generic [ref=e108]: ", 48 objets"
+            - listitem [ref=e109]:
+              - link "Véhicules et pièces , 49 objets" [ref=e110] [cursor=pointer]:
+                - /url: /fr/items?category=vehicles
+                - generic [ref=e111]: Véhicules et pièces
+                - generic [ref=e112]:
+                  - text: "49"
+                  - generic [ref=e113]: ", 49 objets"
+            - listitem [ref=e114]:
+              - link "Base et construction , 71 objets" [ref=e115] [cursor=pointer]:
+                - /url: /fr/items?category=base
+                - generic [ref=e116]: Base et construction
+                - generic [ref=e117]:
+                  - text: "71"
+                  - generic [ref=e118]: ", 71 objets"
+            - listitem [ref=e119]:
+              - link "Autres objets , 11 objets" [ref=e120] [cursor=pointer]:
+                - /url: /fr/items?category=other
+                - generic [ref=e121]: Autres objets
+                - generic [ref=e122]:
+                  - text: "11"
+                  - generic [ref=e123]: ", 11 objets"
+        - generic [ref=e124]:
+          - heading "Outils" [level=2] [ref=e125]
+          - list "Outils" [ref=e126]:
+            - listitem [ref=e127]:
+              - link "Comparer les objets , 58 objets comparables" [ref=e128] [cursor=pointer]:
+                - /url: /fr/compare
+                - generic [ref=e129]: Comparer les objets
+                - generic [ref=e130]:
+                  - text: "58"
+                  - generic [ref=e131]: ", 58 objets comparables"
+            - listitem [ref=e132]:
+              - link "Comparer les véhicules , 11 véhicules" [ref=e133] [cursor=pointer]:
+                - /url: /fr/vehicles
+                - generic [ref=e134]: Comparer les véhicules
+                - generic [ref=e135]:
+                  - text: "11"
+                  - generic [ref=e136]: ", 11 véhicules"
+            - listitem [ref=e137]:
+              - link "Questions fréquentes , 42 articles" [ref=e138] [cursor=pointer]:
+                - /url: /fr/faq
+                - generic [ref=e139]: Questions fréquentes
+                - generic [ref=e140]:
+                  - text: "42"
+                  - generic [ref=e141]: ", 42 articles"
+            - listitem [ref=e142]:
+              - link "Conseils des PNJ , 58 conseils" [ref=e143] [cursor=pointer]:
+                - /url: /fr/npc-tips
+                - generic [ref=e144]: Conseils des PNJ
+                - generic [ref=e145]:
+                  - text: "58"
+                  - generic [ref=e146]: ", 58 conseils"
+    - main [ref=e147]:
+      - generic [ref=e148]:
+        - heading "Politique de confidentialité" [level=1] [ref=e150]
+        - generic [ref=e151]:
+          - paragraph [ref=e152]: Un guide communautaire. Vous choisissez de partager ou non vos statistiques d’utilisation pour contribuer à son amélioration.
+          - paragraph [ref=e153]:
+            - time [ref=e154]: Mise à jour le 6 novembre 2026
+      - generic [ref=e155]:
+        - navigation "Dans cette politique" [ref=e156]:
+          - generic [ref=e157]:
+            - heading "Dans cette politique" [level=2] [ref=e158]
+            - list [ref=e159]:
+              - listitem [ref=e160]:
+                - link "Projet et contact" [ref=e161] [cursor=pointer]:
+                  - /url: "#responsavel"
+              - listitem [ref=e166]:
+                - link "Données et finalités" [ref=e167] [cursor=pointer]:
+                  - /url: "#dados"
+              - listitem [ref=e172]:
+                - link "Cookies et consentement" [ref=e173] [cursor=pointer]:
+                  - /url: "#cookies"
+              - listitem [ref=e178]:
+                - link "Services et transferts" [ref=e179] [cursor=pointer]:
+                  - /url: "#compartilhamento"
+              - listitem [ref=e184]:
+                - link "Conservation et sécurité" [ref=e185] [cursor=pointer]:
+                  - /url: "#retencao"
+              - listitem [ref=e190]:
+                - link "Vos droits" [ref=e191] [cursor=pointer]:
+                  - /url: "#direitos"
+              - listitem [ref=e196]:
+                - link "Publicité et modifications" [ref=e197] [cursor=pointer]:
+                  - /url: "#publicidade"
+        - generic [ref=e202]:
+          - paragraph [ref=e203]: Cette politique s’applique au site Rob Run Guide et tient compte des droits prévus par la loi générale sur la protection des données (LGPD) au Brésil et par le règlement général sur la protection des données (RGPD) en Europe, selon leur applicabilité à votre situation.
+          - region "Projet et contact" [ref=e204]:
+            - heading "Projet et contact" [level=2] [ref=e205]
+            - paragraph [ref=e206]:
+              - text: Rob Run Guide est un projet maintenu par la communauté. Pour toute question de confidentialité ou demande concernant vos données, contactez l’équipe qui maintient le guide à l’adresse
+              - link "support@robrunguide.app" [ref=e207] [cursor=pointer]:
+                - /url: mailto:support@robrunguide.app
+              - text: .
+            - paragraph [ref=e208]: Cette politique concerne l’utilisation du guide. Les comptes, serveurs et services du jeu ROB RUN et de Steam ont leurs propres politiques.
+          - region "Quelles données utilisons-nous et pourquoi" [ref=e209]:
+            - heading "Quelles données utilisons-nous et pourquoi" [level=2] [ref=e210]
+            - generic [ref=e211]:
+              - generic [ref=e212]:
+                - term [ref=e213]: Fonctionnement et sécurité
+                - definition [ref=e214]: Pour afficher les pages, nous traitons l’adresse IP et des informations techniques sur la connexion, comme le navigateur et les requêtes. L’infrastructure d’hébergement peut conserver des journaux d’erreurs et de sécurité pour diagnostiquer des défaillances et prévenir les abus. Ces usages répondent à l’intérêt légitime de maintenir un service disponible et sécurisé, dans le respect de vos droits.
+              - generic [ref=e215]:
+                - term [ref=e216]: Statistiques facultatives
+                - definition [ref=e217]: Avec votre consentement uniquement, Google Analytics mesure l’utilisation des pages, des recherches, des filtres, des objets, des boutiques, des conseils, des cartes et des visionneuses 3D. Il peut traiter des identifiants de cookies, des informations sur l’appareil et une localisation approximative. Cela nous aide à choisir les contenus et fonctionnalités à améliorer.
+              - generic [ref=e218]:
+                - term [ref=e219]: Contact
+                - definition [ref=e220]: Si vous nous envoyez un e-mail, nous recevons votre adresse, le message et les informations que vous choisissez de partager. Nous les utilisons pour répondre et, si nécessaire, traiter les demandes d’exercice des droits et satisfaire à des obligations légales. Envoyez uniquement ce qui est nécessaire à votre demande.
+            - paragraph [ref=e221]: Le guide ne demande ni identifiant ni mot de passe Steam. Les événements de recherche transmis à Analytics ne contiennent qu’une tranche de longueur et le nombre de résultats, sans le texte saisi. Les événements de navigation ne contiennent ni paramètres de requête ni fragments d’URL. Les identifiants de contenu désignent les objets et lieux du guide, sans identifier les joueurs.
+            - paragraph [ref=e222]:
+              - text: Selon Google, GA4 utilise l’adresse IP lors de la collecte pour estimer la localisation, puis la supprime avant d’enregistrer les données. Cela ne rend pas anonymes toutes les données d’utilisation. Consultez les
+              - link "paramètres de confidentialité de GA4" [ref=e223] [cursor=pointer]:
+                - /url: https://support.google.com/analytics/answer/11598602?hl=pt-BR
+              - text: .
+          - region "Cookies et vos choix" [ref=e224]:
+            - heading "Cookies et vos choix" [level=2] [ref=e225]
+            - paragraph [ref=e226]: La balise Google Analytics ne se charge qu’après votre acceptation. Si vous refusez, toutes les fonctionnalités du guide restent accessibles. Les statistiques reposent sur le consentement, conformément à la LGPD et au RGPD. Ce choix n’autorise pas la publicité personnalisée.
+            - generic [ref=e227]:
+              - generic [ref=e228]:
+                - term [ref=e229]: Préférence de confidentialité
+                - definition [ref=e230]: Elle est conservée dans le stockage local du navigateur pendant 180 jours au maximum pour mémoriser votre acceptation ou votre refus. Elle n’est pas transmise à Google en tant qu’événement d’utilisation.
+              - generic [ref=e231]:
+                - term [ref=e232]: Cookies Analytics (_ga et _ga_*)
+                - definition [ref=e233]: Utilisés après votre acceptation pour distinguer les navigateurs et les sessions. Leur durée est limitée à la période restante de votre préférence de 180 jours, sans renouvellement automatique à chaque visite.
+            - paragraph [ref=e234]: Vous pouvez changer d’avis dans « Préférences de confidentialité », dans le pied de page et sur les cartes. Si vous retirez votre consentement après l’activation, nous cessons d’envoyer de nouveaux événements, supprimons les cookies Analytics accessibles au guide et rechargeons la page. Le retrait n’invalide pas le traitement antérieur et n’efface pas automatiquement les données déjà transmises.
+            - paragraph [ref=e235]: Vous pouvez également bloquer les cookies ou effacer les données de ce site dans les paramètres du navigateur. Si vous effacez la préférence, le guide vous demandera de choisir à nouveau. Si votre choix ne peut pas être enregistré, l’interface signale le problème et indique comment effacer les données du site.
+          - region "Services et transferts internationaux" [ref=e236]:
+            - heading "Services et transferts internationaux" [level=2] [ref=e237]
+            - paragraph [ref=e238]: Les services d’hébergement et de communication traitent les informations nécessaires pour fournir le site et répondre aux messages. Si vous acceptez les statistiques, Google reçoit les données d’utilisation décrites dans cette politique. L’intégration laisse Google Signals et la personnalisation publicitaire désactivés.
+            - paragraph [ref=e239]:
+              - text: Google peut traiter des informations dans d’autres pays, notamment en dehors du Brésil et de l’Espace économique européen. Les conditions de traitement et les mécanismes de transfert sont décrits dans les
+              - link "conditions de traitement des données" [ref=e240] [cursor=pointer]:
+                - /url: https://business.safety.google/adsprocessorterms/
+              - text: et la
+              - link "politique de confidentialité de Google" [ref=e241] [cursor=pointer]:
+                - /url: https://policies.google.com/privacy
+              - text: . Vous pouvez nous écrire à l’adresse de contact pour la confidentialité pour obtenir des précisions sur les services et les garanties applicables.
+          - region "Conservation et sécurité" [ref=e242]:
+            - heading "Conservation et sécurité" [level=2] [ref=e243]
+            - paragraph [ref=e244]:
+              - text: Les 180 jours mentionnés ci-dessus concernent la préférence et les cookies dans votre navigateur. Les données transmises à Google ont leur propre durée de conservation, définie dans la propriété Analytics. Les rapports agrégés peuvent être conservés plus longtemps. Supprimer les cookies n’efface pas ces données. Consultez les
+              - link "règles de conservation d’Analytics" [ref=e245] [cursor=pointer]:
+                - /url: https://support.google.com/analytics/answer/7667196?hl=pt-BR
+              - text: ou renseignez-vous sur la configuration du guide.
+            - paragraph [ref=e246]: Les messages et les journaux d’exploitation sont conservés le temps nécessaire pour répondre à la demande, examiner les problèmes, protéger le service et satisfaire aux éventuelles obligations légales. La durée dépend de la finalité et des exigences applicables.
+            - paragraph [ref=e247]: Nous prenons des mesures techniques pour protéger le service et limiter l’accès aux informations. Aucun système n’offre une sécurité absolue. Si vous constatez un problème, signalez-le à notre contact pour la confidentialité.
+          - region "Vos droits au Brésil et en Europe" [ref=e248]:
+            - heading "Vos droits au Brésil et en Europe" [level=2] [ref=e249]
+            - paragraph [ref=e250]: Vous pouvez présenter les demandes suivantes conformément à la législation applicable.
+            - list [ref=e251]:
+              - listitem [ref=e252]: Confirmation du traitement, accès à vos données et rectification de celles-ci.
+              - listitem [ref=e253]: Effacement, anonymisation ou blocage des données dans les cas prévus par la loi.
+              - listitem [ref=e254]: Informations sur le partage et la portabilité des données, le cas échéant.
+              - listitem [ref=e255]: Opposition ou limitation du traitement et retrait du consentement, selon la base juridique et la législation applicables.
+            - paragraph [ref=e256]:
+              - text: Envoyez votre demande à
+              - link "support@robrunguide.app" [ref=e257] [cursor=pointer]:
+                - /url: mailto:support@robrunguide.app
+              - text: . Nous pouvons avoir besoin d’informations proportionnées pour confirmer votre identité ou retrouver les données. Comme le guide n’exige pas de compte, nous ne pouvons pas toujours associer les événements d’un navigateur à une personne. Nous expliquerons les éventuelles limites et répondrons dans les délais légaux applicables. N’envoyez pas de mots de passe ni de documents sans demande justifiée.
+            - paragraph [ref=e258]:
+              - text: Au Brésil, vous pouvez également vous adresser à l’
+              - link "ANPD" [ref=e259] [cursor=pointer]:
+                - /url: https://www.gov.br/anpd/pt-br/canais_atendimento/cidadao-titular-de-dados/denuncia-peticao-de-titular-referente-lgpd
+              - text: . Dans l’Union européenne, vous pouvez déposer une réclamation auprès de l’autorité de protection des données compétente, notamment dans le pays où vous résidez, travaillez ou où la violation présumée a eu lieu. Au Portugal, cette autorité est la
+              - link "CNPD" [ref=e260] [cursor=pointer]:
+                - /url: https://www.cnpd.pt/cidadaos/participacoes/
+              - text: . Pour les autres pays, consultez la
+              - link "liste des autorités nationales" [ref=e261] [cursor=pointer]:
+                - /url: https://www.edpb.europa.eu/about-edpb/about-edpb/members_en
+              - text: .
+          - region "Publicité et modifications de cette politique" [ref=e262]:
+            - heading "Publicité et modifications de cette politique" [level=2] [ref=e263]
+            - paragraph [ref=e264]: Le guide ne charge pas encore d’annonces Google AdSense. Si nous ajoutons de la publicité, nous actualiserons cette politique et les options de consentement avant de commencer les nouveaux traitements.
+            - paragraph [ref=e265]: Cette page peut évoluer avec le fonctionnement du guide et les exigences applicables. Nous signalerons les changements importants concernant les finalités ou les données collectées. Nous demanderons à nouveau votre consentement si nécessaire. La date en haut de la page indique la version actuelle.
+    - contentinfo [ref=e266]:
+      - generic [ref=e267]:
+        - generic [ref=e268]:
+          - paragraph [ref=e269]: Rob Run Guide
+          - paragraph [ref=e270]: Guide communautaire réalisé par des fans, sans lien avec le studio de ROB RUN.
+        - generic [ref=e271]:
+          - generic [ref=e272]: Langue
+          - combobox "Langue Français" [ref=e273] [cursor=pointer]:
+            - generic [ref=e279]: Français
+          - textbox [aria-hidden] [ref=e283]: fr
+        - generic [ref=e284]:
+          - generic [ref=e285]:
+            - link "À propos du guide" [ref=e286] [cursor=pointer]:
+              - /url: /fr/about
+            - link "Contact et corrections" [ref=e287] [cursor=pointer]:
+              - /url: /fr/about#contato
+            - link "Politique de confidentialité" [ref=e288] [cursor=pointer]:
+              - /url: /fr/privacy
+          - paragraph [ref=e289]: © 2026 Rob Run Guide
+  - alert [ref=e290]

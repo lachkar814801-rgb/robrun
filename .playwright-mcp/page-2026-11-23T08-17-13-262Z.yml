@@ -1,0 +1,452 @@
+- generic [active] [ref=e1]:
+  - link "Перейти к содержанию" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - link "ROB RUN WIKI" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img "ROB RUN WIKI" [ref=e5]
+    - button "Меню" [ref=e6]
+    - text: +
+    - generic [ref=e9]:
+      - button "Поиск /" [ref=e10] [cursor=pointer]:
+        - generic [ref=e11]: Поиск
+        - generic [ref=e12]: /
+      - group "Language" [ref=e13]:
+        - link "RU" [ref=e14] [cursor=pointer]:
+          - /url: /
+        - link "EN" [ref=e16] [cursor=pointer]:
+          - /url: /en/
+  - main [ref=e18]:
+    - region "ROB RUN Wiki. Город знает всё. Теперь и ты." [ref=e19]:
+      - figure [ref=e20]:
+        - img "Улицы Лути-Бей" [ref=e21]
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Неофициальная база знаний ROB RUN
+        - heading "ROB RUN Wiki. Город знает всё. Теперь и ты." [level=1] [ref=e24]: ROB RUN Wiki. Город знает всё.Теперь и ты.
+        - paragraph [ref=e25]: "ROB RUN Wiki — вики по игре «Роб Ран» (Робран): предметы, карты, поставки и механики в одном справочнике."
+        - generic [ref=e26]:
+          - link "Изучить карту" [ref=e27] [cursor=pointer]:
+            - /url: /map/
+          - link "Ограбления" [ref=e28] [cursor=pointer]:
+            - /url: /robberies/
+          - link "Открыть справочник" [ref=e29] [cursor=pointer]:
+            - /url: /items/
+          - link "Что такое ROB RUN" [ref=e30] [cursor=pointer]:
+            - /url: /guides/what-is-rob-run/
+      - complementary "Состояние вики" [ref=e31]:
+        - generic [ref=e377]:
+          - generic [ref=e378]: Сейчас в игре
+          - strong [ref=e379]: 171 644
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - term [ref=e34]: Каталог
+            - definition [ref=e35]: "563"
+          - generic [ref=e36]:
+            - term [ref=e37]: Точки карты
+            - definition [ref=e38]: "955"
+          - generic [ref=e39]:
+            - term [ref=e40]: Здания
+            - definition [ref=e41]: "38"
+    - navigation "Что ищут чаще всего" [ref=e42]:
+      - heading "Ищут чаще всего" [level=2] [ref=e43]
+      - generic [ref=e44]:
+        - link "Ограбление Угнать выставочную машину" [ref=e45] [cursor=pointer]:
+          - /url: /robberies/show-car/
+          - generic [ref=e46]: Ограбление
+          - strong [ref=e47]: Угнать выставочную машину
+        - link "Здание Стрип-клуб" [ref=e48] [cursor=pointer]:
+          - /url: /buildings/city_strip_club/
+          - generic [ref=e49]: Здание
+          - strong [ref=e50]: Стрип-клуб
+        - link "Здание Гранд-отель" [ref=e51] [cursor=pointer]:
+          - /url: /buildings/city_hotel_grand/
+          - generic [ref=e52]: Здание
+          - strong [ref=e53]: Гранд-отель
+        - link "Механика Лаборатория" [ref=e54] [cursor=pointer]:
+          - /url: /mechanics/lab/
+          - generic [ref=e55]: Механика
+          - strong [ref=e56]: Лаборатория
+        - link "Ограбление Ценный груз" [ref=e57] [cursor=pointer]:
+          - /url: /robberies/take-cargo/
+          - generic [ref=e58]: Ограбление
+          - strong [ref=e59]: Ценный груз
+        - link "Ограбление Музейный экспонат" [ref=e60] [cursor=pointer]:
+          - /url: /robberies/museum-exhibit/
+          - generic [ref=e61]: Ограбление
+          - strong [ref=e62]: Музейный экспонат
+    - region "Живое расписание" [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e65]: Сейчас в ROB RUN
+        - strong [ref=e66]: Таймеры
+      - link "Игроков онлайн 171 644 Сейчас в игре" [ref=e380] [cursor=pointer]:
+        - /url: /servers/
+        - generic [ref=e68]: Игроков онлайн
+        - strong [ref=e69]: 171 644
+        - generic [ref=e70]: Сейчас в игре
+      - link "Цикл Federal Raid 7 дней От открытия сервера" [ref=e71] [cursor=pointer]:
+        - /url: /servers/
+        - generic [ref=e72]: Цикл Federal Raid
+        - strong [ref=e73]: 7 дней
+        - generic [ref=e74]: От открытия сервера
+      - link "Конфликт за район 09:42:46 пн 19:00" [ref=e381] [cursor=pointer]:
+        - /url: /conflicts/
+        - generic [ref=e76]: Конфликт за район
+        - strong [ref=e77]: 09:42:46
+        - generic [ref=e78]: пн 19:00
+    - region "Выбери маршрут" [ref=e79]:
+      - generic [ref=e80]:
+        - heading "Выбери маршрут" [level=2] [ref=e81]
+        - paragraph [ref=e82]: Главные инструменты собраны по задачам, которые возникают в Лути-Бей.
+      - generic [ref=e83]:
+        - link "10 районов и 510 поселений Карта мира Районы, поселения, центры продаж и точки перехода." [ref=e84] [cursor=pointer]:
+          - /url: /map/world/
+          - generic [ref=e85]: 10 районов и 510 поселений
+          - generic [ref=e86]:
+            - heading "Карта мира" [level=3] [ref=e87]
+            - paragraph [ref=e88]: Районы, поселения, центры продаж и точки перехода.
+        - link "955 точек Карта Лути-Бей Здания, лутспоты, сейфы, банкоматы и службы." [ref=e89] [cursor=pointer]:
+          - /url: /map/
+          - generic [ref=e90]: 955 точек
+          - generic [ref=e91]:
+            - heading "Карта Лути-Бей" [level=3] [ref=e92]
+            - paragraph [ref=e93]: Здания, лутспоты, сейфы, банкоматы и службы.
+        - link "563 предметов База предметов Цены, редкость, свойства и способы получения." [ref=e94] [cursor=pointer]:
+          - /url: /items/
+          - generic [ref=e95]: 563 предметов
+          - generic [ref=e96]:
+            - heading "База предметов" [level=3] [ref=e97]
+            - paragraph [ref=e98]: Цены, редкость, свойства и способы получения.
+        - link "Гайды и ответы Полевой справочник Маршруты новичка, FAQ, решения ошибок и правила лута." [ref=e99] [cursor=pointer]:
+          - /url: /guides/
+          - generic [ref=e100]: Гайды и ответы
+          - generic [ref=e101]:
+            - heading "Полевой справочник" [level=3] [ref=e102]
+            - paragraph [ref=e103]: Маршруты новичка, FAQ, решения ошибок и правила лута.
+        - link "171 разблокировка Поставки Полное дерево прогрессии Ларри." [ref=e104] [cursor=pointer]:
+          - /url: /shipments/
+          - generic [ref=e105]: 171 разблокировка
+          - generic [ref=e106]:
+            - heading "Поставки" [level=3] [ref=e107]
+            - paragraph [ref=e108]: Полное дерево прогрессии Ларри.
+        - link "До четырёх стволов Сравнение оружия Урон, темп, дальность и магазин." [ref=e109] [cursor=pointer]:
+          - /url: /compare/
+          - generic [ref=e110]: До четырёх стволов
+          - generic [ref=e111]:
+            - heading "Сравнение оружия" [level=3] [ref=e112]
+            - paragraph [ref=e113]: Урон, темп, дальность и магазин.
+        - link "Рецепты обмена Бартер Требования, деньги и награды." [ref=e114] [cursor=pointer]:
+          - /url: /barters/
+          - generic [ref=e115]: Рецепты обмена
+          - generic [ref=e116]:
+            - heading "Бартер" [level=3] [ref=e117]
+            - paragraph [ref=e118]: Требования, деньги и награды.
+        - link "38 локаций Здания Источники лута и возможные награды." [ref=e119] [cursor=pointer]:
+          - /url: /buildings/
+          - generic [ref=e120]: 38 локаций
+          - generic [ref=e121]:
+            - heading "Здания" [level=3] [ref=e122]
+            - paragraph [ref=e123]: Источники лута и возможные награды.
+        - link "7 событий Ограбления Городские события и крупные цели." [ref=e124] [cursor=pointer]:
+          - /url: /robberies/
+          - generic [ref=e125]: 7 событий
+          - generic [ref=e126]:
+            - heading "Ограбления" [level=3] [ref=e127]
+            - paragraph [ref=e128]: Городские события и крупные цели.
+        - link "Системы игры Механики Деньги, полиция, базы, кланы и производство." [ref=e129] [cursor=pointer]:
+          - /url: /mechanics/
+          - generic [ref=e130]: Системы игры
+          - generic [ref=e131]:
+            - heading "Механики" [level=3] [ref=e132]
+            - paragraph [ref=e133]: Деньги, полиция, базы, кланы и производство.
+        - link "Официальная хроника Обновления Анонсы и полный архив патчей." [ref=e134] [cursor=pointer]:
+          - /url: /updates/
+          - generic [ref=e135]: Официальная хроника
+          - generic [ref=e136]:
+            - heading "Обновления" [level=3] [ref=e137]
+            - paragraph [ref=e138]: Анонсы и полный архив патчей.
+    - region "Популярные гайды и инструменты" [ref=e139]:
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - text: С чего начать
+            - heading "Популярные гайды" [level=2] [ref=e143]
+          - link "Все гайды" [ref=e144] [cursor=pointer]:
+            - /url: /guides/
+            - text: Все гайды →
+        - generic [ref=e145]:
+          - link "01 Маршрут новичка Первый час в игре" [ref=e146] [cursor=pointer]:
+            - /url: /guides/beginner/
+            - generic [ref=e147]: "01"
+            - generic [ref=e148]:
+              - generic [ref=e149]: Маршрут новичка
+              - strong [ref=e150]: Первый час в игре
+            - generic [aria-hidden] [ref=e151]: ↗
+          - link "02 План выживания Семь дней соло" [ref=e152] [cursor=pointer]:
+            - /url: /guides/solo/
+            - generic [ref=e153]: "02"
+            - generic [ref=e154]:
+              - generic [ref=e155]: План выживания
+              - strong [ref=e156]: Семь дней соло
+            - generic [aria-hidden] [ref=e157]: ↗
+          - link "03 Урон и дальность Лучшее оружие" [ref=e158] [cursor=pointer]:
+            - /url: /guides/best-weapons/
+            - generic [ref=e159]: "03"
+            - generic [ref=e160]:
+              - generic [ref=e161]: Урон и дальность
+              - strong [ref=e162]: Лучшее оружие
+            - generic [aria-hidden] [ref=e163]: ↗
+          - link "04 Цены и скупщики Где продать добычу" [ref=e164] [cursor=pointer]:
+            - /url: /guides/where-to-sell/
+            - generic [ref=e165]: "04"
+            - generic [ref=e166]:
+              - generic [ref=e167]: Цены и скупщики
+              - strong [ref=e168]: Где продать добычу
+            - generic [aria-hidden] [ref=e169]: ↗
+          - link "05 Карьерный гайд Игра за полицию" [ref=e170] [cursor=pointer]:
+            - /url: /guides/playing-police/
+            - generic [ref=e171]: "05"
+            - generic [ref=e172]:
+              - generic [ref=e173]: Карьерный гайд
+              - strong [ref=e174]: Игра за полицию
+            - generic [aria-hidden] [ref=e175]: ↗
+          - link "06 Что сбрасывается Еженедельный вайп" [ref=e176] [cursor=pointer]:
+            - /url: /guides/weekly-wipe/
+            - generic [ref=e177]: "06"
+            - generic [ref=e178]:
+              - generic [ref=e179]: Что сбрасывается
+              - strong [ref=e180]: Еженедельный вайп
+            - generic [aria-hidden] [ref=e181]: ↗
+          - link "07 Семь способов Как заработать" [ref=e182] [cursor=pointer]:
+            - /url: /guides/make-money/
+            - generic [ref=e183]: "07"
+            - generic [ref=e184]:
+              - generic [ref=e185]: Семь способов
+              - strong [ref=e186]: Как заработать
+            - generic [aria-hidden] [ref=e187]: ↗
+          - link "08 AVX2, il2cpp, связь Ошибки и вылеты" [ref=e188] [cursor=pointer]:
+            - /url: /fixes/
+            - generic [ref=e189]: "08"
+            - generic [ref=e190]:
+              - generic [ref=e191]: AVX2, il2cpp, связь
+              - strong [ref=e192]: Ошибки и вылеты
+            - generic [aria-hidden] [ref=e193]: ↗
+      - generic [ref=e194]:
+        - generic [ref=e195]:
+          - generic [ref=e196]: Работа с данными
+          - heading "Инструменты" [level=2] [ref=e197]
+        - generic [ref=e198]:
+          - 'link "MAP Интерактивная карта ROB RUN Лути-Бей: 77 мест, лут, ключи, сейфы" [ref=e199] [cursor=pointer]':
+            - /url: /map/
+            - generic [ref=e200]: MAP
+            - generic [ref=e201]:
+              - strong [ref=e202]: Интерактивная карта ROB RUN
+              - generic [ref=e203]: "Лути-Бей: 77 мест, лут, ключи, сейфы"
+            - generic [aria-hidden] [ref=e204]: →
+          - link "DB Каталог предметов 563 предмета с фильтрами и ценами" [ref=e205] [cursor=pointer]:
+            - /url: /items/
+            - generic [ref=e206]: DB
+            - generic [ref=e207]:
+              - strong [ref=e208]: Каталог предметов
+              - generic [ref=e209]: 563 предмета с фильтрами и ценами
+            - generic [aria-hidden] [ref=e210]: →
+          - link "DUEL Дуэль оружия Два игрока, броня, кто победит" [ref=e211] [cursor=pointer]:
+            - /url: /tools/duel/
+            - generic [ref=e212]: DUEL
+            - generic [ref=e213]:
+              - strong [ref=e214]: Дуэль оружия
+              - generic [ref=e215]: Два игрока, броня, кто победит
+            - generic [aria-hidden] [ref=e216]: →
+          - link "CAR Транспорт Характеристики, цены и калькулятор машин" [ref=e217] [cursor=pointer]:
+            - /url: /vehicles/
+            - generic [ref=e218]: CAR
+            - generic [ref=e219]:
+              - strong [ref=e220]: Транспорт
+              - generic [ref=e221]: Характеристики, цены и калькулятор машин
+            - generic [aria-hidden] [ref=e222]: →
+          - link "KIT Конструктор снаряжения Оружие, броня, подсумок и цена" [ref=e223] [cursor=pointer]:
+            - /url: /loadout/
+            - generic [ref=e224]: KIT
+            - generic [ref=e225]:
+              - strong [ref=e226]: Конструктор снаряжения
+              - generic [ref=e227]: Оружие, броня, подсумок и цена
+            - generic [aria-hidden] [ref=e228]: →
+          - link "RAID Калькулятор рейда Сколько декодеров на постройку" [ref=e229] [cursor=pointer]:
+            - /url: /tools/raid/
+            - generic [ref=e230]: RAID
+            - generic [ref=e231]:
+              - strong [ref=e232]: Калькулятор рейда
+              - generic [ref=e233]: Сколько декодеров на постройку
+            - generic [aria-hidden] [ref=e234]: →
+          - link "FARM Калькулятор фермы Доход и окупаемость плантации" [ref=e235] [cursor=pointer]:
+            - /url: /tools/farm/
+            - generic [ref=e236]: FARM
+            - generic [ref=e237]:
+              - strong [ref=e238]: Калькулятор фермы
+              - generic [ref=e239]: Доход и окупаемость плантации
+            - generic [aria-hidden] [ref=e240]: →
+          - link "LAB Калькулятор лаборатории Реактор, морозильник, прибыль в час" [ref=e241] [cursor=pointer]:
+            - /url: /tools/lab/
+            - generic [ref=e242]: LAB
+            - generic [ref=e243]:
+              - strong [ref=e244]: Калькулятор лаборатории
+              - generic [ref=e245]: Реактор, морозильник, прибыль в час
+            - generic [aria-hidden] [ref=e246]: →
+          - link "YRS Калькулятор срока Изучения, имущество, деньги → годы" [ref=e247] [cursor=pointer]:
+            - /url: /tools/sentence/
+            - generic [ref=e248]: YRS
+            - generic [ref=e249]:
+              - strong [ref=e250]: Калькулятор срока
+              - generic [ref=e251]: Изучения, имущество, деньги → годы
+            - generic [aria-hidden] [ref=e252]: →
+          - link "# Авторитет и наколки Лестница срока и вайпы до ступени" [ref=e253] [cursor=pointer]:
+            - /url: /tools/authority/
+            - generic [ref=e254]: "#"
+            - generic [ref=e255]:
+              - strong [ref=e256]: Авторитет и наколки
+              - generic [ref=e257]: Лестница срока и вайпы до ступени
+            - generic [aria-hidden] [ref=e258]: →
+          - link "RLT Симулятор рулетки Виртуальные деньги, шансы и серии" [ref=e259] [cursor=pointer]:
+            - /url: /tools/roulette/
+            - generic [ref=e260]: RLT
+            - generic [ref=e261]:
+              - strong [ref=e262]: Симулятор рулетки
+              - generic [ref=e263]: Виртуальные деньги, шансы и серии
+            - generic [aria-hidden] [ref=e264]: →
+          - link "EU Расписание серверов Живые таймеры открытия и вайпа" [ref=e265] [cursor=pointer]:
+            - /url: /servers/
+            - generic [ref=e266]: EU
+            - generic [ref=e267]:
+              - strong [ref=e268]: Расписание серверов
+              - generic [ref=e269]: Живые таймеры открытия и вайпа
+            - generic [aria-hidden] [ref=e270]: →
+          - link "CL Таймеры конфликтов Битвы за районы и бизнесы" [ref=e271] [cursor=pointer]:
+            - /url: /conflicts/
+            - generic [ref=e272]: CL
+            - generic [ref=e273]:
+              - strong [ref=e274]: Таймеры конфликтов
+              - generic [ref=e275]: Битвы за районы и бизнесы
+            - generic [aria-hidden] [ref=e276]: →
+          - link "ALL Все инструменты Короткий обзор каждого" [ref=e277] [cursor=pointer]:
+            - /url: /tools/
+            - generic [ref=e278]: ALL
+            - generic [ref=e279]:
+              - strong [ref=e280]: Все инструменты
+              - generic [ref=e281]: Короткий обзор каждого
+            - generic [aria-hidden] [ref=e282]: →
+    - generic [ref=e283]:
+      - generic [ref=e284]:
+        - generic [ref=e285]:
+          - text: Steam + Discord
+          - heading [level=2] [ref=e286]:
+            - link "Последние обновления" [ref=e287] [cursor=pointer]:
+              - /url: /updates/
+        - link "Все обновления" [ref=e288] [cursor=pointer]:
+          - /url: /updates/
+          - text: Все обновления →
+      - generic [ref=e289]:
+        - 'link "20 ноября 2026 г. Discord Оперативное Проблемы с получением купленных монет — исправлено Разработчики знали, что у части игроков не приходят купленные монеты. Позже в тот же день сообщили, что проблема исправлена и все оплаченные монеты должны были поступить на аккаунты. Первоисточник: официальный Discord ROB RUN (сообщение о проблеме) и сообщение об исправлении , ка Открыть новость" [ref=e290] [cursor=pointer]':
+          - /url: /updates/#discord-2026-11-20-coin-purchase-issues
+          - time [ref=e291]: 20 ноября 2026 г.
+          - generic [ref=e292]: Discord
+          - generic [ref=e293]: Оперативное
+          - heading "Проблемы с получением купленных монет — исправлено" [level=3] [ref=e294]
+          - paragraph [ref=e295]: "Разработчики знали, что у части игроков не приходят купленные монеты. Позже в тот же день сообщили, что проблема исправлена и все оплаченные монеты должны были поступить на аккаунты. Первоисточник: официальный Discord ROB RUN (сообщение о проблеме) и сообщение об исправлении , ка"
+          - generic [ref=e296]: Открыть новость ↗
+        - 'link "20 ноября 2026 г. Discord Крупное Ответы сообществу: жалобы, DDoS и откаты, серверы, борьба с читерами Жалобы. Обновлён интерфейс отправки жалоб: больше информации об игроке, кнопка заметнее. Недавний сбой, из-за которого жалобы не отправлялись, уже исправляют. Зависания и откаты. Разработчики работают над зависаниями на загрузке. Откаты прогресса связаны с падениями серверов из-з Открыть новость" [ref=e297] [cursor=pointer]':
+          - /url: /updates/#discord-2026-11-20-community-answers
+          - time [ref=e298]: 20 ноября 2026 г.
+          - generic [ref=e299]: Discord
+          - generic [ref=e300]: Крупное
+          - 'heading "Ответы сообществу: жалобы, DDoS и откаты, серверы, борьба с читерами" [level=3] [ref=e301]'
+          - paragraph [ref=e302]: "Жалобы. Обновлён интерфейс отправки жалоб: больше информации об игроке, кнопка заметнее. Недавний сбой, из-за которого жалобы не отправлялись, уже исправляют. Зависания и откаты. Разработчики работают над зависаниями на загрузке. Откаты прогресса связаны с падениями серверов из-з"
+          - generic [ref=e303]: Открыть новость ↗
+        - 'link "20 ноября 2026 г. Discord Крупное Патч 20 ноября: больше методов поиска читеров, друзья в списке серверов, предупреждение при покупке контрабанды Небольшое обновление: добавлены новые методы обнаружения читеров, оптимизирована сетевая часть, улучшено удобство. Больше методов обнаружения читеров. Друзья, которые сейчас в сети, отображаются в списке серверов — видно, на каком сервере они играют. Игра проверяет наличие свобод Открыть новость" [ref=e304] [cursor=pointer]':
+          - /url: /updates/#discord-2026-11-20-patch-notes
+          - time [ref=e305]: 20 ноября 2026 г.
+          - generic [ref=e306]: Discord
+          - generic [ref=e307]: Крупное
+          - 'heading "Патч 20 ноября: больше методов поиска читеров, друзья в списке серверов, предупреждение при покупке контрабанды" [level=3] [ref=e308]'
+          - paragraph [ref=e309]: "Небольшое обновление: добавлены новые методы обнаружения читеров, оптимизирована сетевая часть, улучшено удобство. Больше методов обнаружения читеров. Друзья, которые сейчас в сети, отображаются в списке серверов — видно, на каком сервере они играют. Игра проверяет наличие свобод"
+          - generic [ref=e310]: Открыть новость ↗
+    - region "Как мы проверяем данные" [ref=e311]:
+      - generic [ref=e312]:
+        - text: Прозрачные источники
+        - heading "Как мы проверяем данные" [level=2] [ref=e313]
+        - paragraph [ref=e314]: "У каждого факта указано происхождение: данные игры, официальные материалы, сообщения сообщества и неподтверждённая информация не смешиваются."
+        - link "Правила работы с источниками" [ref=e315] [cursor=pointer]:
+          - /url: /about/
+          - text: Правила работы с источниками
+          - generic [aria-hidden] [ref=e316]: →
+      - generic "Примеры меток источников" [ref=e317]:
+        - generic "Данные игры" [ref=e318]:
+          - generic [aria-hidden] [ref=e319]: ◆
+        - generic "Официально Kefir" [ref=e321]:
+          - generic [aria-hidden] [ref=e322]: ✓
+        - generic "Сообщество" [ref=e324]:
+          - generic [aria-hidden] [ref=e325]: ●
+        - generic "Не подтверждено" [ref=e327]:
+          - generic [aria-hidden] [ref=e328]: "?"
+    - region "О ROB RUN Wiki" [ref=e330]:
+      - generic [ref=e331]:
+        - text: Коротко о проекте
+        - heading "О ROB RUN Wiki" [level=2] [ref=e332]
+      - generic [ref=e333]:
+        - group [ref=e334]:
+          - generic "Что такое ROB RUN Wiki / Роб Ран вики?" [ref=e335] [cursor=pointer]:
+            - text: Что такое ROB RUN Wiki / Роб Ран вики?
+            - generic [aria-hidden] [ref=e336]: +
+        - group [ref=e337]:
+          - generic "Это официальный сайт ROB RUN?" [ref=e338] [cursor=pointer]:
+            - text: Это официальный сайт ROB RUN?
+            - generic [aria-hidden] [ref=e339]: +
+    - generic [ref=e340]:
+      - generic [ref=e341]:
+        - heading "Поддержать развитие вики" [level=2] [ref=e342]
+        - paragraph [ref=e343]: Если справочник оказался полезен, вы можете поддержать автора и помочь развитию проекта.
+      - link "Поддержать на Boosty" [ref=e344] [cursor=pointer]:
+        - /url: https://boosty.to/robrunwiki
+  - contentinfo [ref=e345]:
+    - generic [ref=e346]:
+      - strong [ref=e347]: ROB RUN WIKI
+      - generic [ref=e348]: Неофициальный проект сообщества
+      - generic [ref=e349]:
+        - text: "Данные проверены:"
+        - time [ref=e350]: 13 ноября 2026 г.
+    - navigation "Навигация в подвале" [ref=e351]:
+      - link "Предметы" [ref=e352] [cursor=pointer]:
+        - /url: /items/
+      - link "Карта" [ref=e353] [cursor=pointer]:
+        - /url: /map/world/
+      - link "Поставки" [ref=e354] [cursor=pointer]:
+        - /url: /shipments/
+      - link "Механики" [ref=e355] [cursor=pointer]:
+        - /url: /mechanics/
+      - link "Вопросы и ответы" [ref=e356] [cursor=pointer]:
+        - /url: /faq/
+      - link "Платформы" [ref=e357] [cursor=pointer]:
+        - /url: /access/steam/
+      - link "Открытые данные" [ref=e358] [cursor=pointer]:
+        - /url: /data/
+      - link "О проекте" [ref=e359] [cursor=pointer]:
+        - /url: /about/
+      - link "Контакты" [ref=e360] [cursor=pointer]:
+        - /url: /contacts/
+      - link "Конфиденциальность" [ref=e361] [cursor=pointer]:
+        - /url: /privacy/
+      - link "Настройки cookie" [ref=e362] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e363]:
+      - link "Бустеры проекта" [ref=e364] [cursor=pointer]:
+        - /url: /supporters/
+      - generic [ref=e365]: PandoFILIYA
+    - link "Поддержать на Boosty" [ref=e367] [cursor=pointer]:
+      - /url: https://boosty.to/robrunwiki
+  - dialog "Cookie и реклама" [ref=e368]:
+    - strong [ref=e369]: Cookie и реклама
+    - paragraph [ref=e370]:
+      - text: Статистика вики работает без cookie. Реклама на сайте использует cookie рекламных партнёров. Если откажетесь, рекламы не будет.
+      - link "Политика конфиденциальности" [ref=e371] [cursor=pointer]:
+        - /url: /privacy/
+    - generic [ref=e372]:
+      - button "Принять" [ref=e373] [cursor=pointer]
+      - button "Отклонить" [ref=e374] [cursor=pointer]

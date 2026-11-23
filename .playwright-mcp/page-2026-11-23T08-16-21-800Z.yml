@@ -1,0 +1,140 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "ROB RUN Wiki" [ref=e4] [cursor=pointer]:
+        - /url: /fr
+        - generic [ref=e5]: ROB RUN
+        - generic [ref=e6]: Wiki
+      - generic [ref=e7]:
+        - button "Événements de clan" [ref=e9] [cursor=pointer]
+        - button "Language" [ref=e14] [cursor=pointer]: FR
+        - button "Menu" [ref=e20] [cursor=pointer]: ☰
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: robrun.pro
+        - heading "Confidentialité, cookies et conditions" [level=1] [ref=e25]
+        - paragraph [ref=e26]: Version de 18.11.2026. Site de fans, sans lien avec Kefir ni ROB RUN.
+      - heading "Contact" [level=2] [ref=e27]
+      - paragraph [ref=e28]:
+        - text: "Contact:"
+        - link "contact@robrun.pro" [ref=e29] [cursor=pointer]:
+          - /url: mailto:contact@robrun.pro
+        - text: .
+      - heading "Politique de confidentialité" [level=2] [ref=e30]
+      - list [ref=e31]:
+        - listitem [ref=e32]: "You can browse the site without an account. We use no third-party trackers except Google and Yandex ads (see below). We count visits ourselves, anonymously and without cookies: only the page address, referring site, language and device type, with the visitor as a one-way hash that changes every day. IP addresses are not stored."
+        - listitem [ref=e33]: When you sign up we store your e-mail, display name and a cryptographic hash (scrypt) of your password. We never see the password itself.
+        - listitem [ref=e34]: If you sign in with Discord or Google, we receive only your account id, name and e-mail (if it is verified). The site gets no access to your messages, servers, mail or files. You can unlink it in your account settings.
+        - listitem [ref=e35]: "For clans we store what you enter: tag, name, description, rules, Discord link and rank."
+        - listitem [ref=e36]: For payments we store the payment ID, amount and what was bought. Card details are entered at YooKassa or Stripe and never reach us.
+        - listitem [ref=e37]: Data is kept on our server and is not shared with third parties except the payment provider during a payment.
+        - listitem [ref=e38]:
+          - text: Ads are served by Google AdSense. Google and its partners may use cookies and similar technologies to show ads based on your previous visits to this and other sites. You can turn off personalised ads in
+          - link "Google Ad Settings" [ref=e39] [cursor=pointer]:
+            - /url: https://adssettings.google.com
+          - text: ; see
+          - link "how Google uses data" [ref=e40] [cursor=pointer]:
+            - /url: https://policies.google.com/technologies/partner-sites
+          - text: . Visitors from the EEA, UK and Switzerland are asked for consent by Google.
+        - listitem [ref=e41]:
+          - text: On the Russian version of the site, ads are served by the Yandex Advertising Network. Yandex may use cookies and similar technologies to pick ads — see the
+          - link "Yandex privacy policy" [ref=e42] [cursor=pointer]:
+            - /url: https://yandex.com/legal/confidential/
+          - text: .
+        - listitem [ref=e43]: To delete your account and data, e-mail contact@robrun.pro from the address you signed up with.
+      - heading "Cookie" [level=2] [ref=e44]
+      - list [ref=e45]:
+        - listitem [ref=e46]: rr_s — essential login cookie. Set only after you log in, kept up to 60 days. Login does not work without it.
+        - listitem [ref=e47]: Browser storage (localStorage) remembers that you closed the cookie notice and your map and planner settings.
+        - listitem [ref=e48]: We set no ad or analytics cookies of our own (visit counting works without cookies). Ad cookies are set by Google AdSense — see the privacy policy. You can delete cookies in your browser — you will just be logged out.
+      - heading "Conditions d’utilisation et d’achat" [level=2] [ref=e49]
+      - list [ref=e50]:
+        - listitem [ref=e51]: Adding a clan and using the site is free. Insults, scams, advertising other services and impersonating another clan are not allowed — such clans are removed.
+        - listitem [ref=e52]: Crowns and the colour outline are digital upgrades of a clan card on robrun.pro. They give nothing in ROB RUN and are not related to Kefir.
+        - listitem [ref=e53]: "Prices: 1 crown for 7 days — €0.50 or 50 ₽ (also 15, 30, 60 days with 10% off and 90 days with 20% off); outline for 30 days — €3.00 or 300 ₽, colour changes are free."
+        - listitem [ref=e54]: "The service is delivered right after payment: crowns and the outline switch on automatically and last for the paid period."
+        - listitem [ref=e55]: If an upgrade was not credited, e-mail contact@robrun.pro with the payment ID — we will credit it or refund you. Once credited there are no refunds, as the service has been delivered. Deleting a clan does not refund its upgrades.
+        - listitem [ref=e56]: We may remove a clan that breaks the rules; unused upgrades are not compensated in that case.
+  - contentinfo [ref=e57]:
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - link "ROB RUN" [ref=e60] [cursor=pointer]:
+          - /url: /fr
+        - paragraph [ref=e62]: Site de fans, sans lien avec Kefir.
+        - paragraph [ref=e63]:
+          - link "Discord" [ref=e64] [cursor=pointer]:
+            - /url: https://discord.gg/CWHvRF8E8H
+          - text: ·
+          - link "Steam" [ref=e65] [cursor=pointer]:
+            - /url: https://store.steampowered.com/app/4262460/
+          - text: ·
+          - link "Kefir" [ref=e66] [cursor=pointer]:
+            - /url: https://kefirgames.com/
+        - paragraph [ref=e67]:
+          - text: "✉️ Contact et partenariats:"
+          - link "contact@robrun.pro" [ref=e68] [cursor=pointer]:
+            - /url: mailto:contact@robrun.pro
+      - generic [ref=e69]:
+        - generic [ref=e70]: Sections
+        - link "Accueil" [ref=e71] [cursor=pointer]:
+          - /url: /fr
+        - link "Guides" [ref=e72] [cursor=pointer]:
+          - /url: /fr/guides
+        - link "Clans" [ref=e73] [cursor=pointer]:
+          - /url: /fr/clans
+        - link "Objets" [ref=e74] [cursor=pointer]:
+          - /url: /fr/items
+        - link "Lieux" [ref=e75] [cursor=pointer]:
+          - /url: /fr/locations
+        - link "Carte" [ref=e76] [cursor=pointer]:
+          - /url: /fr/map
+        - link "Fournitures" [ref=e77] [cursor=pointer]:
+          - /url: /fr/planner
+        - link "Véhicules" [ref=e78] [cursor=pointer]:
+          - /url: /fr/vehicles
+        - link "Monde" [ref=e79] [cursor=pointer]:
+          - /url: /fr/world
+        - link "Actualités" [ref=e80] [cursor=pointer]:
+          - /url: /fr/news
+        - link "Calculateur de Grow Room" [ref=e81] [cursor=pointer]:
+          - /url: /fr/farm
+        - link "Constructeur de base" [ref=e82] [cursor=pointer]:
+          - /url: /fr/base
+        - link "Calculateur de décodeurs" [ref=e83] [cursor=pointer]:
+          - /url: /fr/raid
+      - generic [ref=e84]:
+        - generic [ref=e85]: Catalogue
+        - generic [ref=e86]:
+          - link "Armes 46" [ref=e87] [cursor=pointer]:
+            - /url: /fr/items?c=weapons
+          - link "Munitions 5" [ref=e88] [cursor=pointer]:
+            - /url: /fr/items?c=ammo
+          - link "Équipement 27" [ref=e89] [cursor=pointer]:
+            - /url: /fr/items?c=gear
+          - link "Outils et clés 65" [ref=e90] [cursor=pointer]:
+            - /url: /fr/items?c=tools
+          - link "Véhicules 26" [ref=e91] [cursor=pointer]:
+            - /url: /fr/items?c=vehicles
+          - link "Base et terrain 80" [ref=e92] [cursor=pointer]:
+            - /url: /fr/items?c=base
+          - link "Objets de valeur 160" [ref=e93] [cursor=pointer]:
+            - /url: /fr/items?c=valuables
+          - link "Contrebande 60" [ref=e94] [cursor=pointer]:
+            - /url: /fr/items?c=contraband
+          - link "Cargaison 39" [ref=e95] [cursor=pointer]:
+            - /url: /fr/items?c=cargo
+          - link "Divers 30" [ref=e96] [cursor=pointer]:
+            - /url: /fr/items?c=misc
+    - generic [ref=e97]:
+      - text: © 2026 robrun.pro ·
+      - link "Confidentialité, cookies et conditions" [ref=e98] [cursor=pointer]:
+        - /url: /fr/legal
+  - alert [ref=e99]
+  - dialog "Cookies" [ref=e100]:
+    - generic [ref=e101]: 🍪
+    - paragraph [ref=e102]:
+      - text: We use a cookie to keep you logged in, and Google AdSense uses cookies to show the ads that keep this site running. In the EU, Google asks for your consent to personalised ads.
+      - link "Learn more" [ref=e103] [cursor=pointer]:
+        - /url: /fr/legal#cookies
+    - button "Accepter" [ref=e105] [cursor=pointer]

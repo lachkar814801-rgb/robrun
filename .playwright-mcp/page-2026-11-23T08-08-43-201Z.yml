@@ -1,0 +1,331 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - complementary "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "robrun.space home" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "robrun.space logo" [ref=e7]
+          - generic [ref=e8]:
+            - text: Robrun.space
+            - generic [ref=e9]: Fan database
+        - button "Switch to dark mode" [ref=e11] [cursor=pointer]
+      - button "Search items, guides and FAQ" [ref=e14] [cursor=pointer]:
+        - generic [ref=e18]: Search the database
+        - generic [ref=e19]: Ctrl K
+      - 'link "ROB RUN server status: Checking…. Opens isrobrundown.com" [ref=e20] [cursor=pointer]':
+        - /url: https://isrobrundown.com/
+        - generic [ref=e22]:
+          - generic [ref=e23]: Server status
+          - generic [ref=e24]: Checking…
+      - navigation "Explore" [ref=e25]:
+        - button "Explore" [expanded] [ref=e26] [cursor=pointer]
+        - generic [ref=e31]:
+          - link "Home" [ref=e32] [cursor=pointer]:
+            - /url: /
+          - link "Interactive Map" [ref=e37] [cursor=pointer]:
+            - /url: /map/
+          - link "Questions & Answers 209" [ref=e41] [cursor=pointer]:
+            - /url: /faq/
+            - generic [ref=e45]: Questions & Answers
+            - generic [ref=e46]: "209"
+          - link "Guides 8" [ref=e47] [cursor=pointer]:
+            - /url: /guides/
+            - generic [ref=e50]: Guides
+            - generic [ref=e51]: "8"
+          - link "Updates 19" [ref=e52] [cursor=pointer]:
+            - /url: /updates/
+            - generic [ref=e56]: Updates
+            - generic [ref=e57]: "19"
+      - navigation "Catalog" [ref=e58]:
+        - button "Catalog" [expanded] [ref=e59] [cursor=pointer]
+        - generic [ref=e63]:
+          - link "All Items 533" [ref=e65] [cursor=pointer]:
+            - /url: /items/
+            - generic [ref=e71]: All Items
+            - generic [ref=e72]: "533"
+          - generic [ref=e73]:
+            - link "Weapons 50" [ref=e74] [cursor=pointer]:
+              - /url: /items/weapons/
+              - generic [ref=e77]: Weapons
+              - generic [ref=e78]: "50"
+            - link "Ammo 4" [ref=e79] [cursor=pointer]:
+              - /url: /items/ammo/
+              - generic [ref=e84]: Ammo
+              - generic [ref=e85]: "4"
+            - link "Gear 19" [ref=e86] [cursor=pointer]:
+              - /url: /items/gear/
+              - generic [ref=e91]: Gear
+              - generic [ref=e92]: "19"
+            - link "Keys & Tools 54" [ref=e93] [cursor=pointer]:
+              - /url: /items/keys-and-tools/
+              - generic [ref=e97]: Keys & Tools
+              - generic [ref=e98]: "54"
+            - link "Vehicles 25" [ref=e99] [cursor=pointer]:
+              - /url: /items/vehicles/
+              - generic [ref=e104]: Vehicles
+              - generic [ref=e105]: "25"
+            - link "Base & Plot 82" [ref=e106] [cursor=pointer]:
+              - /url: /items/base-and-plot/
+              - generic [ref=e110]: Base & Plot
+              - generic [ref=e111]: "82"
+            - link "Valuables 251" [ref=e112] [cursor=pointer]:
+              - /url: /items/valuables/
+              - generic [ref=e116]: Valuables
+              - generic [ref=e117]: "251"
+            - link "Contraband 48" [ref=e118] [cursor=pointer]:
+              - /url: /items/contraband/
+              - generic [ref=e122]: Contraband
+              - generic [ref=e123]: "48"
+          - generic [ref=e124]:
+            - link "Collections 34" [ref=e125] [cursor=pointer]:
+              - /url: /collections/
+              - generic [ref=e130]: Collections
+              - generic [ref=e131]: "34"
+            - link "Locations 28" [ref=e132] [cursor=pointer]:
+              - /url: /locations/looty-bay/
+              - generic [ref=e136]: Locations
+              - generic [ref=e137]: "28"
+            - link "Mechanics 15" [ref=e138] [cursor=pointer]:
+              - /url: /mechanics/
+              - generic [ref=e150]: Mechanics
+              - generic [ref=e151]: "15"
+      - generic [ref=e152]:
+        - navigation "Legal" [ref=e153]:
+          - link "About" [ref=e154] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e155] [cursor=pointer]:
+            - /url: /contact/
+          - link "Privacy" [ref=e156] [cursor=pointer]:
+            - /url: /privacy/
+          - link "Terms" [ref=e157] [cursor=pointer]:
+            - /url: /terms/
+          - button "Cookies" [ref=e158] [cursor=pointer]
+          - link "Discord" [ref=e159] [cursor=pointer]:
+            - /url: https://discord.gg/eRRYCjjSVa
+        - paragraph [ref=e160]: Unofficial fan site. Not affiliated with KEFIR or the ROB RUN team.
+    - generic [ref=e161]:
+      - main [ref=e162]:
+        - generic [ref=e164]:
+          - generic [ref=e165]: Unofficial fan database
+          - heading "ROB RUN Database" [level=1] [ref=e166]
+          - paragraph [ref=e167]: Items, loot spots, prices and every rule of Looty Bay in one place. Look something up mid-run and get back to the job.
+          - paragraph [ref=e168]:
+            - text: ROB RUN is a free-to-play game by KEFIR.
+            - link "Get it on Steam" [ref=e169] [cursor=pointer]:
+              - /url: https://store.steampowered.com/app/4262460/
+          - button "Search the database" [ref=e170] [cursor=pointer]:
+            - generic [ref=e174]: Search 533 items, 200+ answers, guides and places
+            - generic [ref=e175]: /
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - heading "Catalog" [level=2] [ref=e178]
+            - link "Browse all items →" [ref=e179] [cursor=pointer]:
+              - /url: /items/
+          - generic [ref=e180]:
+            - link "Weapons 50" [ref=e181] [cursor=pointer]:
+              - /url: /items/weapons/
+              - generic [ref=e184]: Weapons
+              - generic [ref=e185]: "50"
+            - link "Ammo 4" [ref=e186] [cursor=pointer]:
+              - /url: /items/ammo/
+              - generic [ref=e191]: Ammo
+              - generic [ref=e192]: "4"
+            - link "Gear 19" [ref=e193] [cursor=pointer]:
+              - /url: /items/gear/
+              - generic [ref=e198]: Gear
+              - generic [ref=e199]: "19"
+            - link "Keys & Tools 54" [ref=e200] [cursor=pointer]:
+              - /url: /items/keys-and-tools/
+              - generic [ref=e204]: Keys & Tools
+              - generic [ref=e205]: "54"
+            - link "Vehicles 25" [ref=e206] [cursor=pointer]:
+              - /url: /items/vehicles/
+              - generic [ref=e211]: Vehicles
+              - generic [ref=e212]: "25"
+            - link "Base & Plot 82" [ref=e213] [cursor=pointer]:
+              - /url: /items/base-and-plot/
+              - generic [ref=e217]: Base & Plot
+              - generic [ref=e218]: "82"
+            - link "Valuables 251" [ref=e219] [cursor=pointer]:
+              - /url: /items/valuables/
+              - generic [ref=e223]: Valuables
+              - generic [ref=e224]: "251"
+            - link "Contraband & Cargo 48" [ref=e225] [cursor=pointer]:
+              - /url: /items/contraband/
+              - generic [ref=e229]: Contraband & Cargo
+              - generic [ref=e230]: "48"
+        - generic [ref=e231]:
+          - heading "Tools" [level=2] [ref=e233]
+          - link "Interactive Map Every Looty Bay building, what spawns inside and which key opens it. Plus ATMs, alarm panels and event spots." [ref=e235] [cursor=pointer]:
+            - /url: /map/
+            - generic [ref=e242]: Interactive Map
+            - paragraph [ref=e243]: Every Looty Bay building, what spawns inside and which key opens it. Plus ATMs, alarm panels and event spots.
+        - generic [ref=e244]:
+          - generic [ref=e245]:
+            - heading "Quick answers" [level=2] [ref=e246]
+            - link "All 209 questions →" [ref=e247] [cursor=pointer]:
+              - /url: /faq/
+          - generic [ref=e248]:
+            - link "How do I launder money? Get a plot and a house, place a Laundering Desk and load dirty cash onto it." [ref=e249] [cursor=pointer]:
+              - /url: /faq/money-and-laundering/#how-do-i-launder-money
+              - generic [ref=e250]: How do I launder money?
+              - paragraph [ref=e251]: Get a plot and a house, place a Laundering Desk and load dirty cash onto it.
+            - link "What do I lose when I die? It depends on your role and where you die." [ref=e252] [cursor=pointer]:
+              - /url: /faq/roles-death-and-surrender/#what-do-i-lose-when-i-die
+              - generic [ref=e253]: What do I lose when I die?
+              - paragraph [ref=e254]: It depends on your role and where you die.
+            - 'link "What do I need to rob the bank? A Drill for the vault door (barter: a filled Action Camera, 2 filled USB Hacking Tools and $50,000) and an ID Card for the gold vault (barter: 1 filled Deposit Box Keys)." [ref=e255] [cursor=pointer]':
+              - /url: /faq/robberies-and-heists/#what-do-i-need-to-rob-the-bank
+              - generic [ref=e256]: What do I need to rob the bank?
+              - paragraph [ref=e257]: "A Drill for the vault door (barter: a filled Action Camera, 2 filled USB Hacking Tools and $50,000) and an ID Card for the gold vault (barter: 1 filled Deposit Box Keys)."
+            - link "How do I get my first plot? Research and buy a Land Plot Title on the Trade Laptop ($50,000 research + $100,000)." [ref=e258] [cursor=pointer]:
+              - /url: /faq/plots-houses-and-settlements/#how-do-i-get-my-first-plot
+              - generic [ref=e259]: How do I get my first plot?
+              - paragraph [ref=e260]: Research and buy a Land Plot Title on the Trade Laptop ($50,000 research + $100,000).
+            - link "How do I become a cop? In Looty Bay, talk to the officer at the Police Station in Palmside and enlist if a slot is free." [ref=e261] [cursor=pointer]:
+              - /url: /faq/police/#how-do-i-become-a-cop
+              - generic [ref=e262]: How do I become a cop?
+              - paragraph [ref=e263]: In Looty Bay, talk to the officer at the Police Station in Palmside and enlist if a slot is free.
+            - link "What is a wipe and how often does it happen? The Federal Raid." [ref=e264] [cursor=pointer]:
+              - /url: /faq/wipes-servers-and-parties/#what-is-a-wipe-and-how-often-does-it-happen
+              - generic [ref=e265]: What is a wipe and how often does it happen?
+              - paragraph [ref=e266]: The Federal Raid.
+        - generic [ref=e267]:
+          - generic [ref=e268]:
+            - heading "Latest updates" [level=2] [ref=e269]
+            - link "All updates →" [ref=e270] [cursor=pointer]:
+              - /url: /updates/
+          - generic [ref=e271]:
+            - link "announcement 14 Nov 2026 Technical Issues on EU Servers EU servers had login failures and instability on 14 Nov. Kefir scheduled a restart for 23:20 CET; East US servers were not affected." [ref=e272] [cursor=pointer]:
+              - /url: /updates/november-2026/#2026-11-14-technical-issues-on-eu-servers
+              - generic [ref=e273]:
+                - generic [ref=e274]: announcement
+                - generic [ref=e275]: 14 Nov 2026
+              - generic [ref=e276]: Technical Issues on EU Servers
+              - paragraph [ref=e277]: EU servers had login failures and instability on 14 Nov. Kefir scheduled a restart for 23:20 CET; East US servers were not affected.
+            - 'link "announcement 13 Nov 2026 Answering Your Most Frequently Asked Questions Kefir answered ten common questions: no bigger parties than 3, weapon repair and easier server switching are planned, drop-off camping is intended, and no Asia or Oceania servers before the end of 2026." [ref=e278] [cursor=pointer]':
+              - /url: /updates/november-2026/#2026-11-13-answering-frequently-asked-questions
+              - generic [ref=e279]:
+                - generic [ref=e280]: announcement
+                - generic [ref=e281]: 13 Nov 2026
+              - generic [ref=e282]: Answering Your Most Frequently Asked Questions
+              - paragraph [ref=e283]: "Kefir answered ten common questions: no bigger parties than 3, weapon repair and easier server switching are planned, drop-off camping is intended, and no Asia or Oceania servers before the end of 2026."
+            - link "patch 11 Nov 2026 Smoke Grenades, Chat and Name Change Smoke Grenades are pulled from sale after cheaters abused them, general chat is limited to players who rent a plot in a settlement, and you can now change your name at the Prison." [ref=e284] [cursor=pointer]:
+              - /url: /updates/november-2026/#2026-11-11-smoke-grenades-chat-and-name-change
+              - generic [ref=e285]:
+                - generic [ref=e286]: patch
+                - generic [ref=e287]: 11 Nov 2026
+              - generic [ref=e288]: Smoke Grenades, Chat and Name Change
+              - paragraph [ref=e289]: Smoke Grenades are pulled from sale after cheaters abused them, general chat is limited to players who rent a plot in a settlement, and you can now change your name at the Prison.
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - heading "Guides" [level=2] [ref=e292]
+            - link "All guides →" [ref=e293] [cursor=pointer]:
+              - /url: /guides/
+          - generic [ref=e294]:
+            - 'link "Your first hour: Hobo to first plot What to do from the moment you wake up at Lenny’s Motel until you sign for your first plot, with the exact costs. 5 min read" [ref=e295] [cursor=pointer]':
+              - /url: /guides/first-hour/
+              - generic [ref=e296]: "Your first hour: Hobo to first plot"
+              - paragraph [ref=e297]: What to do from the moment you wake up at Lenny’s Motel until you sign for your first plot, with the exact costs.
+              - generic [ref=e298]: 5 min read
+            - link "Every way to make money, ranked by risk All five income paths in ROB RUN, what each one pays, what you risk, and where to sell for the biggest bonus. 6 min read" [ref=e299] [cursor=pointer]:
+              - /url: /guides/make-money/
+              - generic [ref=e300]: Every way to make money, ranked by risk
+              - paragraph [ref=e301]: All five income paths in ROB RUN, what each one pays, what you risk, and where to sell for the biggest bonus.
+              - generic [ref=e302]: 6 min read
+            - 'link "Bank vault, BIG EGG #53 and the Buletti How to build the barter tools for ROB RUN’s grand heists, what each one really costs, and what comes out of the vault. 6 min read" [ref=e303] [cursor=pointer]':
+              - /url: /guides/heists-bank-gallery-hotel/
+              - generic [ref=e304]: "Bank vault, BIG EGG #53 and the Buletti"
+              - paragraph [ref=e305]: How to build the barter tools for ROB RUN’s grand heists, what each one really costs, and what comes out of the vault.
+              - generic [ref=e306]: 6 min read
+            - 'link "Every key in ROB RUN and what it opens All Room Keys, Safe Keys, Keycards and ID Cards in Looty Bay: the door or safe each one opens, how you get it and what it sells for. 5 min read" [ref=e307] [cursor=pointer]':
+              - /url: /guides/keys/
+              - generic [ref=e308]: Every key in ROB RUN and what it opens
+              - paragraph [ref=e309]: "All Room Keys, Safe Keys, Keycards and ID Cards in Looty Bay: the door or safe each one opens, how you get it and what it sells for."
+              - generic [ref=e310]: 5 min read
+        - generic [ref=e311]:
+          - generic [ref=e312]:
+            - heading "Most valuable loot" [level=2] [ref=e313]
+            - link "Full ranking →" [ref=e314] [cursor=pointer]:
+              - /url: /items/valuables/?sort=sell.desc
+          - generic [ref=e315]:
+            - link "Buletti Soltempra Car Key · Exotic $4,000,000" [ref=e316] [cursor=pointer]:
+              - /url: /items/buletti-soltempra/
+              - generic [ref=e319]:
+                - generic [ref=e320]: Buletti Soltempra
+                - generic [ref=e321]: Car Key · Exotic
+                - generic [ref=e322]: $4,000,000
+            - link "Romanov R8 Helicopter Key · Exotic $4,000,000" [ref=e323] [cursor=pointer]:
+              - /url: /items/romanov-r8/
+              - generic [ref=e326]:
+                - generic [ref=e327]: Romanov R8
+                - generic [ref=e328]: Helicopter Key · Exotic
+                - generic [ref=e329]: $4,000,000
+            - link "Settlement Title Plot document · Legendary $2,400,000" [ref=e330] [cursor=pointer]:
+              - /url: /items/settlement-title/#legendary
+              - generic [ref=e333]:
+                - generic [ref=e334]: Settlement Title
+                - generic [ref=e335]: Plot document · Legendary
+                - generic [ref=e336]: $2,400,000
+            - link "Yacht Key For sale · Exotic $2,000,000" [ref=e337] [cursor=pointer]:
+              - /url: /items/loot-prices/#yacht-key
+              - generic [ref=e340]:
+                - generic [ref=e341]: Yacht Key
+                - generic [ref=e342]: For sale · Exotic
+                - generic [ref=e343]: $2,000,000
+            - link "Longhorn Wild Car Key · Legendary $1,800,000" [ref=e344] [cursor=pointer]:
+              - /url: /items/longhorn-wild/
+              - generic [ref=e347]:
+                - generic [ref=e348]: Longhorn Wild
+                - generic [ref=e349]: Car Key · Legendary
+                - generic [ref=e350]: $1,800,000
+            - link "Royal J Car Key · Legendary $1,600,000" [ref=e351] [cursor=pointer]:
+              - /url: /items/royal-j/
+              - generic [ref=e354]:
+                - generic [ref=e355]: Royal J
+                - generic [ref=e356]: Car Key · Legendary
+                - generic [ref=e357]: $1,600,000
+            - link "Lottery Ticket For sale · Exotic $1,000,000" [ref=e358] [cursor=pointer]:
+              - /url: /items/lottery-ticket/#exotic
+              - generic [ref=e361]:
+                - generic [ref=e362]: Lottery Ticket
+                - generic [ref=e363]: For sale · Exotic
+                - generic [ref=e364]: $1,000,000
+            - link "Land Plot Title Plot document · Legendary $800,000" [ref=e365] [cursor=pointer]:
+              - /url: /items/land-plot-title/#legendary
+              - generic [ref=e368]:
+                - generic [ref=e369]: Land Plot Title
+                - generic [ref=e370]: Plot document · Legendary
+                - generic [ref=e371]: $800,000
+          - paragraph [ref=e372]: Fence price at Notoriety level 1. Level 5 pays 50% more.
+      - contentinfo [ref=e373]:
+        - paragraph [ref=e374]: robrun.space is an unofficial fan-made site. It is not affiliated with, endorsed by or sponsored by KEFIR or the ROB RUN team. ROB RUN and all related names, images and game content are the property of their respective owners.
+        - navigation "Footer" [ref=e375]:
+          - link "About" [ref=e376] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e377] [cursor=pointer]:
+            - /url: /contact/
+          - link "Privacy" [ref=e378] [cursor=pointer]:
+            - /url: /privacy/
+          - link "Terms" [ref=e379] [cursor=pointer]:
+            - /url: /terms/
+          - link "Discord" [ref=e380] [cursor=pointer]:
+            - /url: https://discord.gg/eRRYCjjSVa
+          - link "YouTube" [ref=e381] [cursor=pointer]:
+            - /url: https://www.youtube.com/@robrun_space
+          - button "Cookie settings" [ref=e382] [cursor=pointer]
+        - paragraph [ref=e383]: © 2026 robrun.space
+  - alert [ref=e384]
+  - region "Cookie consent" [ref=e385]:
+    - generic [ref=e386]:
+      - generic [ref=e387]: Cookies on robrun.space
+      - paragraph [ref=e388]:
+        - text: We'd like to use Google Analytics and Microsoft Clarity to see which pages help players and what to fix. They set cookies, and Clarity records anonymised clicks and scrolls. Nothing loads unless you agree.
+        - link "Privacy Policy" [ref=e389] [cursor=pointer]:
+          - /url: /privacy/
+    - generic [ref=e390]:
+      - button "Reject all" [ref=e391] [cursor=pointer]
+      - button "Customize" [ref=e392] [cursor=pointer]
+      - button "Accept all" [ref=e393] [cursor=pointer]

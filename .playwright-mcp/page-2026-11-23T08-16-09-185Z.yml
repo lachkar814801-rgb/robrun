@@ -1,0 +1,309 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - complementary "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "robrun.space home" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "robrun.space logo" [ref=e7]
+          - generic [ref=e8]:
+            - text: Robrun.space
+            - generic [ref=e9]: Fan database
+        - button "Switch to dark mode" [ref=e11] [cursor=pointer]
+      - button "Search items, guides and FAQ" [ref=e14] [cursor=pointer]:
+        - generic [ref=e18]: Search the database
+        - generic [ref=e19]: Ctrl K
+      - 'link "ROB RUN server status: Checking…. Opens isrobrundown.com" [ref=e20] [cursor=pointer]':
+        - /url: https://isrobrundown.com/
+        - generic [ref=e22]:
+          - generic [ref=e23]: Server status
+          - generic [ref=e24]: Checking…
+      - navigation "Explore" [ref=e25]:
+        - button "Explore" [expanded] [ref=e26] [cursor=pointer]
+        - generic [ref=e31]:
+          - link "Home" [ref=e32] [cursor=pointer]:
+            - /url: /
+          - link "Interactive Map" [ref=e37] [cursor=pointer]:
+            - /url: /map/
+          - link "Questions & Answers 209" [ref=e41] [cursor=pointer]:
+            - /url: /faq/
+            - generic [ref=e45]: Questions & Answers
+            - generic [ref=e46]: "209"
+          - link "Guides 8" [ref=e47] [cursor=pointer]:
+            - /url: /guides/
+            - generic [ref=e50]: Guides
+            - generic [ref=e51]: "8"
+          - link "Updates 19" [ref=e52] [cursor=pointer]:
+            - /url: /updates/
+            - generic [ref=e56]: Updates
+            - generic [ref=e57]: "19"
+      - navigation "Catalog" [ref=e58]:
+        - button "Catalog" [expanded] [ref=e59] [cursor=pointer]
+        - generic [ref=e63]:
+          - link "All Items 533" [ref=e65] [cursor=pointer]:
+            - /url: /items/
+            - generic [ref=e71]: All Items
+            - generic [ref=e72]: "533"
+          - generic [ref=e73]:
+            - link "Weapons 50" [ref=e74] [cursor=pointer]:
+              - /url: /items/weapons/
+              - generic [ref=e77]: Weapons
+              - generic [ref=e78]: "50"
+            - link "Ammo 4" [ref=e79] [cursor=pointer]:
+              - /url: /items/ammo/
+              - generic [ref=e84]: Ammo
+              - generic [ref=e85]: "4"
+            - link "Gear 19" [ref=e86] [cursor=pointer]:
+              - /url: /items/gear/
+              - generic [ref=e91]: Gear
+              - generic [ref=e92]: "19"
+            - link "Keys & Tools 54" [ref=e93] [cursor=pointer]:
+              - /url: /items/keys-and-tools/
+              - generic [ref=e97]: Keys & Tools
+              - generic [ref=e98]: "54"
+            - link "Vehicles 25" [ref=e99] [cursor=pointer]:
+              - /url: /items/vehicles/
+              - generic [ref=e104]: Vehicles
+              - generic [ref=e105]: "25"
+            - link "Base & Plot 82" [ref=e106] [cursor=pointer]:
+              - /url: /items/base-and-plot/
+              - generic [ref=e110]: Base & Plot
+              - generic [ref=e111]: "82"
+            - link "Valuables 251" [ref=e112] [cursor=pointer]:
+              - /url: /items/valuables/
+              - generic [ref=e116]: Valuables
+              - generic [ref=e117]: "251"
+            - link "Contraband 48" [ref=e118] [cursor=pointer]:
+              - /url: /items/contraband/
+              - generic [ref=e122]: Contraband
+              - generic [ref=e123]: "48"
+          - generic [ref=e124]:
+            - link "Collections 34" [ref=e125] [cursor=pointer]:
+              - /url: /collections/
+              - generic [ref=e130]: Collections
+              - generic [ref=e131]: "34"
+            - link "Locations 28" [ref=e132] [cursor=pointer]:
+              - /url: /locations/looty-bay/
+              - generic [ref=e136]: Locations
+              - generic [ref=e137]: "28"
+            - link "Mechanics 15" [ref=e138] [cursor=pointer]:
+              - /url: /mechanics/
+              - generic [ref=e150]: Mechanics
+              - generic [ref=e151]: "15"
+      - generic [ref=e152]:
+        - navigation "Legal" [ref=e153]:
+          - link "About" [ref=e154] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e155] [cursor=pointer]:
+            - /url: /contact/
+          - link "Privacy" [ref=e156] [cursor=pointer]:
+            - /url: /privacy/
+          - link "Terms" [ref=e157] [cursor=pointer]:
+            - /url: /terms/
+          - button "Cookies" [ref=e158] [cursor=pointer]
+          - link "Discord" [ref=e159] [cursor=pointer]:
+            - /url: https://discord.gg/eRRYCjjSVa
+        - paragraph [ref=e160]: Unofficial fan site. Not affiliated with KEFIR or the ROB RUN team.
+    - generic [ref=e161]:
+      - main [ref=e162]:
+        - navigation "Breadcrumb" [ref=e163]:
+          - link "Home" [ref=e164] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e165]:
+            - generic [aria-hidden] [ref=e166]: /
+            - generic [ref=e167]: Privacy and Cookie Policy
+        - generic [ref=e168]:
+          - heading "Privacy and Cookie Policy" [level=1] [ref=e169]
+          - paragraph [ref=e170]: We collect as little as possible. There are no accounts, no comments, no ads and no newsletter. Analytics only run if you say yes.
+          - generic [ref=e171]:
+            - generic [ref=e172]: Effective 15 November 2026
+            - generic [ref=e173]: Last updated 15 November 2026
+            - generic [ref=e174]: Version 1
+        - article [ref=e175]:
+          - heading "1. Who we are" [level=2] [ref=e176]
+          - paragraph [ref=e177]:
+            - text: This policy covers the website robrun.space (“the Site”, “we”, “us”). For any privacy question or request, email
+            - link "support@robrun.space" [ref=e178] [cursor=pointer]:
+              - /url: mailto:support@robrun.space
+            - text: .
+          - paragraph [ref=e179]: robrun.space is an unofficial fan site and is not affiliated with KEFIR. This policy covers only robrun.space, not the ROB RUN game, Steam or KEFIR's services, which have their own policies.
+          - heading "2. What we process and why" [level=2] [ref=e180]
+          - table [ref=e182]:
+            - rowgroup [ref=e183]:
+              - row [ref=e184]:
+                - columnheader "Data" [ref=e185]
+                - columnheader "When" [ref=e186]
+                - columnheader "Why" [ref=e187]
+                - columnheader "Legal basis" [ref=e188]
+                - columnheader "Kept for" [ref=e189]
+            - rowgroup [ref=e190]:
+              - row [ref=e191]:
+                - 'cell "Technical request data: IP address, browser user agent, page requested, time, referrer" [ref=e192]'
+                - cell "Every visit, handled by our hosting provider" [ref=e193]
+                - cell "Deliver the Site, keep it secure, stop abuse and attacks" [ref=e194]
+                - cell "Legitimate interests (running a secure website)" [ref=e195]
+                - cell "Short-term security logs" [ref=e196]
+              - row [ref=e197]:
+                - 'cell "Usage analytics (Google Analytics 4): pages viewed, events such as searches, FAQ opens and tool use; device, browser and screen size; approximate location (country/region/city, derived from IP, which Google Analytics does not store); referrer; a random ID in a cookie" [ref=e198]'
+                - cell "Only if you consent" [ref=e199]
+                - cell "See which pages and tools help players and what to improve" [ref=e200]
+                - cell "Consent" [ref=e201]
+                - cell "14 months" [ref=e202]
+              - row [ref=e203]:
+                - 'cell "Session insights (Microsoft Clarity): clicks, scrolls, mouse movement and page layout used for heatmaps and session replays; device and browser data; a random ID in a cookie. Typed text is masked." [ref=e204]'
+                - cell "Only if you consent" [ref=e205]
+                - cell "Find broken layouts, confusing pages and bugs" [ref=e206]
+                - cell "Consent" [ref=e207]
+                - cell "Replays about 30 days; aggregated heatmaps up to about 13 months" [ref=e208]
+              - row [ref=e209]:
+                - 'cell "Emails you send us: address, name if given, message, attachments" [ref=e210]'
+                - cell "When you contact support@robrun.space" [ref=e211]
+                - cell "Answer you and fix errors you report" [ref=e212]
+                - cell "Legitimate interests" [ref=e213]
+                - cell "Up to 24 months after the conversation ends" [ref=e214]
+              - row [ref=e215]:
+                - 'cell "On-device preferences: cookie choice, theme, recent searches, compare list" [ref=e216]'
+                - cell "Stored in your own browser" [ref=e217]
+                - cell "Make the Site work the way you set it" [ref=e218]
+                - cell "Strictly necessary" [ref=e219]
+                - 'cell "Until you clear it (consent cookie: 12 months)" [ref=e220]'
+          - paragraph [ref=e221]:
+            - text: We do
+            - strong [ref=e222]: not
+            - text: sell personal data, use it for advertising, build advertising profiles, enable Google Signals or ad personalisation, or link analytics to your identity.
+          - heading "3. Cookies" [level=2] [ref=e223]
+          - paragraph [ref=e224]:
+            - text: Analytics cookies are set only after you choose “Accept all” or switch them on in “Customize”. You can change your choice at any time in
+            - button "Cookie settings" [ref=e225] [cursor=pointer]
+            - text: .
+          - table [ref=e227]:
+            - rowgroup [ref=e228]:
+              - row [ref=e229]:
+                - columnheader "Name" [ref=e230]
+                - columnheader "Set by" [ref=e231]
+                - columnheader "Purpose" [ref=e232]
+                - columnheader "Type" [ref=e233]
+                - columnheader "Duration" [ref=e234]
+            - rowgroup [ref=e235]:
+              - row [ref=e236]:
+                - cell [ref=e237]:
+                  - code [ref=e238]: rrs_consent
+                - cell "robrun.space" [ref=e239]
+                - cell "Remembers your cookie choice" [ref=e240]
+                - cell "Strictly necessary" [ref=e241]
+                - cell "12 months" [ref=e242]
+              - row [ref=e243]:
+                - cell [ref=e244]:
+                  - code [ref=e245]: rrs_*
+                - cell "robrun.space (localStorage)" [ref=e246]
+                - cell "Theme, recent searches, compare list, a page count and whether you closed the Discord card" [ref=e247]
+                - cell "Strictly necessary, stays on your device" [ref=e248]
+                - cell "Until cleared" [ref=e249]
+              - row [ref=e250]:
+                - cell [ref=e251]:
+                  - code [ref=e252]: _ga
+                - cell "Google Analytics" [ref=e253]
+                - cell "Tells visitors apart with a random ID" [ref=e254]
+                - cell "Analytics (consent)" [ref=e255]
+                - cell "2 years" [ref=e256]
+              - row [ref=e257]:
+                - cell [ref=e258]:
+                  - code [ref=e259]: _ga_<id>
+                - cell "Google Analytics" [ref=e260]
+                - cell "Keeps session state" [ref=e261]
+                - cell "Analytics (consent)" [ref=e262]
+                - cell "2 years" [ref=e263]
+              - row [ref=e264]:
+                - cell [ref=e265]:
+                  - code [ref=e266]: _clck
+                - cell "Microsoft Clarity" [ref=e267]
+                - cell "Keeps the Clarity user ID and preferences" [ref=e268]
+                - cell "Analytics (consent)" [ref=e269]
+                - cell "1 year" [ref=e270]
+              - row [ref=e271]:
+                - cell [ref=e272]:
+                  - code [ref=e273]: _clsk
+                - cell "Microsoft Clarity" [ref=e274]
+                - cell "Joins page views into one session" [ref=e275]
+                - cell "Analytics (consent)" [ref=e276]
+                - cell "1 day" [ref=e277]
+              - row [ref=e278]:
+                - cell [ref=e279]:
+                  - code [ref=e280]: CLID, MUID, ANONCHK, SM, MR
+                - cell "Microsoft" [ref=e281]
+                - cell "Recognise the same browser across Clarity sessions" [ref=e282]
+                - cell "Analytics (consent)" [ref=e283]
+                - cell "Session to 1 year" [ref=e284]
+          - paragraph [ref=e285]: Providers set these names and durations and can change them. See Google's and Microsoft's documentation for the current list.
+          - paragraph [ref=e286]:
+            - strong [ref=e287]: "Global Privacy Control:"
+            - text: if your browser sends a GPC signal, we treat it as “Reject all” and don't load analytics.
+          - heading "4. Who receives data" [level=2] [ref=e288]
+          - list [ref=e289]:
+            - listitem [ref=e290]:
+              - strong [ref=e291]: Hosting and CDN provider
+              - text: ": serves the Site and protects it from attacks."
+            - listitem [ref=e292]:
+              - strong [ref=e293]: Google
+              - text: (Google Ireland Ltd / Google LLC), for Google Analytics 4, only with your consent.
+            - listitem [ref=e294]:
+              - strong [ref=e295]: Microsoft Corporation
+              - text: ", for Microsoft Clarity, only with your consent."
+            - listitem [ref=e296]:
+              - strong [ref=e297]: Our email provider
+              - text: ", which hosts the support@robrun.space mailbox."
+          - paragraph [ref=e298]: Some providers process data in the United States. Where required, transfers rely on the EU–US Data Privacy Framework (and its UK and Swiss extensions) and/or the European Commission's Standard Contractual Clauses. We may also disclose data if the law requires it, or to protect the Site and its visitors from fraud or abuse.
+          - heading "5. Your rights" [level=2] [ref=e299]
+          - paragraph [ref=e300]: "Depending on where you live (for example under the GDPR, UK GDPR or Swiss law), you can:"
+          - list [ref=e301]:
+            - listitem [ref=e302]: access the personal data we hold about you and get a copy;
+            - listitem [ref=e303]: have inaccurate data corrected;
+            - listitem [ref=e304]: have your data deleted;
+            - listitem [ref=e305]: restrict or object to processing based on legitimate interests;
+            - listitem [ref=e306]: receive your data in a portable format;
+            - listitem [ref=e307]:
+              - text: withdraw consent at any time, as easily as you gave it, in
+              - button "Cookie settings" [ref=e308] [cursor=pointer]
+              - text: . Withdrawing doesn't affect processing that already happened.
+            - listitem [ref=e309]: complain to your local data protection authority.
+          - paragraph [ref=e310]:
+            - strong [ref=e311]: "California and other US states:"
+            - text: we do not sell or “share” personal information for cross-context behavioural advertising and do not use sensitive personal information. You can still ask what we hold and ask us to delete it.
+          - paragraph [ref=e312]:
+            - text: To use any right, email
+            - link "support@robrun.space" [ref=e313] [cursor=pointer]:
+              - /url: mailto:support@robrun.space
+            - text: . Analytics data is tied to a random cookie ID, not your name, so the quickest option is often to clear your cookies and reject analytics. We reply within one month.
+          - heading "6. Children" [level=2] [ref=e314]
+          - paragraph [ref=e315]: The Site is not aimed at children under 13 (or under 16 where local law sets a higher age for consenting to online services), and we don't knowingly collect their data. ROB RUN itself contains mature content. If you think a child has sent us personal data, contact us and we'll delete it.
+          - heading "7. Security" [level=2] [ref=e316]
+          - paragraph [ref=e317]: The Site is served only over HTTPS with modern security headers. Access to analytics and email accounts is limited and protected with two-factor authentication. No system is perfectly secure, but we take reasonable steps to protect data.
+          - heading "8. Changes" [level=2] [ref=e318]
+          - paragraph [ref=e319]: We'll update this policy if our practices change, for example if we add a contact form, accounts or comments. The date and version at the top will change. For material changes we'll show a notice and ask for consent again where needed.
+          - heading "9. Contact" [level=2] [ref=e320]
+          - paragraph [ref=e321]:
+            - link "support@robrun.space" [ref=e322] [cursor=pointer]:
+              - /url: mailto:support@robrun.space
+            - text: . See also our
+            - link "Terms of Service" [ref=e323] [cursor=pointer]:
+              - /url: /terms/
+            - text: .
+      - contentinfo [ref=e324]:
+        - paragraph [ref=e325]: robrun.space is an unofficial fan-made site. It is not affiliated with, endorsed by or sponsored by KEFIR or the ROB RUN team. ROB RUN and all related names, images and game content are the property of their respective owners.
+        - navigation "Footer" [ref=e326]:
+          - link "About" [ref=e327] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e328] [cursor=pointer]:
+            - /url: /contact/
+          - link "Privacy" [ref=e329] [cursor=pointer]:
+            - /url: /privacy/
+          - link "Terms" [ref=e330] [cursor=pointer]:
+            - /url: /terms/
+          - link "Discord" [ref=e331] [cursor=pointer]:
+            - /url: https://discord.gg/eRRYCjjSVa
+          - link "YouTube" [ref=e332] [cursor=pointer]:
+            - /url: https://www.youtube.com/@robrun_space
+          - button "Cookie settings" [ref=e333] [cursor=pointer]
+        - paragraph [ref=e334]: © 2026 robrun.space
+  - alert [ref=e335]

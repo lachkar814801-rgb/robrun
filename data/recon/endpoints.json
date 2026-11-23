@@ -1,0 +1,89 @@
+{
+  "note": "Endpoints JSON découverts via capture réseau Playwright + lecture directe. robrun.space n'a PAS d'endpoint JSON de données de jeu (RSC uniquement). everygamestat.com est le seul site avec des endpoints JSON de données de jeu complètes.",
+  "endpoints": [
+    {
+      "site": "everygamestat.com",
+      "url": "https://everygamestat.com/art/robrun/items.json",
+      "method": "GET",
+      "status": 200,
+      "description": "Catalogue complet des items (547 items): id, slug, nom, catégorie, rareté, prix sell/buy, fence prices, stats détaillées (dégâts, cadence, chargeur, portée, recharge, visée, tir, munitions, dégâts par intervalle, spread, obtention), images. 320 KB.",
+      "example_truncated": "{\"id\":\"apscalar_m1\",\"s\":\"ap-scalar-mk1\",\"n\":\"AP Scalar Mk1\",\"g\":\"weapons\",\"t\":\"Submachine Gun\",\"r\":5,\"img\":\"apscalar_m1\",\"sell\":46000,\"buy\":115000,...}"
+    },
+    {
+      "site": "everygamestat.com",
+      "url": "https://everygamestat.com/art/robrun/robrun.json",
+      "method": "GET",
+      "status": 200,
+      "description": "Codex complet du jeu (build 0.7.0.4008): rôles (Civil/Police/Criminal), notoriété, roadmap, texte réécrit, images du codex, ET données de carte (clé 'map': image de fond 2048x1678, 4 districts, catégories, 40 pins avec [type, x, y] en %). 110 KB.",
+      "example_truncated": "{\"game\":\"ROB RUN\",\"developer\":\"Kefir\",\"steamAppId\":4262460,\"build\":\"0.7.0.4008\",\"readOn\":\"2026-11-06\",...,\"map\":{\"image\":\"map-looty-bay-hq.webp\",\"w\":2048,\"h\":1678,\"districts\":[...],\"pins\":[[\"safe\",16.67,70.83],...]}}"
+    },
+    {
+      "site": "everygamestat.com",
+      "url": "https://wcsgosrevyyafnerrhge.supabase.co/rest/v1/leaderboard_public?select=slug,name,avatar,hours&order=hours.desc&limit=10",
+      "method": "GET",
+      "status": 200,
+      "description": "Backend Supabase du site everygamestat (NON lié aux données ROB RUN - à ne pas utiliser).",
+      "example_truncated": "non capturé"
+    },
+    {
+      "site": "robrun.space",
+      "url": "https://isrobrundown.com/api/widget",
+      "method": "GET",
+      "status": 200,
+      "description": "Widget de statut serveur, non lié aux données de jeu.",
+      "example_truncated": "non capturé"
+    },
+    {
+      "site": "robrunwiki.com",
+      "url": "https://robrunwiki.com/api/online",
+      "method": "GET",
+      "status": 200,
+      "description": "Nombre de joueurs en ligne.",
+      "example_truncated": "non capturé"
+    },
+    {
+      "site": "robrun.pro",
+      "url": "https://robrun.pro/api/auth/me",
+      "method": "GET",
+      "status": 200,
+      "description": "Authentification utilisateur du site.",
+      "example_truncated": "non capturé"
+    },
+    {
+      "site": "robrun.pro",
+      "url": "https://robrun.pro/api/track",
+      "method": "POST",
+      "status": 204,
+      "description": "Tracking analytique.",
+      "example_truncated": "non capturé"
+    },
+    {
+      "site": "rob-run.app",
+      "url": "https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=4262460&format=jsonp",
+      "method": "GET",
+      "status": 200,
+      "description": "Nombre de joueurs Steam (API Steam officielle, pas de données de jeu).",
+      "example_truncated": "non capturé"
+    },
+    {
+      "site": "robrunguide.app",
+      "url": "https://robrunguide.app/api/steam-players",
+      "method": "GET",
+      "status": 200,
+      "description": "Nombre de joueurs Steam via le site.",
+      "example_truncated": "non capturé"
+    }
+  ],
+  "sites_without_json_api": [
+    "robrun.space",
+    "rob-run.app",
+    "robrun-wiki.wiki",
+    "robrunwiki.com",
+    "robrunfrance.fr",
+    "robrunguide.app",
+    "rob-run.com",
+    "robrun.pro"
+  ],
+  "note_on_rsc": "robrun.space utilise React Server Components (_rsc param). Les requêtes RSC ne sont pas des endpoints JSON exploitables pour l'import de données. Les données d'items sont rendues côté serveur dans le HTML.",
+  "note_on_everygamestat": "everygamestat.com items.json est la MEILLEURE source de données structurées (JSON complet). Contient aussi une clé 'map' avec 40 pins coordonnés et une image de fond 2048x1678."
+}

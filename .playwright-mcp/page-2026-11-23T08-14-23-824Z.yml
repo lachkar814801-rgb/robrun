@@ -1,0 +1,319 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Aller au contenu" [ref=e3] [cursor=pointer]:
+      - /url: "#conteudo"
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "Rob Run Guide — accueil" [ref=e6] [cursor=pointer]:
+          - /url: /fr
+          - generic [ref=e7]: Rob Run Guide
+        - link "171 644 en jeu" [ref=e237] [cursor=pointer]:
+          - /url: https://steamdb.info/app/4262460/charts/
+      - search [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: Rechercher un objet
+          - generic [ref=e14]:
+            - searchbox "Rechercher un objet" [ref=e15]
+            - button "Rechercher" [ref=e16] [cursor=pointer]
+      - navigation "Navigation principale" [ref=e20]:
+        - generic [ref=e21]:
+          - heading "Sections" [level=2] [ref=e22]
+          - list "Sections" [ref=e23]:
+            - listitem [ref=e24]:
+              - link "Accueil" [ref=e25] [cursor=pointer]:
+                - /url: /fr
+            - listitem [ref=e29]:
+              - link "Objets , 550 objets" [ref=e30] [cursor=pointer]:
+                - /url: /fr/items
+                - generic [ref=e33]: Objets
+                - generic [ref=e34]:
+                  - text: "550"
+                  - generic [ref=e35]: ", 550 objets"
+            - listitem [ref=e36]:
+              - link "Production , 40 productions" [ref=e37] [cursor=pointer]:
+                - /url: /fr/production
+                - generic [ref=e40]: Production
+                - generic [ref=e41]:
+                  - text: "40"
+                  - generic [ref=e42]: ", 40 productions"
+            - listitem [ref=e43]:
+              - link "Propriétés , 29 entrées" [ref=e44] [cursor=pointer]:
+                - /url: /fr/properties
+                - generic [ref=e47]: Propriétés
+                - generic [ref=e48]:
+                  - text: "29"
+                  - generic [ref=e49]: ", 29 entrées"
+            - listitem [ref=e50]:
+              - link "Livraisons , 172 livraisons" [ref=e51] [cursor=pointer]:
+                - /url: /fr/shipments
+                - generic [ref=e54]: Livraisons
+                - generic [ref=e55]:
+                  - text: "172"
+                  - generic [ref=e56]: ", 172 livraisons"
+            - listitem [ref=e57]:
+              - link "Guides , 7 guides pratiques" [ref=e58] [cursor=pointer]:
+                - /url: /fr/guides
+                - generic [ref=e61]: Guides
+                - generic [ref=e62]:
+                  - text: "7"
+                  - generic [ref=e63]: ", 7 guides pratiques"
+            - listitem [ref=e64]:
+              - link "Carte , 560 lieux à Rocky Valley" [ref=e65] [cursor=pointer]:
+                - /url: /fr/map
+                - generic [ref=e68]: Carte
+                - generic [ref=e69]:
+                  - text: "560"
+                  - generic [ref=e70]: ", 560 lieux à Rocky Valley"
+                - generic [aria-hidden] [ref=e71]: Vous êtes ici
+        - generic [ref=e72]:
+          - heading "Catalogue" [level=2] [ref=e73]
+          - list "Catalogue" [ref=e74]:
+            - listitem [ref=e75]:
+              - link "Armes , 50 objets" [ref=e76] [cursor=pointer]:
+                - /url: /fr/items?category=weapons
+                - generic [ref=e77]: Armes
+                - generic [ref=e78]:
+                  - text: "50"
+                  - generic [ref=e79]: ", 50 objets"
+            - listitem [ref=e80]:
+              - link "Équipements , 49 objets" [ref=e81] [cursor=pointer]:
+                - /url: /fr/items?category=equipment
+                - generic [ref=e82]: Équipements
+                - generic [ref=e83]:
+                  - text: "49"
+                  - generic [ref=e84]: ", 49 objets"
+            - listitem [ref=e85]:
+              - link "Objets de valeur , 125 objets" [ref=e86] [cursor=pointer]:
+                - /url: /fr/items?category=valuables
+                - generic [ref=e87]: Objets de valeur
+                - generic [ref=e88]:
+                  - text: "125"
+                  - generic [ref=e89]: ", 125 objets"
+            - listitem [ref=e90]:
+              - link "Électronique , 48 objets" [ref=e91] [cursor=pointer]:
+                - /url: /fr/items?category=electronics
+                - generic [ref=e92]: Électronique
+                - generic [ref=e93]:
+                  - text: "48"
+                  - generic [ref=e94]: ", 48 objets"
+            - listitem [ref=e95]:
+              - link "Fournitures , 48 objets" [ref=e96] [cursor=pointer]:
+                - /url: /fr/items?category=supplies
+                - generic [ref=e97]: Fournitures
+                - generic [ref=e98]:
+                  - text: "48"
+                  - generic [ref=e99]: ", 48 objets"
+            - listitem [ref=e100]:
+              - link "Contrebande , 51 objets" [ref=e101] [cursor=pointer]:
+                - /url: /fr/items?category=contraband
+                - generic [ref=e102]: Contrebande
+                - generic [ref=e103]:
+                  - text: "51"
+                  - generic [ref=e104]: ", 51 objets"
+            - listitem [ref=e105]:
+              - link "Clés et accès , 48 objets" [ref=e106] [cursor=pointer]:
+                - /url: /fr/items?category=keys
+                - generic [ref=e107]: Clés et accès
+                - generic [ref=e108]:
+                  - text: "48"
+                  - generic [ref=e109]: ", 48 objets"
+            - listitem [ref=e110]:
+              - link "Véhicules et pièces , 49 objets" [ref=e111] [cursor=pointer]:
+                - /url: /fr/items?category=vehicles
+                - generic [ref=e112]: Véhicules et pièces
+                - generic [ref=e113]:
+                  - text: "49"
+                  - generic [ref=e114]: ", 49 objets"
+            - listitem [ref=e115]:
+              - link "Base et construction , 71 objets" [ref=e116] [cursor=pointer]:
+                - /url: /fr/items?category=base
+                - generic [ref=e117]: Base et construction
+                - generic [ref=e118]:
+                  - text: "71"
+                  - generic [ref=e119]: ", 71 objets"
+            - listitem [ref=e120]:
+              - link "Autres objets , 11 objets" [ref=e121] [cursor=pointer]:
+                - /url: /fr/items?category=other
+                - generic [ref=e122]: Autres objets
+                - generic [ref=e123]:
+                  - text: "11"
+                  - generic [ref=e124]: ", 11 objets"
+        - generic [ref=e125]:
+          - heading "Outils" [level=2] [ref=e126]
+          - list "Outils" [ref=e127]:
+            - listitem [ref=e128]:
+              - link "Comparer les objets , 58 objets comparables" [ref=e129] [cursor=pointer]:
+                - /url: /fr/compare
+                - generic [ref=e130]: Comparer les objets
+                - generic [ref=e131]:
+                  - text: "58"
+                  - generic [ref=e132]: ", 58 objets comparables"
+            - listitem [ref=e133]:
+              - link "Comparer les véhicules , 11 véhicules" [ref=e134] [cursor=pointer]:
+                - /url: /fr/vehicles
+                - generic [ref=e135]: Comparer les véhicules
+                - generic [ref=e136]:
+                  - text: "11"
+                  - generic [ref=e137]: ", 11 véhicules"
+            - listitem [ref=e138]:
+              - link "Questions fréquentes , 42 articles" [ref=e139] [cursor=pointer]:
+                - /url: /fr/faq
+                - generic [ref=e140]: Questions fréquentes
+                - generic [ref=e141]:
+                  - text: "42"
+                  - generic [ref=e142]: ", 42 articles"
+            - listitem [ref=e143]:
+              - link "Conseils des PNJ , 58 conseils" [ref=e144] [cursor=pointer]:
+                - /url: /fr/npc-tips
+                - generic [ref=e145]: Conseils des PNJ
+                - generic [ref=e146]:
+                  - text: "58"
+                  - generic [ref=e147]: ", 58 conseils"
+    - main [ref=e148]:
+      - region "Carte de Rocky Valley" [ref=e149]:
+        - generic [ref=e152]:
+          - generic "Terrain 3D de Rocky Valley. Faites glisser pour vous déplacer et utilisez la molette pour zoomer." [ref=e238]
+          - generic:
+            - button "Rustvale, niveau 1" [ref=e239] [cursor=pointer]:
+              - generic [ref=e240]: Rustvale
+              - generic [ref=e241]: Quartier de niveau 1
+            - button "Usine d'armes, Rustvale" [ref=e242] [cursor=pointer]:
+              - generic [ref=e243]: Usine d'armes
+            - button "Fairfield, niveau 1" [ref=e244] [cursor=pointer]:
+              - generic [ref=e245]: Fairfield
+              - generic [ref=e246]: Quartier de niveau 1
+            - button "Bunker, Fairfield" [ref=e247] [cursor=pointer]:
+              - generic [ref=e248]: Bunker
+            - button "Usine d'équipement, Fairfield" [ref=e249] [cursor=pointer]:
+              - generic [ref=e250]: Usine d'équipement
+            - button "Dustbowl, niveau 1" [ref=e251] [cursor=pointer]:
+              - generic [ref=e252]: Dustbowl
+              - generic [ref=e253]: Quartier de niveau 1
+            - button "Bunker, Dustbowl" [ref=e254] [cursor=pointer]:
+              - generic [ref=e255]: Bunker
+            - button "Usine d'équipement, Dustbowl" [ref=e256] [cursor=pointer]:
+              - generic [ref=e257]: Usine d'équipement
+            - button "Usine d'armes, Dustbowl" [ref=e258] [cursor=pointer]:
+              - generic [ref=e259]: Usine d'armes
+            - button "Redstone, niveau 1" [ref=e260] [cursor=pointer]:
+              - generic [ref=e261]: Redstone
+              - generic [ref=e262]: Quartier de niveau 1
+            - button "Usine d'armes, Redstone" [ref=e263] [cursor=pointer]:
+              - generic [ref=e264]: Usine d'armes
+            - button "Loneford, niveau 1" [ref=e265] [cursor=pointer]:
+              - generic [ref=e266]: Loneford
+              - generic [ref=e267]: Quartier de niveau 1
+            - button "Usine d'équipement, Loneford" [ref=e268] [cursor=pointer]:
+              - generic [ref=e269]: Usine d'équipement
+            - button "Bunker, Loneford" [ref=e270] [cursor=pointer]:
+              - generic [ref=e271]: Bunker
+            - button "Cascadas, niveau 1" [ref=e272] [cursor=pointer]:
+              - generic [ref=e273]: Cascadas
+              - generic [ref=e274]: Quartier de niveau 1
+            - button "Usine d'équipement, Cascadas" [ref=e275] [cursor=pointer]:
+              - generic [ref=e276]: Usine d'équipement
+            - button "Usine d'armes, Cascadas" [ref=e277] [cursor=pointer]:
+              - generic [ref=e278]: Usine d'armes
+            - button "Fallrock, niveau 2" [ref=e279] [cursor=pointer]:
+              - generic [ref=e280]: Fallrock
+              - generic [ref=e281]: Quartier de niveau 2
+            - button "Usine d'armes, Fallrock" [ref=e282] [cursor=pointer]:
+              - generic [ref=e283]: Usine d'armes
+            - button "Usine d'équipement, Fallrock" [ref=e284] [cursor=pointer]:
+              - generic [ref=e285]: Usine d'équipement
+            - button "Poste de contrôle abandonné, Fallrock" [ref=e286] [cursor=pointer]:
+              - generic [ref=e287]: Poste de contrôle abandonné
+            - button "Bunker, Fallrock" [ref=e288] [cursor=pointer]:
+              - generic [ref=e289]: Bunker
+            - button "Rivertown, niveau 2" [ref=e290] [cursor=pointer]:
+              - generic [ref=e291]: Rivertown
+              - generic [ref=e292]: Quartier de niveau 2
+            - button "Réservoir d'eau, Rivertown" [ref=e293] [cursor=pointer]:
+              - generic [ref=e294]: Réservoir d'eau
+            - button "Bunker, Rivertown" [ref=e295] [cursor=pointer]:
+              - generic [ref=e296]: Bunker
+            - button "Laboratoire, Rivertown" [ref=e297] [cursor=pointer]:
+              - generic [ref=e298]: Laboratoire
+            - button "El Peso, niveau 2" [ref=e299] [cursor=pointer]:
+              - generic [ref=e300]: El Peso
+              - generic [ref=e301]: Quartier de niveau 2
+            - button "Usine d'armes, El Peso" [ref=e302] [cursor=pointer]:
+              - generic [ref=e303]: Usine d'armes
+            - button "Laboratoire, El Peso" [ref=e304] [cursor=pointer]:
+              - generic [ref=e305]: Laboratoire
+            - button "Poste de contrôle abandonné, El Peso" [ref=e306] [cursor=pointer]:
+              - generic [ref=e307]: Poste de contrôle abandonné
+            - button "Hautes-terres, niveau 3" [ref=e308] [cursor=pointer]:
+              - generic [ref=e309]: Hautes-terres
+              - generic [ref=e310]: Quartier de niveau 3
+            - button "Poste de contrôle abandonné, Hautes-terres" [ref=e311] [cursor=pointer]:
+              - generic [ref=e312]: Poste de contrôle abandonné
+            - button "Laboratoire, Hautes-terres" [ref=e313] [cursor=pointer]:
+              - generic [ref=e314]: Laboratoire
+            - button "Marché noir, Hautes-terres" [ref=e315] [cursor=pointer]:
+              - generic [ref=e316]: Marché noir
+            - button "Usine d'armes, Hautes-terres" [ref=e317] [cursor=pointer]:
+              - generic [ref=e318]: Usine d'armes
+            - button "Réservoir d'eau, Hautes-terres" [ref=e319] [cursor=pointer]:
+              - generic [ref=e320]: Réservoir d'eau
+            - button "Bunker, Hautes-terres" [ref=e321] [cursor=pointer]:
+              - generic [ref=e322]: Bunker
+            - button "Motel de Lenny" [ref=e323] [cursor=pointer]
+            - button "Prison" [ref=e326] [cursor=pointer]
+            - button "Looty Bay" [ref=e328] [cursor=pointer]
+        - generic:
+          - heading "Rocky Valley" [level=1] [ref=e161]
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - generic [ref=e168]: Rechercher un quartier, un lieu ou une colonie
+                - searchbox "Rechercher un quartier, un lieu ou une colonie" [ref=e169]
+              - button "Explorer les quartiers et les lieux" [ref=e170] [cursor=pointer]
+            - group [ref=e173]:
+              - generic "Couches de la carte" [ref=e174] [cursor=pointer]
+        - button "Ouvrir la carte en plein écran" [ref=e182] [cursor=pointer]
+        - group "Navigation sur la carte" [ref=e192]:
+          - button "Agrandir la carte" [ref=e193] [cursor=pointer]
+          - button "Réduire la carte" [ref=e195] [cursor=pointer]
+          - button "Afficher toute la carte" [ref=e197] [cursor=pointer]
+        - generic:
+          - navigation "Lieux spéciaux" [ref=e200]:
+            - button "Centre de vente" [ref=e202] [cursor=pointer]
+            - link "Motel de Lenny" [ref=e206] [cursor=pointer]:
+              - /url: /fr/map/lennys-motel
+            - link "Prison" [ref=e208] [cursor=pointer]:
+              - /url: /fr/map/prison
+            - link "Looty Bay" [ref=e210] [cursor=pointer]:
+              - /url: /fr/map/looty-bay
+          - paragraph: Faites glisser pour explorer · Faites défiler pour zoomer
+    - contentinfo [ref=e212]:
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - paragraph [ref=e215]: Rob Run Guide
+          - paragraph [ref=e216]: Guide communautaire réalisé par des fans, sans lien avec le studio de ROB RUN.
+        - generic [ref=e217]:
+          - generic [ref=e218]: Langue
+          - combobox "Langue Français" [ref=e219] [cursor=pointer]:
+            - generic [ref=e225]: Français
+          - textbox [aria-hidden] [ref=e229]: fr
+        - generic [ref=e230]:
+          - generic [ref=e231]:
+            - link "À propos du guide" [ref=e232] [cursor=pointer]:
+              - /url: /fr/about
+            - link "Contact et corrections" [ref=e233] [cursor=pointer]:
+              - /url: /fr/about#contato
+            - link "Politique de confidentialité" [ref=e234] [cursor=pointer]:
+              - /url: /fr/privacy
+            - button "Préférences de confidentialité" [ref=e331] [cursor=pointer]
+          - paragraph [ref=e235]: © 2026 Rob Run Guide
+  - alert [ref=e236]
+  - region "Préférences de confidentialité" [ref=e332]:
+    - generic [ref=e333]:
+      - generic [ref=e334]:
+        - heading "Aidez-nous à améliorer le guide" [level=2] [ref=e335]
+        - paragraph [ref=e336]: Avec votre autorisation, nous utilisons des cookies et d’autres technologies de suivi pour améliorer votre navigation en comprenant quelles pages et fonctionnalités sont les plus utiles.
+        - link "En savoir plus" [ref=e337] [cursor=pointer]:
+          - /url: /fr/privacy
+      - generic [ref=e338]:
+        - button "Refuser" [ref=e339] [cursor=pointer]
+        - button "Accepter" [ref=e340] [cursor=pointer]

@@ -1,0 +1,338 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - complementary "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "robrun.space home" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "robrun.space logo" [ref=e7]
+          - generic [ref=e8]:
+            - text: Robrun.space
+            - generic [ref=e9]: Fan database
+        - button "Switch to dark mode" [ref=e11] [cursor=pointer]
+      - button "Search items, guides and FAQ" [ref=e14] [cursor=pointer]:
+        - generic [ref=e18]: Search the database
+        - generic [ref=e19]: Ctrl K
+      - 'link "ROB RUN server status: No problems, 0 reports in the last hour. Opens isrobrundown.com" [ref=e20] [cursor=pointer]':
+        - /url: https://isrobrundown.com/
+        - generic [ref=e22]:
+          - generic [ref=e23]: Server status
+          - generic [ref=e24]: No problems
+        - generic [ref=e25]:
+          - generic [ref=e26]: "0"
+          - generic [ref=e27]: reports/h
+      - navigation "Explore" [ref=e28]:
+        - button "Explore" [expanded] [ref=e29] [cursor=pointer]
+        - generic [ref=e34]:
+          - link "Home" [ref=e35] [cursor=pointer]:
+            - /url: /
+          - link "Interactive Map" [ref=e40] [cursor=pointer]:
+            - /url: /map/
+          - link "Questions & Answers 209" [ref=e44] [cursor=pointer]:
+            - /url: /faq/
+            - generic [ref=e48]: Questions & Answers
+            - generic [ref=e49]: "209"
+          - link "Guides 8" [ref=e50] [cursor=pointer]:
+            - /url: /guides/
+            - generic [ref=e53]: Guides
+            - generic [ref=e54]: "8"
+          - link "Updates 19" [ref=e55] [cursor=pointer]:
+            - /url: /updates/
+            - generic [ref=e59]: Updates
+            - generic [ref=e60]: "19"
+      - navigation "Catalog" [ref=e61]:
+        - button "Catalog" [expanded] [ref=e62] [cursor=pointer]
+        - generic [ref=e66]:
+          - link "All Items 533" [ref=e68] [cursor=pointer]:
+            - /url: /items/
+            - generic [ref=e74]: All Items
+            - generic [ref=e75]: "533"
+          - generic [ref=e76]:
+            - link "Weapons 50" [ref=e77] [cursor=pointer]:
+              - /url: /items/weapons/
+              - generic [ref=e80]: Weapons
+              - generic [ref=e81]: "50"
+            - link "Ammo 4" [ref=e82] [cursor=pointer]:
+              - /url: /items/ammo/
+              - generic [ref=e87]: Ammo
+              - generic [ref=e88]: "4"
+            - link "Gear 19" [ref=e89] [cursor=pointer]:
+              - /url: /items/gear/
+              - generic [ref=e94]: Gear
+              - generic [ref=e95]: "19"
+            - link "Keys & Tools 54" [ref=e96] [cursor=pointer]:
+              - /url: /items/keys-and-tools/
+              - generic [ref=e100]: Keys & Tools
+              - generic [ref=e101]: "54"
+            - link "Vehicles 25" [ref=e102] [cursor=pointer]:
+              - /url: /items/vehicles/
+              - generic [ref=e107]: Vehicles
+              - generic [ref=e108]: "25"
+            - link "Base & Plot 82" [ref=e109] [cursor=pointer]:
+              - /url: /items/base-and-plot/
+              - generic [ref=e113]: Base & Plot
+              - generic [ref=e114]: "82"
+            - link "Valuables 251" [ref=e115] [cursor=pointer]:
+              - /url: /items/valuables/
+              - generic [ref=e119]: Valuables
+              - generic [ref=e120]: "251"
+            - link "Contraband 48" [ref=e121] [cursor=pointer]:
+              - /url: /items/contraband/
+              - generic [ref=e125]: Contraband
+              - generic [ref=e126]: "48"
+          - generic [ref=e127]:
+            - link "Collections 34" [ref=e128] [cursor=pointer]:
+              - /url: /collections/
+              - generic [ref=e133]: Collections
+              - generic [ref=e134]: "34"
+            - link "Locations 28" [ref=e135] [cursor=pointer]:
+              - /url: /locations/looty-bay/
+              - generic [ref=e139]: Locations
+              - generic [ref=e140]: "28"
+            - link "Mechanics 15" [ref=e141] [cursor=pointer]:
+              - /url: /mechanics/
+              - generic [ref=e153]: Mechanics
+              - generic [ref=e154]: "15"
+      - generic [ref=e155]:
+        - navigation "Legal" [ref=e156]:
+          - link "About" [ref=e157] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e158] [cursor=pointer]:
+            - /url: /contact/
+          - link "Privacy" [ref=e159] [cursor=pointer]:
+            - /url: /privacy/
+          - link "Terms" [ref=e160] [cursor=pointer]:
+            - /url: /terms/
+          - button "Cookies" [ref=e161] [cursor=pointer]
+          - link "Discord" [ref=e162] [cursor=pointer]:
+            - /url: https://discord.gg/eRRYCjjSVa
+        - paragraph [ref=e163]: Unofficial fan site. Not affiliated with KEFIR or the ROB RUN team.
+    - generic [ref=e164]:
+      - main [ref=e165]:
+        - navigation "Breadcrumb" [ref=e166]:
+          - link "Home" [ref=e167] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e168]:
+            - generic [aria-hidden] [ref=e169]: /
+            - generic [ref=e170]: Interactive Map
+        - generic [ref=e171]:
+          - heading "Interactive map" [level=1] [ref=e172]
+          - paragraph [ref=e173]: Every Looty Bay heist location with its loot, keys and safes, plus Fence and Smuggler vans, the hospital, Parking Terminals, ATMs, alarm panels and city event spots. Search an item to light up every place it turns up.
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - generic [ref=e176]: Looty Bay
+            - generic [ref=e178]:
+              - button "Map" [pressed] [ref=e179] [cursor=pointer]
+              - button "List" [ref=e182] [cursor=pointer]
+          - region "Search and filters" [ref=e184]:
+            - searchbox "Search places and items" [ref=e190]
+            - list "Show categories" [ref=e191]:
+              - listitem [ref=e192]:
+                - button "Banks & vaults 2" [pressed] [ref=e193] [cursor=pointer]:
+                  - generic [ref=e197]: Banks & vaults
+                  - generic [ref=e198]: "2"
+              - listitem [ref=e199]:
+                - button "Shops 14" [pressed] [ref=e200] [cursor=pointer]:
+                  - generic [ref=e207]: Shops
+                  - generic [ref=e208]: "14"
+              - listitem [ref=e209]:
+                - button "Hotels & clubs 4" [pressed] [ref=e210] [cursor=pointer]:
+                  - generic [ref=e215]: Hotels & clubs
+                  - generic [ref=e216]: "4"
+              - listitem [ref=e217]:
+                - button "Cafés 2" [pressed] [ref=e218] [cursor=pointer]:
+                  - generic [ref=e222]: Cafés
+                  - generic [ref=e223]: "2"
+              - listitem [ref=e224]:
+                - button "Homes 5" [pressed] [ref=e225] [cursor=pointer]:
+                  - generic [ref=e230]: Homes
+                  - generic [ref=e231]: "5"
+              - listitem [ref=e232]:
+                - button "Police 1" [pressed] [ref=e233] [cursor=pointer]:
+                  - generic [ref=e240]: Police
+                  - generic [ref=e241]: "1"
+            - list "Also show on the map" [ref=e242]:
+              - listitem [ref=e243]: Also show
+              - listitem [ref=e244]:
+                - button "Fence vans 4" [pressed] [ref=e245] [cursor=pointer]:
+                  - generic [ref=e247]: Fence vans
+                  - generic [ref=e248]: "4"
+              - listitem [ref=e249]:
+                - button "Smuggler's vans 2" [pressed] [ref=e250] [cursor=pointer]:
+                  - generic [ref=e252]: Smuggler's vans
+                  - generic [ref=e253]: "2"
+              - listitem [ref=e254]:
+                - button "Hospital 1" [pressed] [ref=e255] [cursor=pointer]:
+                  - generic [ref=e257]: Hospital
+                  - generic [ref=e258]: "1"
+              - listitem [ref=e259]:
+                - button "Parking Terminals 17" [ref=e260] [cursor=pointer]:
+                  - generic [ref=e262]: Parking Terminals
+                  - generic [ref=e263]: "17"
+              - listitem [ref=e264]:
+                - button "Helipads 2" [ref=e265] [cursor=pointer]:
+                  - generic [ref=e267]: Helipads
+                  - generic [ref=e268]: "2"
+              - listitem [ref=e269]:
+                - button "ATMs 14" [pressed] [ref=e270] [cursor=pointer]:
+                  - generic [ref=e272]: ATMs
+                  - generic [ref=e273]: "14"
+              - listitem [ref=e274]:
+                - button "Alarm panels 19" [ref=e275] [cursor=pointer]:
+                  - generic [ref=e277]: Alarm panels
+                  - generic [ref=e278]: "19"
+              - listitem [ref=e279]:
+                - button "Dumpsters 43" [ref=e280] [cursor=pointer]:
+                  - generic [ref=e282]: Dumpsters
+                  - generic [ref=e283]: "43"
+              - listitem [ref=e284]:
+                - button "Tip-off ATMs 13" [ref=e285] [cursor=pointer]:
+                  - generic [ref=e287]: Tip-off ATMs
+                  - generic [ref=e288]: "13"
+              - listitem [ref=e289]:
+                - button "Valuable Cargo 14" [ref=e290] [cursor=pointer]:
+                  - generic [ref=e292]: Valuable Cargo
+                  - generic [ref=e293]: "14"
+          - region "Looty Bay map" [ref=e295]:
+            - generic [ref=e296]:
+              - group "Map of Looty Bay. Arrow keys pan, plus and minus zoom, 0 resets." [ref=e297]:
+                - generic [ref=e298]:
+                  - img "Illustrated map of Looty Bay in ROB RUN" [ref=e299]
+                  - img [aria-hidden]:
+                    - generic: Loraine Hills
+                    - generic: Sunny Beach
+                    - generic: Palmside
+                    - generic: Downtown
+                  - img "Fence van" [ref=e300]
+                  - img "Fence van" [ref=e301]
+                  - img "Fence van" [ref=e302]
+                  - img "Fence van" [ref=e303]
+                  - img "Smuggler's van" [ref=e304]
+                  - img "Smuggler's van" [ref=e305]
+                  - img "Hospital" [ref=e306]
+                  - img "ATM" [ref=e307]
+                  - img "ATM" [ref=e308]
+                  - img "ATM" [ref=e309]
+                  - img "ATM" [ref=e310]
+                  - img "ATM" [ref=e311]
+                  - img "ATM" [ref=e312]
+                  - img "ATM" [ref=e313]
+                  - img "ATM" [ref=e314]
+                  - img "ATM" [ref=e315]
+                  - img "ATM" [ref=e316]
+                  - img "ATM" [ref=e317]
+                  - img "ATM" [ref=e318]
+                  - img "ATM" [ref=e319]
+                  - img "ATM" [ref=e320]
+                  - button "Convenience Store · Downtown · Center, Downtown" [ref=e321] [cursor=pointer]:
+                    - generic [aria-hidden]: Convenience C
+                  - button "Convenience Store · Downtown · North, Downtown" [ref=e323] [cursor=pointer]:
+                    - generic [aria-hidden]: Convenience N
+                  - button "Electronics Store · Downtown, Downtown" [ref=e325] [cursor=pointer]:
+                    - generic [aria-hidden]: Electronics
+                  - 'button "Equipment Store: East, Downtown" [ref=e327] [cursor=pointer]':
+                    - generic [aria-hidden]: Equipment E
+                  - button "Gas Station, Downtown" [ref=e329] [cursor=pointer]:
+                    - generic [aria-hidden]: Gas Station
+                  - 'button "Gun Shop: East, Downtown" [ref=e331] [cursor=pointer]':
+                    - generic [aria-hidden]: Gun Shop E
+                  - 'button "Jewelry Store: East, Downtown" [ref=e333] [cursor=pointer]':
+                    - generic [aria-hidden]: Jewelry E
+                  - button "Looty Bay Bank, Downtown" [ref=e335] [cursor=pointer]:
+                    - generic [aria-hidden]: Bank
+                  - button "Pharmacy · Downtown, Downtown" [ref=e337] [cursor=pointer]:
+                    - generic [aria-hidden]: Pharmacy
+                  - button "Rusty Burgers Café, Downtown" [ref=e339] [cursor=pointer]:
+                    - generic [aria-hidden]: Rusty Burgers
+                  - button "Aristocrat's Mansion, Loraine Hills" [ref=e341] [cursor=pointer]:
+                    - generic [aria-hidden]: Mansion
+                  - button "Cottage No. 3, Loraine Hills" [ref=e343] [cursor=pointer]:
+                    - generic [aria-hidden]: Cottage 3
+                  - button "Cottage No. 4, Loraine Hills" [ref=e345] [cursor=pointer]:
+                    - generic [aria-hidden]: Cottage 4
+                  - button "Cottage No. 5, Loraine Hills" [ref=e347] [cursor=pointer]:
+                    - generic [aria-hidden]: Cottage 5
+                  - button "Luxury Cottage, Loraine Hills" [ref=e349] [cursor=pointer]:
+                    - generic [aria-hidden]: Luxury Cottage
+                  - button "Art Gallery, Palmside" [ref=e351] [cursor=pointer]:
+                    - generic [aria-hidden]: Art Gallery
+                  - button "Police Station, Palmside" [ref=e353] [cursor=pointer]:
+                    - generic [aria-hidden]: Police Station
+                  - button "Convenience Store · Sunny Beach, Sunny Beach" [ref=e355] [cursor=pointer]:
+                    - generic [aria-hidden]: Convenience
+                  - button "Electronics Store · Sunny Beach, Sunny Beach" [ref=e357] [cursor=pointer]:
+                    - generic [aria-hidden]: Electronics
+                  - 'button "Equipment Store: West, Sunny Beach" [ref=e359] [cursor=pointer]':
+                    - generic [aria-hidden]: Equipment W
+                  - button "Grand Hotel, Sunny Beach" [ref=e361] [cursor=pointer]:
+                    - generic [aria-hidden]: Grand Hotel
+                  - 'button "Gun Shop: West, Sunny Beach" [ref=e363] [cursor=pointer]':
+                    - generic [aria-hidden]: Gun Shop W
+                  - 'button "Jewelry Store: West, Sunny Beach" [ref=e365] [cursor=pointer]':
+                    - generic [aria-hidden]: Jewelry W
+                  - button "Ocean Breeze Café, Sunny Beach" [ref=e367] [cursor=pointer]:
+                    - generic [aria-hidden]: Ocean Breeze
+                  - button "Pharmacy · Sunny Beach, Sunny Beach" [ref=e369] [cursor=pointer]:
+                    - generic [aria-hidden]: Pharmacy
+                  - button "Reef Hotel, Sunny Beach" [ref=e371] [cursor=pointer]:
+                    - generic [aria-hidden]: Reef Hotel
+                  - button "Seasons Hotel, Sunny Beach" [ref=e373] [cursor=pointer]:
+                    - generic [aria-hidden]: Seasons Hotel
+                  - button "Strip Club, Sunny Beach" [ref=e375] [cursor=pointer]:
+                    - generic [aria-hidden]: Strip Club
+                  - generic [ref=e380]:
+                    - generic [ref=e381]: West bridge
+                    - generic [ref=e382]: Way out to the desert
+                  - generic [ref=e384]:
+                    - generic [ref=e385]: East bridge
+                    - generic [ref=e386]: Way out to the desert
+              - generic [ref=e388]:
+                - button "Zoom in" [ref=e389] [cursor=pointer]
+                - button "Zoom out" [disabled] [ref=e391]
+                - button "Reset view" [disabled] [ref=e393]
+                - generic [aria-hidden] [ref=e397]: 1.0×
+            - paragraph [ref=e398]:
+              - generic [ref=e401]: "Looty Bay as it is in the game: three islands joined by bridges, with every marker on its building. Click a marker for its loot. Scroll or use + and − to zoom, drag to pan."
+          - region "Around the city Found all over Looty Bay, so they are not plotted" [ref=e402]:
+            - heading "Around the city Found all over Looty Bay, so they are not plotted" [level=2] [ref=e403]:
+              - text: Around the city
+              - generic [ref=e404]: Found all over Looty Bay, so they are not plotted
+            - list [ref=e405]:
+              - listitem [ref=e406]:
+                - generic [ref=e410]:
+                  - generic [ref=e411]: Barter doors
+                  - generic [ref=e412]: Suspicious doors where item sets trade for Drills, keys, decoders and tools. Lenny also barters at the Motel.
+              - listitem [ref=e413]:
+                - generic [ref=e417]:
+                  - generic [ref=e418]: City events
+                  - generic [ref=e419]: Valuable Cargo and Tip-off. Criminals get a marker 3 minutes before start; each lasts 10 minutes. Turn on their layers to see where they can happen.
+      - contentinfo [ref=e420]:
+        - paragraph [ref=e421]: robrun.space is an unofficial fan-made site. It is not affiliated with, endorsed by or sponsored by KEFIR or the ROB RUN team. ROB RUN and all related names, images and game content are the property of their respective owners.
+        - navigation "Footer" [ref=e422]:
+          - link "About" [ref=e423] [cursor=pointer]:
+            - /url: /about/
+          - link "Contact" [ref=e424] [cursor=pointer]:
+            - /url: /contact/
+          - link "Privacy" [ref=e425] [cursor=pointer]:
+            - /url: /privacy/
+          - link "Terms" [ref=e426] [cursor=pointer]:
+            - /url: /terms/
+          - link "Discord" [ref=e427] [cursor=pointer]:
+            - /url: https://discord.gg/eRRYCjjSVa
+          - link "YouTube" [ref=e428] [cursor=pointer]:
+            - /url: https://www.youtube.com/@robrun_space
+          - button "Cookie settings" [ref=e429] [cursor=pointer]
+        - paragraph [ref=e430]: © 2026 robrun.space
+  - alert [ref=e431]
+  - region "Cookie consent" [ref=e432]:
+    - generic [ref=e433]:
+      - generic [ref=e434]: Cookies on robrun.space
+      - paragraph [ref=e435]:
+        - text: We'd like to use Google Analytics and Microsoft Clarity to see which pages help players and what to fix. They set cookies, and Clarity records anonymised clicks and scrolls. Nothing loads unless you agree.
+        - link "Privacy Policy" [ref=e436] [cursor=pointer]:
+          - /url: /privacy/
+    - generic [ref=e437]:
+      - button "Reject all" [ref=e438] [cursor=pointer]
+      - button "Customize" [ref=e439] [cursor=pointer]
+      - button "Accept all" [ref=e440] [cursor=pointer]

@@ -1,0 +1,123 @@
+- generic [active] [ref=e1]:
+  - link "Skip to the guide" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "ROB RUN Guide home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [aria-hidden] [ref=e6]: $
+        - generic [ref=e7]:
+          - text: ROB RUN
+          - emphasis [ref=e8]: Guide
+      - navigation "Guides" [ref=e9]:
+        - link "Beginner" [ref=e10] [cursor=pointer]:
+          - /url: /beginner-guide
+        - link "Money" [ref=e11] [cursor=pointer]:
+          - /url: /how-to-make-money
+        - link "Weapons" [ref=e12] [cursor=pointer]:
+          - /url: /weapons
+        - link "Wipe" [ref=e13] [cursor=pointer]:
+          - /url: /wipe
+        - link "Status" [ref=e14] [cursor=pointer]:
+          - /url: /server-status
+        - link "Servers" [ref=e15] [cursor=pointer]:
+          - /url: /servers
+        - link "Errors" [ref=e16] [cursor=pointer]:
+          - /url: /error-codes
+        - link "Patches" [ref=e17] [cursor=pointer]:
+          - /url: /updates
+        - link "FAQ" [ref=e18] [cursor=pointer]:
+          - /url: /faq
+        - link "All guides" [ref=e19] [cursor=pointer]:
+          - /url: /wiki
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - paragraph [ref=e22]:
+        - generic [aria-hidden] [ref=e23]: $
+        - text: "404"
+      - heading "This page got robbed" [level=1] [ref=e24]
+      - paragraph [ref=e25]: Nothing lives at this address. It may have moved when we reorganised the guides.
+      - list [ref=e26]:
+        - listitem [ref=e27]:
+          - link "Beginner guide" [ref=e28] [cursor=pointer]:
+            - /url: /beginner-guide
+        - listitem [ref=e29]:
+          - link "How to make money" [ref=e30] [cursor=pointer]:
+            - /url: /how-to-make-money
+        - listitem [ref=e31]:
+          - link "Weapons and tier list" [ref=e32] [cursor=pointer]:
+            - /url: /weapons
+        - listitem [ref=e33]:
+          - link "Wipe and Federal Raid" [ref=e34] [cursor=pointer]:
+            - /url: /wipe
+        - listitem [ref=e35]:
+          - link "Jail time calculator" [ref=e36] [cursor=pointer]:
+            - /url: /jail-time
+        - listitem [ref=e37]:
+          - link "Server status and player count" [ref=e38] [cursor=pointer]:
+            - /url: /server-status
+        - listitem [ref=e39]:
+          - link "Servers and regions" [ref=e40] [cursor=pointer]:
+            - /url: /servers
+        - listitem [ref=e41]:
+          - link "Roles and death rules" [ref=e42] [cursor=pointer]:
+            - /url: /roles-and-death
+        - listitem [ref=e43]:
+          - link "Error codes" [ref=e44] [cursor=pointer]:
+            - /url: /error-codes
+        - listitem [ref=e45]:
+          - link "Patch notes and updates" [ref=e46] [cursor=pointer]:
+            - /url: /updates
+      - paragraph [ref=e47]:
+        - link "Back to the ROB RUN Guide" [ref=e48] [cursor=pointer]:
+          - /url: /
+  - contentinfo [ref=e49]:
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - paragraph [ref=e52]:
+          - generic [aria-hidden] [ref=e53]: $
+          - generic [ref=e54]:
+            - text: ROB RUN
+            - emphasis [ref=e55]: Guide
+        - paragraph [ref=e56]: An unofficial player guide to ROB RUN, Kefir's multiplayer crime sandbox on Steam. Every rule on this site links to the Kefir post or Help Center article it comes from.
+      - navigation "Start here" [ref=e57]:
+        - paragraph [ref=e58]: Start here
+        - link "Beginner guide" [ref=e59] [cursor=pointer]:
+          - /url: /beginner-guide
+        - link "Making money" [ref=e60] [cursor=pointer]:
+          - /url: /how-to-make-money
+        - link "Roles and death" [ref=e61] [cursor=pointer]:
+          - /url: /roles-and-death
+        - link "Weapons and tier list" [ref=e62] [cursor=pointer]:
+          - /url: /weapons
+        - link "All guides" [ref=e63] [cursor=pointer]:
+          - /url: /wiki
+      - navigation "Servers and fixes" [ref=e64]:
+        - paragraph [ref=e65]: Servers and fixes
+        - link "Wipe and Federal Raid" [ref=e66] [cursor=pointer]:
+          - /url: /wipe
+        - link "Jail time calculator" [ref=e67] [cursor=pointer]:
+          - /url: /jail-time
+        - link "Server status" [ref=e68] [cursor=pointer]:
+          - /url: /server-status
+        - link "Servers and regions" [ref=e69] [cursor=pointer]:
+          - /url: /servers
+        - link "Error codes" [ref=e70] [cursor=pointer]:
+          - /url: /error-codes
+        - link "Patch notes" [ref=e71] [cursor=pointer]:
+          - /url: /updates
+        - link "FAQ" [ref=e72] [cursor=pointer]:
+          - /url: /faq
+      - navigation "This site" [ref=e73]:
+        - paragraph [ref=e74]: This site
+        - link "About" [ref=e75] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e76] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy policy" [ref=e77] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms of use" [ref=e78] [cursor=pointer]:
+          - /url: /terms
+    - paragraph [ref=e80]: © 2026 ROB RUN Guide. ROB RUN, its name, screenshots and trailers belong to Kefir. This is an independent fan site and is not affiliated with or endorsed by Kefir. Game facts last checked against Kefir's Steam page and Help Center on 22 November 2026.
+  - link [aria-hidden] [ref=e81] [cursor=pointer]:
+    - /url: /map?__pvhp=1
