@@ -11,8 +11,7 @@
     "rangeM": 75,
     "dps": 212,
     "type": null,
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/m249_m2/"
+    "image": "/images/items/m249_m2.webp"
   },
   "apscalar_m1": {
     "id": "apscalar_m1",
@@ -26,8 +25,7 @@
     "rangeM": 30,
     "dps": 233,
     "type": "Submachine Gun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/apscalar_m1/"
+    "image": "/images/items/apscalar_m1.webp"
   },
   "apscalar_m2": {
     "id": "apscalar_m2",
@@ -41,8 +39,7 @@
     "rangeM": 30,
     "dps": 233,
     "type": "Submachine Gun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/apscalar_m2/"
+    "image": "/images/items/apscalar_m2.webp"
   },
   "apscalar_m3": {
     "id": "apscalar_m3",
@@ -56,8 +53,7 @@
     "rangeM": 34,
     "dps": 233,
     "type": "Submachine Gun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/apscalar_m3/"
+    "image": "/images/items/apscalar_m3.webp"
   },
   "drm14_m1": {
     "id": "drm14_m1",
@@ -71,8 +67,7 @@
     "rangeM": 95,
     "dps": 136,
     "type": "Assault Rifle",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/drm14_m1/"
+    "image": "/images/items/drm14_m1.webp"
   },
   "weapon_drm14_mk2": {
     "id": "weapon_drm14_mk2",
@@ -86,8 +81,7 @@
     "rangeM": 95,
     "dps": 136,
     "type": null,
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/weapon_drm14_mk2/"
+    "image": "/images/items/weapon_drm14_mk2.webp"
   },
   "weapon_drm14_mk3": {
     "id": "weapon_drm14_mk3",
@@ -101,8 +95,7 @@
     "rangeM": 100,
     "dps": 136,
     "type": null,
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/weapon_drm14_mk3/"
+    "image": "/images/items/weapon_drm14_mk3.webp"
   },
   "srreaper_m1": {
     "id": "srreaper_m1",
@@ -116,8 +109,7 @@
     "rangeM": 65,
     "dps": 213,
     "type": "Assault Rifle",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/srreaper_m1/"
+    "image": "/images/items/srreaper_m1.webp"
   },
   "srreaper_m2": {
     "id": "srreaper_m2",
@@ -131,8 +123,7 @@
     "rangeM": 65,
     "dps": 213,
     "type": "Assault Rifle",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/srreaper_m2/"
+    "image": "/images/items/srreaper_m2.webp"
   },
   "srreaper_m3": {
     "id": "srreaper_m3",
@@ -146,8 +137,7 @@
     "rangeM": 70,
     "dps": 213,
     "type": "Assault Rifle",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/srreaper_m3/"
+    "image": "/images/items/srreaper_m3.webp"
   },
   "tag12_m1": {
     "id": "tag12_m1",
@@ -161,8 +151,7 @@
     "rangeM": 8,
     "dps": 36,
     "type": null,
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/tag12_m1/"
+    "image": "/images/items/tag12_m1.webp"
   },
   "weapon_tag12_mk2": {
     "id": "weapon_tag12_mk2",
@@ -176,8 +165,7 @@
     "rangeM": 8,
     "dps": 36,
     "type": null,
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/weapon_tag12_mk2/"
+    "image": "/images/items/weapon_tag12_mk2.webp"
   },
   "weapon_tag12_mk3": {
     "id": "weapon_tag12_mk3",
@@ -191,8 +179,7 @@
     "rangeM": 10,
     "dps": 36,
     "type": null,
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/weapon_tag12_mk3/"
+    "image": "/images/items/weapon_tag12_mk3.webp"
   },
   "vulture_m1": {
     "id": "vulture_m1",
@@ -206,8 +193,7 @@
     "rangeM": 40,
     "dps": 144,
     "type": null,
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/vulture_m1/"
+    "image": "/images/items/vulture_m1.webp"
   },
   "vulture_m2": {
     "id": "vulture_m2",
@@ -221,8 +207,7 @@
     "rangeM": 40,
     "dps": 144,
     "type": null,
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/vulture_m2/"
+    "image": "/images/items/vulture_m2.webp"
   },
   "jp7_m1": {
     "id": "jp7_m1",
@@ -236,8 +221,7 @@
     "rangeM": 27,
     "dps": 188,
     "type": "Submachine Gun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/jp7_m1/"
+    "image": "/images/items/jp7_m1.webp"
   },
   "jp7_m2": {
     "id": "jp7_m2",
@@ -251,8 +235,7 @@
     "rangeM": 27,
     "dps": 188,
     "type": "Submachine Gun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/jp7_m2/"
+    "image": "/images/items/jp7_m2.webp"
   },
   "jp7_m3": {
     "id": "jp7_m3",
@@ -266,8 +249,7 @@
     "rangeM": 31,
     "dps": 188,
     "type": "Submachine Gun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/jp7_m3/"
+    "image": "/images/items/jp7_m3.webp"
   },
   "lbr44_m1": {
     "id": "lbr44_m1",
@@ -281,8 +263,7 @@
     "rangeM": 35,
     "dps": 113,
     "type": "Pistol",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/lbr44_m1/"
+    "image": "/images/items/lbr44_m1.webp"
   },
   "weapon_lbr44_mk2": {
     "id": "weapon_lbr44_mk2",
@@ -296,8 +277,7 @@
     "rangeM": 35,
     "dps": 113,
     "type": null,
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/weapon_lbr44_mk2/"
+    "image": "/images/items/weapon_lbr44_mk2.webp"
   },
   "ordr12_m1": {
     "id": "ordr12_m1",
@@ -311,8 +291,7 @@
     "rangeM": 7,
     "dps": 26,
     "type": "Shotgun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/ordr12_m1/"
+    "image": "/images/items/ordr12_m1.webp"
   },
   "ordr12_m2": {
     "id": "ordr12_m2",
@@ -326,8 +305,7 @@
     "rangeM": 7,
     "dps": 26,
     "type": "Shotgun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/ordr12_m2/"
+    "image": "/images/items/ordr12_m2.webp"
   },
   "ordr12_m3": {
     "id": "ordr12_m3",
@@ -341,8 +319,7 @@
     "rangeM": 9,
     "dps": 26,
     "type": "Shotgun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/ordr12_m3/"
+    "image": "/images/items/ordr12_m3.webp"
   },
   "pdw90_m1": {
     "id": "pdw90_m1",
@@ -356,8 +333,7 @@
     "rangeM": 31,
     "dps": 186,
     "type": "Submachine Gun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/pdw90_m1/"
+    "image": "/images/items/pdw90_m1.webp"
   },
   "pdw90_m2": {
     "id": "pdw90_m2",
@@ -371,8 +347,7 @@
     "rangeM": 31,
     "dps": 186,
     "type": "Submachine Gun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/pdw90_m2/"
+    "image": "/images/items/pdw90_m2.webp"
   },
   "pdw90_m3": {
     "id": "pdw90_m3",
@@ -386,8 +361,7 @@
     "rangeM": 35,
     "dps": 186,
     "type": "Submachine Gun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/pdw90_m3/"
+    "image": "/images/items/pdw90_m3.webp"
   },
   "rc556_m1": {
     "id": "rc556_m1",
@@ -401,8 +375,7 @@
     "rangeM": 55,
     "dps": 178,
     "type": "Assault Rifle",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/rc556_m1/"
+    "image": "/images/items/rc556_m1.webp"
   },
   "rc556_m2": {
     "id": "rc556_m2",
@@ -416,8 +389,7 @@
     "rangeM": 55,
     "dps": 178,
     "type": "Assault Rifle",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/rc556_m2/"
+    "image": "/images/items/rc556_m2.webp"
   },
   "rc556_m3": {
     "id": "rc556_m3",
@@ -431,8 +403,7 @@
     "rangeM": 60,
     "dps": 178,
     "type": "Assault Rifle",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/rc556_m3/"
+    "image": "/images/items/rc556_m3.webp"
   },
   "starh_m1": {
     "id": "starh_m1",
@@ -446,8 +417,7 @@
     "rangeM": 50,
     "dps": 175,
     "type": "Assault Rifle",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/starh_m1/"
+    "image": "/images/items/starh_m1.webp"
   },
   "starh_m2": {
     "id": "starh_m2",
@@ -461,8 +431,7 @@
     "rangeM": 50,
     "dps": 175,
     "type": "Assault Rifle",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/starh_m2/"
+    "image": "/images/items/starh_m2.webp"
   },
   "starh_m3": {
     "id": "starh_m3",
@@ -476,8 +445,7 @@
     "rangeM": 55,
     "dps": 175,
     "type": "Assault Rifle",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/starh_m3/"
+    "image": "/images/items/starh_m3.webp"
   },
   "cb45_m1": {
     "id": "cb45_m1",
@@ -491,8 +459,7 @@
     "rangeM": 34,
     "dps": 127,
     "type": "Submachine Gun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/cb45_m1/"
+    "image": "/images/items/cb45_m1.webp"
   },
   "cb45_m2": {
     "id": "cb45_m2",
@@ -506,8 +473,7 @@
     "rangeM": 34,
     "dps": 127,
     "type": "Submachine Gun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/cb45_m2/"
+    "image": "/images/items/cb45_m2.webp"
   },
   "cb45_m3": {
     "id": "cb45_m3",
@@ -521,8 +487,7 @@
     "rangeM": 40,
     "dps": 127,
     "type": "Submachine Gun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/cb45_m3/"
+    "image": "/images/items/cb45_m3.webp"
   },
   "dp9_m1": {
     "id": "dp9_m1",
@@ -536,8 +501,7 @@
     "rangeM": 20,
     "dps": 100,
     "type": "Pistol",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/dp9_m1/"
+    "image": "/images/items/dp9_m1.webp"
   },
   "weapon_dp9_mk2": {
     "id": "weapon_dp9_mk2",
@@ -551,8 +515,7 @@
     "rangeM": 20,
     "dps": 100,
     "type": null,
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/weapon_dp9_mk2/"
+    "image": "/images/items/weapon_dp9_mk2.webp"
   },
   "harris500_m1": {
     "id": "harris500_m1",
@@ -566,8 +529,7 @@
     "rangeM": 7,
     "dps": 18,
     "type": "Shotgun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/harris500_m1/"
+    "image": "/images/items/harris500_m1.webp"
   },
   "harris500_m2": {
     "id": "harris500_m2",
@@ -581,8 +543,7 @@
     "rangeM": 7,
     "dps": 18,
     "type": "Shotgun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/harris500_m2/"
+    "image": "/images/items/harris500_m2.webp"
   },
   "harris500_m3": {
     "id": "harris500_m3",
@@ -596,8 +557,7 @@
     "rangeM": 9,
     "dps": 18,
     "type": "Shotgun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/harris500_m3/"
+    "image": "/images/items/harris500_m3.webp"
   },
   "kl545_m1": {
     "id": "kl545_m1",
@@ -611,8 +571,7 @@
     "rangeM": 45,
     "dps": 150,
     "type": "Assault Rifle",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/kl545_m1/"
+    "image": "/images/items/kl545_m1.webp"
   },
   "kl545_m2": {
     "id": "kl545_m2",
@@ -626,8 +585,7 @@
     "rangeM": 45,
     "dps": 150,
     "type": "Assault Rifle",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/kl545_m2/"
+    "image": "/images/items/kl545_m2.webp"
   },
   "kl545_m3": {
     "id": "kl545_m3",
@@ -641,8 +599,7 @@
     "rangeM": 50,
     "dps": 150,
     "type": "Assault Rifle",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/kl545_m3/"
+    "image": "/images/items/kl545_m3.webp"
   },
   "mc10_m1": {
     "id": "mc10_m1",
@@ -656,8 +613,7 @@
     "rangeM": 25,
     "dps": 133,
     "type": "Submachine Gun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/mc10_m1/"
+    "image": "/images/items/mc10_m1.webp"
   },
   "mc10_m2": {
     "id": "mc10_m2",
@@ -671,8 +627,7 @@
     "rangeM": 25,
     "dps": 133,
     "type": "Submachine Gun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/mc10_m2/"
+    "image": "/images/items/mc10_m2.webp"
   },
   "mc10_m3": {
     "id": "mc10_m3",
@@ -686,7 +641,6 @@
     "rangeM": 29,
     "dps": 133,
     "type": "Submachine Gun",
-    "image": null,
-    "sourceUrl": "https://robrunwiki.com/items/mc10_m3/"
+    "image": "/images/items/mc10_m3.webp"
   }
 }

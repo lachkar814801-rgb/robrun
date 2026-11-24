@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 
 const ROOT = process.cwd();
 
@@ -275,13 +276,121 @@ function walk(dir: string): string[] {
   return results;
 }
 
+// ---------- (f) Aucune URL externe dans public/data ----------
+function checkNoExternalUrls() {
+  const dir = 'public/data';
+  if (!exists(dir)) return;
+
+  let found = 0;
+  const urlRegex = /https?:\/\/[^"'\s]+/;
+  for (const file of walk(dir)) {
+    if (!file.endsWith('.json')) continue;
+    const content = fs.readFileSync(file, 'utf-8');
+    const match = content.match(urlRegex);
+    if (match) {
+      found++;
+      err(`[url] URL externe dans ${file} : ${match[0]}`);
+    }
+  }
+  if (found === 0) ok('Aucune URL externe dans public/data');
+}
+
+function folderBytes(dir: string): number {
+  if (!fs.existsSync(dir)) return 0;
+  let total = 0;
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) total += folderBytes(full);
+    else total += fs.statSync(full).size;
+  }
+  return total;
+}
+
+// ---------- (g) Images locales + manifest ----------
+function checkImages() {
+  const manifestPath = 'data/images-manifest.json';
+  if (!exists(manifestPath)) {
+    console.warn('  ⚠️ [images] data/images-manifest.json absent (import-images pas encore exécuté)');
+    return;
+  }
+
+  const manifest = readJson<{
+    entries: Array<{
+      id: string;
+      kind: string;
+      file: string;
+      hash: string;
+      originUrl: string;
+      source: string;
+    }>;
+  }>(manifestPath);
+  const entries = Array.isArray(manifest.entries) ? manifest.entries : [];
+
+  let imageErrors = 0;
+  const manifestFiles = new Set<string>();
+  for (const entry of entries) {
+    if (!entry.file || !entry.file.startsWith('/images/')) {
+      imageErrors++;
+      if (imageErrors <= 5) err(`[images] ${entry.id} : chemin local invalide (${entry.file})`);
+      continue;
+    }
+    manifestFiles.add(entry.file);
+    const filePath = path.join(ROOT, `public${entry.file}`);
+    if (!fs.existsSync(filePath)) {
+      imageErrors++;
+      if (imageErrors <= 5) err(`[images] ${entry.id} : fichier manquant ${entry.file}`);
+      continue;
+    }
+    const actualHash = crypto.createHash('sha256').update(fs.readFileSync(filePath)).digest('hex');
+    if (actualHash !== entry.hash) {
+      imageErrors++;
+      if (imageErrors <= 5) err(`[images] ${entry.id} : hash incohérent pour ${entry.file}`);
+    }
+  }
+  if (imageErrors === 0) {
+    ok(`images : ${entries.length} entrées du manifest valides (fichiers présents, SHA-256 cohérent)`);
+  }
+
+  // Chaque chemin image des JSON publics doit exister et figurer dans le manifest.
+  let referenceErrors = 0;
+  for (const file of ['public/data/weapons.json', 'public/data/items.json']) {
+    const data = readJson<Record<string, { image?: string | null }>>(file);
+    for (const id of Object.keys(data)) {
+      const image = data[id]?.image;
+      if (!image) continue;
+      if (!image.startsWith('/images/')) {
+        referenceErrors++;
+        if (referenceErrors <= 5) err(`[images] ${file} ${id} : chemin non local (${image})`);
+        continue;
+      }
+      if (!fs.existsSync(path.join(ROOT, `public${image}`))) {
+        referenceErrors++;
+        if (referenceErrors <= 5) err(`[images] ${file} ${id} : fichier absent (${image})`);
+      } else if (!manifestFiles.has(image)) {
+        referenceErrors++;
+        if (referenceErrors <= 5) err(`[images] ${file} ${id} : ${image} absent du manifest`);
+      }
+    }
+  }
+  if (referenceErrors === 0) ok('images : tous les champs image des JSON publics sont locaux et valides');
+
+  const bytes = folderBytes(path.join(ROOT, 'public/images'));
+  const megabytes = bytes / (1024 * 1024);
+  console.log(`  ℹ️ Poids total de public/images : ${megabytes.toFixed(1)} Mo`);
+  if (megabytes > 100) {
+    console.warn(`  ⚠️ public/images dépasse 100 Mo (${megabytes.toFixed(1)} Mo)`);
+  }
+}
+
 function main() {
-  console.log('=== validate-data (P3) ===\n');
+  console.log('=== validate-data (P3/P4) ===\n');
 
   checkI18nParity();
   checkNoCyrillic();
   checkCsvExist();
   checkGeneratedData();
+  checkNoExternalUrls();
+  checkImages();
 
   console.log(`\n=== Résultat : ${errors.length === 0 ? 'SUCCÈS' : errors.length + ' ERREUR(S)'} ===`);
   if (errors.length > 0) {

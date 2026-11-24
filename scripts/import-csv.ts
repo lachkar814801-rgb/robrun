@@ -64,6 +64,7 @@ function main() {
   const weaponRows = readCsv('data/raw/weapons.csv');
   const weaponHeader = weaponRows[0];
   const weapons: Record<string, unknown> = {};
+  const weaponSources: Record<string, string | null> = {};
   let weaponFamilies = new Set<string>();
 
   for (let i = 1; i < weaponRows.length; i++) {
@@ -102,8 +103,8 @@ function main() {
       dps,
       type: egItems[id]?.t || null,
       image: null,
-      sourceUrl: url || null,
     };
+    weaponSources[id] = url || null;
   }
 
   writeJson('public/data/weapons.json', weapons);
@@ -115,6 +116,7 @@ function main() {
   const itemRows = readCsv('data/raw/items.csv');
   const itemHeader = itemRows[0];
   const items: Record<string, unknown> = {};
+  const itemSources: Record<string, string | null> = {};
   let itemsWithRarity = 0;
   let itemsWithPrice = 0;
   let itemsWithoutRarityPrice = 0;
@@ -150,8 +152,8 @@ function main() {
       priceMax: hasPrice ? parseFloat(priceMax) : null,
       tradable: hasRarity && hasPrice,
       image: null,
-      sourceUrl: url || null,
     };
+    itemSources[id] = url || null;
   }
 
   writeJson('public/data/items.json', items);
@@ -163,6 +165,7 @@ function main() {
   const mapRows = readCsv('data/raw/map-points.csv');
   const mapHeader = mapRows[0];
   const mapPoints: Record<string, unknown> = {};
+  const mapPointSources: Record<string, string | null> = {};
 
   for (let i = 1; i < mapRows.length; i++) {
     const row = mapRows[i];
@@ -189,14 +192,22 @@ function main() {
       y: null,
       lootRefs: null,
       image: null,
-      sourceUrl: url || null,
     };
+    mapPointSources[id] = url || null;
   }
 
   writeJson('public/data/mapPoints.json', mapPoints);
   console.log(
     `mapPoints: ${Object.keys(mapPoints).length} points`
   );
+
+  // Attribution des sources hors de public/data : aucun lien externe dans les JSON publics.
+  writeJson('data/source-urls.json', {
+    note: 'URLs de provenance des données de jeu. Fichier non public, utilisé pour les crédits et la traçabilité.',
+    weapons: weaponSources,
+    items: itemSources,
+    mapPoints: mapPointSources,
+  });
 }
 
 main();

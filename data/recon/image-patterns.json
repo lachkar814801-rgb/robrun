@@ -21,7 +21,9 @@
         "https://www.robrun.space/map/icons/bank.webp (200, webp, 2532 o)",
         "https://www.robrun.space/map/icons/gun.webp (200, webp, 1340 o)"
       ],
-      "note": "Les noms de fichier utilisent l'id du CSV (ex: apscalar_m1, pas ap-scalar-mk1)."
+      "note": "Les noms de fichier utilisent l'id du CSV (ex: apscalar_m1, pas ap-scalar-mk1).",
+      "map_icons_note": "25 icônes /map/icons/*.webp. Inspection visuelle : icônes plates dessinées par le site fan robrun.space, pas des assets officiels du jeu. Classification notée dans images-manifest.json (assetType: fan-site-icon).",
+      "item_images_note": "Chemin {id}.webp avec l id exact du CSV. HEAD 200 vérifié pour apscalar_m1 etc."
     },
     "everygamestat.com": {
       "base": "https://everygamestat.com",
@@ -31,7 +33,9 @@
         "https://everygamestat.com/art/robrun/brand.webp (200)",
         "https://everygamestat.com/art/v1/s-252950.webp (200)",
         "https://everygamestat.com/art/robrun/tip-first-aid-cabinet-1.webp (200)"
-      ]
+      ],
+      "item_images": "https://wcsgosrevyyafnerrhge.supabase.co/storage/v1/object/public/art/robrun/items/{img}.webp",
+      "item_images_note": "{img} = champ « img » de https://everygamestat.com/art/robrun/items.json. URL réelle observée via Playwright le 2026-11-24 sur /rob-run/items/bolt-cutter-uncommon (requêtes 123-124). HEAD vérifié 200 image/webp."
     },
     "robrun.pro": {
       "base": "https://robrun.pro",

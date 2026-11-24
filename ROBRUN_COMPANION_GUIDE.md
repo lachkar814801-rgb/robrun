@@ -179,8 +179,8 @@ robrun-companion/
 ```
 
 ### Modèle de données (JSON normalisé)
-- `weapon` : id, family, mk, name, damage, headshot, rpm, magazine, rangeM, dps, image, sourceUrl
-- `item` : id, name, category, rarity (nullable), priceMin/priceMax (nullable), tradable (bool), image, sourceUrl
+- `weapon` : id, family, mk, name, damage, headshot, rpm, magazine, rangeM, dps, image
+- `item` : id, name, category, rarity (nullable), priceMin/priceMax (nullable), tradable (bool), image
 - `mapPoint` : id, type, label, district, building, x/y (nullable tant que non importés), lootRefs[] (ids d'items, nullable)
 - `vehicle`, `upgrade` : issus d'`items` (catégories Vehicles, Vehicle upgrades, Workbenches & upgrades) puis enrichis par scraping
 - `guide` : id, slug, title (fr/ar/en), body, tags, sources[]
@@ -198,7 +198,7 @@ Accueil · Armes (tri DPS, comparateur) · Objets (filtres rareté/catégorie/pr
 3. **Je ne peux pas te garantir que ces sites ont une API publique.** C'est pour ça que le Prompt 1 fait d'abord une reconnaissance : OpenCode te dira ce qui existe vraiment, et on choisit ensuite.
 
 ### Règles de l'importateur
-- Tout est téléchargé **en local** dans `public/images/...`, jamais de lien externe en production, jamais d'image générée.
+- Tout est téléchargé **en local** dans `public/images/...`, jamais de lien externe dans `public/data` (les URLs de provenance restent hors du dossier public, dans `data/source-urls.json`), jamais d'image générée.
 - Nom de fichier = `id` de l'objet (ex. `m249_m2.webp`), conversion en WebP (sharp), taille max 512 px.
 - `images-manifest.json` : id → fichier, source, URL d'origine, date, hash SHA-256.
 - Respect de robots.txt, 1 requête/seconde max, User-Agent clair, reprise après interruption (ne retélécharge pas ce qui existe).

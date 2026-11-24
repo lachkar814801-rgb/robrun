@@ -29,6 +29,7 @@ Thumbs.db
 
 # Data recon scratch files (do not commit)
 data/recon/_*.json
+!data/recon/_items.json
 data/recon/_*.txt
 data/recon/_*.log
 
