@@ -1,24 +1,33 @@
-import { USD_TO_TND } from '@/config/currency';
+export type Lang = 'en' | 'fr' | 'ar';
 
 /**
- * Formate un prix en USD ou TND selon la devise demandée.
- * Si le montant est null/undefined, retourne "Non vendable" (ou l'équivalent dans la langue active).
+ * Locales de formatage : le prix est toujours en USD (monnaie du jeu).
+ * L'arabe utilise explicitement les chiffres occidentaux (0-9).
  */
-export function formatPrice(
-  amount: number | null | undefined,
-  currency: 'USD' | 'TND' = 'USD',
-  lang: 'en' | 'fr' | 'ar' = 'fr'
-): string {
+const PRICE_LOCALES: Record<Lang, string> = {
+  en: 'en-US',
+  fr: 'fr-FR',
+  ar: 'ar-u-nu-latn',
+};
+
+const NOT_FOR_SALE_LABELS: Record<Lang, string> = {
+  en: 'Not for sale',
+  fr: 'Non vendable',
+  ar: 'غير قابل للبيع',
+};
+
+/**
+ * Formate un prix en USD, avec le format de la langue active.
+ * Aucune conversion de devise n'est effectuée.
+ * Si le montant est null/undefined, retourne « non vendable » dans la langue active.
+ */
+export function formatPrice(amount: number | null | undefined, lang: Lang = 'fr'): string {
   if (amount === null || amount === undefined) {
-    const labels = { en: 'Not for sale', fr: 'Non vendable', ar: 'غير قابل للبيع' };
-    return labels[lang];
+    return NOT_FOR_SALE_LABELS[lang];
   }
 
-  const value = currency === 'TND' ? amount * USD_TO_TND : amount;
-  const locale = currency === 'TND' ? 'ar-TN' : 'en-US';
-
-  return new Intl.NumberFormat(locale, {
+  return new Intl.NumberFormat(PRICE_LOCALES[lang], {
     style: 'currency',
-    currency: currency === 'TND' ? 'TND' : 'USD',
-  }).format(value);
+    currency: 'USD',
+  }).format(amount);
 }

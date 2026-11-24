@@ -55,7 +55,7 @@ Glossaire AR : Loraine Hills / لوراين هيلز, Palmside / بالمساي�
 | Élément | Source principale | Source de secours | Confiance | Manquant |
 |---------|------------------|-------------------|-----------|----------|
 | Fence prix min/max USD | `data/raw/items.csv` | everygamestat (`sell`, `buy`, `fence[]`) | Haute | 184 items sans prix |
-| Taux USD→TND | config fichier (à créer) | — | — | Taux à définir (pas en dur dans les composants) |
+| Devise | USD uniquement (monnaie du jeu) | — | — | Aucune conversion, aucun taux (décision P3-bis) |
 
 ### Images d'items
 | Élément | Source principale | Source de secours | Confiance | Manquant |
@@ -105,11 +105,11 @@ Glossaire AR : Loraine Hills / لوراين هيلز, Palmside / بالمساي�
 
 ## 4. Ce qui reste manquant à la phase P2
 
-1. **coverage.csv** : script en cours d'exécution (~11 min pour 609 HEAD requests). À lire à la fin, puis remplacer l'ancien fichier. N'importer aucune image avant la phase P4.
+1. **coverage.csv** : le script ad hoc gen-coverage-real.mjs a été arrêté (mort avant écriture, log vide). La couverture est produite par `import-images.ts --dry-run` en P4 ; cet ancien fichier est remplacé à ce moment-là.
 2. **Coordonnées des 927 points** : seulement 40 pins dans everygamestat. Les 887 restants n'ont pas de coordonnées.
 3. **Loot par lieu** : seulement 28 locations sur robrun.space. Le reste des 927 points n'a pas de loot détaillé.
 4. **Traductions FR/AR** : à produire (guide section 5 donne les bases).
-5. **Taux USD→TND** : à définir dans un fichier de config.
+5. **Devise** : prix toujours en USD, aucune conversion (décision P3-bis).
 
 ---
 

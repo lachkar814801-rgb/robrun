@@ -14,7 +14,7 @@ Tu es un lead developer senior (React/TypeScript, data engineering, i18n, UX gam
 Type : web (SPA statique). Langues : EN (référence), FR (défaut), AR (RTL complet). Fonctionnalités : armes, items, loot, map, véhicules, upgrades, guides et astuces, database (recherche globale).
 
 ════════ STACK ════════
-Vite + React 18 + TypeScript strict + Tailwind CSS + React Router + react-i18next (détection langue + persistance + dir="rtl" pour l'arabe) + Fuse.js + Leaflet (carte sur image du jeu avec L.CRS.Simple) + Zustand (favoris, langue, devise) + sharp et tsx pour les scripts. Pas de backend : données en JSON statique dans public/data/. Config vercel.json avec rewrites SPA.
+Vite + React 18 + TypeScript strict + Tailwind CSS + React Router + react-i18next (détection langue + persistance + dir="rtl" pour l'arabe) + Fuse.js + Leaflet (carte sur image du jeu avec L.CRS.Simple) + Zustand (favoris, langue) + sharp et tsx pour les scripts. Pas de backend : données en JSON statique dans public/data/. Config vercel.json avec rewrites SPA.
 
 ════════ DONNÉES DE DÉPART (data/raw/, ne jamais modifier) ════════
 - weapons.csv : 46 armes, 17 familles × Mk1–Mk3. Colonnes utiles : id, name_en, damage, headshot_damage (= ×1,5), rounds_per_minute, magazine, full_damage_range_m, damage_per_second (recalculable : dégâts × cadence / 60), url, source. La colonne name_ru est ignorée.
@@ -34,10 +34,10 @@ B. Glossaire data/glossary.json : un objet par terme {key, en, fr, ar, note}. Tu
  - Quartiers : Sunny Beach/Sunny Beach/سني بيتش · Downtown/Downtown/داونتاون · Parkside/Parkside/بارك سايد · Loren Hills/Loren Hills/لورين هيلز.
  - Types de points de carte (remplacent les noms techniques) : RandomLootView = Random loot/Loot aléatoire/غنائم عشوائية · LootNodeView = Search node/Point de fouille/نقطة بحث · ContainerEntityView = Container/Conteneur/حاوية · LootObjectView = Loot object/Objet de loot/غرض غنائم · AccessEntityView = Access point/Point d'accès/نقطة دخول · CumulativeChargerView = Cumulative charger/Chargeur cumulatif/شاحن تراكمي · LocationEventCargoContainerView = Event cargo container/Conteneur cargo d'événement/حاوية شحن الحدث · CashWithdrawalEntityView = ATM/Distributeur/صراف آلي · CashLootNodeView = Cash node/Point d'argent/نقطة نقود.
  - Noms de points de carte (name_en) : ils suivent des motifs (« X · search node », « Cabinet / container », « Safe », « Paintings », « Alcohol », « Jewelry », « Cash », « Cheap antiques »…). Traduis les mots génériques (search node, cabinet, safe = coffre-fort/خزنة, paintings = tableaux/لوحات, jewelry = bijoux/مجوهرات, cash = argent/نقود, antiques = antiquités/تحف…) par des gabarits réutilisables ; ne traduis jamais un nom propre.
- - Libellés d'interface : navigation, filtres, tris, boutons, états vides, erreurs, 404, chargement, favoris, comparateur, devise, À propos, crédits, avertissement « projet de fans non officiel ».
+ - Libellés d'interface : navigation, filtres, tris, boutons, états vides, erreurs, 404, chargement, favoris, comparateur, À propos, crédits, avertissement « projet de fans non officiel ».
 C. Règles de traduction.
  - Noms propres du jeu (armes, marques, bouteilles, bâtiments dont le nom est une marque, véhicules) : restent en alphabet latin dans les 3 langues. En AR on garde le nom latin tel quel, on ne le translittère pas.
- - FR : français standard, vocabulaire gaming courant (« loot », « upgrade » restent). AR : arabe standard moderne simple pour l'interface ; la derja tunisienne est réservée aux micro-textes (chargement, 404, favoris vides, succès). Chiffres occidentaux (0-9) en AR. Montants avec Intl.NumberFormat et devise USD ou TND (د.ت).
+ - FR : français standard, vocabulaire gaming courant (« loot », « upgrade » restent). AR : arabe standard moderne simple pour l'interface ; la derja tunisienne est réservée aux micro-textes (chargement, 404, favoris vides, succès). Chiffres occidentaux (0-9) en AR. PRIX TOUJOURS EN USD, AUCUNE CONVERSION DE DEVISE : Intl.NumberFormat avec currency USD, locale adaptée à la langue active (ar-u-nu-latn pour garder les chiffres 0-9 en arabe). La touche tunisienne reste ailleurs (couleurs, textes, signature).
  - Pluriels : utilise les règles de pluriel d'i18next (l'arabe a 6 formes : zero, one, two, few, many, other) pour tous les compteurs (« 12 armes », « 1 arme », etc.).
  - Cohérence : un même terme = une même traduction partout (le glossaire fait foi). Pas de traduction automatique mot à mot qui casse le sens.
 D. Fichiers et structure : src/i18n/en.json, fr.json, ar.json avec EXACTEMENT les mêmes clés ; les données de jeu (items, armes, lieux) stockent des clés, pas du texte traduit ; l'UI résout via le glossaire. URLs préfixées par langue (/en, /fr, /ar), balises hreflang, <html lang> et dir mis à jour au changement de langue, choix mémorisé.
@@ -56,7 +56,7 @@ Scripts npm : import:csv, import:images, import:map, i18n:build, validate-data, 
 ════════ PAGES ET FONCTIONS ════════
 - Accueil : recherche globale, stats du jeu, derniers guides.
 - Armes : cartes + tableau, tri DPS/dégâts/cadence/portée, filtre par famille, comparateur de 2–3 armes (barres de stats), badge Mk.
-- Items : filtres rareté/catégorie/prix, tri, badge de rareté coloré, prix en USD avec bascule TND (taux dans src/config, jamais en dur dans les composants), « non vendable » si null.
+- Items : filtres rareté/catégorie/prix, tri, badge de rareté coloré, prix toujours en USD (aucune conversion de devise, aucun sélecteur), « non vendable » si null.
 - Loot : fiche item → où le trouver (si données) ; fiche lieu → ce qu'on peut y trouver.
 - Map : carte interactive sur l'image du jeu, filtres quartier/bâtiment/type, regroupement de marqueurs, recherche d'un lieu, fiche au clic. Si les coordonnées sont absentes pour certains points : vue liste groupée par quartier → bâtiment.
 - Véhicules et Upgrades : fiches, catégories, images locales.

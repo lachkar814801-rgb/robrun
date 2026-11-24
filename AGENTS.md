@@ -20,7 +20,7 @@ Ce fichier contient les règles permanentes appliquées à tout travail sur ce p
 
 ## 2. Stack
 
-Vite + React 18 + TypeScript strict + Tailwind CSS + React Router + react-i18next (détection langue + persistance + `dir="rtl"` pour l'arabe) + Fuse.js + Leaflet (carte sur image du jeu avec `L.CRS.Simple`) + Zustand (favoris, langue, devise) + sharp et tsx pour les scripts. Pas de backend : données en JSON statique dans `public/data/`. Config `vercel.json` avec rewrites SPA.
+Vite + React 18 + TypeScript strict + Tailwind CSS + React Router + react-i18next (détection langue + persistance + `dir="rtl"` pour l'arabe) + Fuse.js + Leaflet (carte sur image du jeu avec `L.CRS.Simple`) + Zustand (favoris, langue) + sharp et tsx pour les scripts. Pas de backend : données en JSON statique dans `public/data/`. Config `vercel.json` avec rewrites SPA.
 
 ---
 
@@ -57,7 +57,7 @@ Un objet par terme `{key, en, fr, ar, note}`. Remplir pour toutes les catégorie
 
 ### C. Règles de traduction
 - Noms propres du jeu (armes, marques, bouteilles, bâtiments dont le nom est une marque, véhicules) : restent en alphabet latin dans les 3 langues. En AR on garde le nom latin tel quel, on ne le translittère pas.
-- FR : français standard, vocabulaire gaming courant (« loot », « upgrade » restent). AR : arabe standard moderne simple pour l'interface ; la derja tunisienne est réservée aux micro-textes (chargement, 404, favoris vides, succès). Chiffres occidentaux (0-9) en AR. Montants avec `Intl.NumberFormat` et devise USD ou TND (د.ت).
+- FR : français standard, vocabulaire gaming courant (« loot », « upgrade » restent). AR : arabe standard moderne simple pour l'interface ; la derja tunisienne est réservée aux micro-textes (chargement, 404, favoris vides, succès). Chiffres occidentaux (0-9) en AR. **Prix toujours en USD, aucune conversion de devise** : `Intl.NumberFormat` avec `currency: 'USD'`, locale adaptée à la langue active (`ar-u-nu-latn` pour garder les chiffres 0-9 en arabe). La touche tunisienne reste ailleurs (couleurs, textes, signature).
 - Pluriels : utiliser les règles de pluriel d'i18next (l'arabe a 6 formes : zero, one, two, few, many, other) pour tous les compteurs.
 - Cohérence : un même terme = une même traduction partout (le glossaire fait foi).
 

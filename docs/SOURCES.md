@@ -16,6 +16,10 @@ Ce document recense toutes les sources de données utilisées dans le projet ROB
 | robrun.space | HTML + images | Images `.webp` nommées par id (`/items/{id}.webp`), pages locations avec loot détaillé | P4 (images), P6 (loot par lieu) |
 | robrunwiki.com | HTML (RU/EN) | Source originelle des CSV, catalogue 563 items, 955 points carte mondiale | Référence |
 
+### Devise
+
+Les prix du jeu sont exprimés en **USD**. Le site affiche tous les montants en USD, formatés avec `Intl.NumberFormat` selon la langue active (chiffres occidentaux 0-9 même en arabe). **Aucune conversion de devise, aucun taux de change, aucun sélecteur USD/TND.** La touche tunisienne du site reste dans les couleurs, les textes et la signature, pas dans les montants.
+
 ---
 
 ## 2. Sources de guides
