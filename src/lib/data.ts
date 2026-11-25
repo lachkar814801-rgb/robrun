@@ -38,9 +38,32 @@ export interface MapPoint {
   y: number | null;
   lootRefs: string[] | null;
   image: string | null;
+  hasLoot: boolean | null;
 }
 
-export type DataFile = 'weapons' | 'items' | 'mapPoints';
+/** Marqueur coordonné (everygamestat) : x/y en pourcentage du fond de carte. */
+export interface MapPin {
+  id: string;
+  type: string;
+  x: number;
+  y: number;
+}
+
+export interface GameMap {
+  name: string;
+  image: string;
+  width: number;
+  height: number;
+  districts: string[];
+  pins: MapPin[];
+  stats: {
+    placed: number;
+    total: number;
+    withLoot: number;
+  };
+}
+
+export type DataFile = 'weapons' | 'items' | 'mapPoints' | 'map';
 
 const cache = new Map<string, Promise<unknown>>();
 

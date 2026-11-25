@@ -18,3 +18,84 @@ body {
   background-color: #0B0C10;
   color: #FFFFFF;
 }
+
+/* ---------- Carte (Leaflet) ---------- */
+.robrun-pin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 0;
+}
+
+.robrun-pin__dot {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  border: 2px solid rgba(11, 12, 16, 0.9);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.22);
+  transition: transform 120ms ease;
+}
+
+.robrun-pin--safe .robrun-pin__dot {
+  background-color: #d4a373;
+}
+
+.robrun-pin--atm .robrun-pin__dot {
+  background-color: #38bdf8;
+}
+
+.robrun-pin--cargo .robrun-pin__dot {
+  background-color: #e70013;
+}
+
+.leaflet-marker-icon.robrun-pin:hover .robrun-pin__dot {
+  transform: scale(1.25);
+}
+
+.leaflet-container {
+  background: #0b0c10;
+  font-family: inherit;
+}
+
+.leaflet-control-attribution {
+  background: rgba(11, 12, 16, 0.75) !important;
+  color: rgba(255, 255, 255, 0.45) !important;
+  font-size: 10px;
+}
+
+.robrun-popup .leaflet-popup-content-wrapper {
+  background: #14161c;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.6rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+.robrun-popup .leaflet-popup-tip {
+  background: #14161c;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.robrun-popup .leaflet-popup-content {
+  margin: 0.55rem 0.8rem;
+  font-size: 0.8rem;
+  line-height: 1.35;
+}
+
+.robrun-popup .leaflet-popup-close-button {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.robrun-popup-title {
+  margin: 0;
+  font-weight: 600;
+}
+
+.robrun-popup-coords {
+  margin: 0.15rem 0 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.5);
+}

@@ -1541,5 +1541,10 @@
     "donor_2899": "https://robrunwiki.com/map/",
     "donor_2900": "https://robrunwiki.com/map/",
     "donor_2722": "https://robrunwiki.com/map/"
+  },
+  "map": {
+    "image": "https://everygamestat.com/art/robrun/map-looty-bay-hq.webp",
+    "pins": "https://everygamestat.com/art/robrun/robrun.json",
+    "note": "Fond de carte et 40 marqueurs (safe/atm/cargo) — instantané P1 data/recon/_robrun.json"
   }
 }

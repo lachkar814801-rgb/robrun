@@ -306,7 +306,113 @@ function folderBytes(dir: string): number {
   return total;
 }
 
-// ---------- (g) Images locales + manifest ----------
+// ---------- (g) Carte : fond local, marqueurs, loot par point ----------
+let glossaryKeyCache: Set<string> | null = null;
+
+function glossaryHas(key: string): boolean {
+  if (!glossaryKeyCache) {
+    glossaryKeyCache = new Set(Object.keys(readJson<Record<string, unknown>>('data/glossary.json')));
+  }
+  return glossaryKeyCache.has(key);
+}
+
+function checkMap() {
+  const mapPath = 'public/data/map.json';
+  if (!exists(mapPath)) {
+    err('[map] public/data/map.json absent (lancer « npm run import:map »)');
+    return;
+  }
+
+  const map = readJson<{
+    image?: string;
+    width?: number;
+    height?: number;
+    districts?: string[];
+    pins?: Array<{ id: string; type: string; x: number; y: number }>;
+    stats?: { placed?: number; total?: number; withLoot?: number };
+  }>(mapPath);
+
+  if (!map.image || !map.image.startsWith('/images/')) {
+    err(`[map] chemin d'image non local : ${map.image ?? 'null'}`);
+  } else if (!fs.existsSync(path.join(ROOT, `public${map.image}`))) {
+    err(`[map] fond de carte absent : ${map.image}`);
+  }
+
+  if (!map.width || !map.height || map.width <= 0 || map.height <= 0) {
+    err(`[map] dimensions invalides : ${map.width}×${map.height}`);
+  }
+
+  const pins = Array.isArray(map.pins) ? map.pins : [];
+  if (pins.length !== 40) err(`[map] Attendu 40 marqueurs, trouvé ${pins.length}`);
+  else ok(`map : ${pins.length} marqueurs coordonnés`);
+
+  const pinIds = new Set<string>();
+  let pinErrors = 0;
+  for (const pin of pins) {
+    if (!pin.id || pinIds.has(pin.id)) {
+      pinErrors++;
+      if (pinErrors <= 3) err(`[map] marqueur sans id ou id en double : ${pin.id}`);
+    }
+    pinIds.add(pin.id);
+    if (!pin.type || !glossaryHas(`pin.${pin.type}`)) {
+      pinErrors++;
+      if (pinErrors <= 3) err(`[map] type de marqueur '${pin.type}' absent du glossaire (pin.*)`);
+    }
+    if (
+      typeof pin.x !== 'number' ||
+      typeof pin.y !== 'number' ||
+      pin.x < 0 ||
+      pin.x > 100 ||
+      pin.y < 0 ||
+      pin.y > 100
+    ) {
+      pinErrors++;
+      if (pinErrors <= 3) err(`[map] coordonnées hors 0–100 pour ${pin.id} (${pin.x}, ${pin.y})`);
+    }
+  }
+  if (pinErrors === 0) ok('map : ids uniques, types et coordonnées valides');
+
+  let districtErrors = 0;
+  for (const district of map.districts ?? []) {
+    if (!glossaryHas(`district.${district}`)) {
+      districtErrors++;
+      if (districtErrors <= 3) err(`[map] district '${district}' absent du glossaire`);
+    }
+  }
+  if (districtErrors === 0) ok(`map : ${(map.districts ?? []).length} quartiers traduits`);
+
+  // Cohérence des statistiques et du loot signalé par point.
+  const mapPoints = readJson<Record<string, { x?: number | null; y?: number | null; hasLoot?: boolean }>>(
+    'public/data/mapPoints.json'
+  );
+  const pointIds = Object.keys(mapPoints);
+  const placedPoints = pointIds.filter((id) => mapPoints[id]?.x != null && mapPoints[id]?.y != null).length;
+  const withLoot = pointIds.filter((id) => mapPoints[id]?.hasLoot === true).length;
+
+  if (map.stats?.placed !== pins.length) {
+    err(`[map] stats.placed=${map.stats?.placed} ≠ ${pins.length} marqueurs`);
+  }
+  if (map.stats?.total !== pointIds.length) {
+    err(`[map] stats.total=${map.stats?.total} ≠ ${pointIds.length} points`);
+  }
+  if (map.stats?.withLoot !== withLoot) {
+    err(`[map] stats.withLoot=${map.stats?.withLoot} ≠ ${withLoot} points avec loot`);
+  }
+  if (withLoot !== 267) {
+    err(`[map] Attendu 267 points avec loot signalé, trouvé ${withLoot}`);
+  }
+  if (placedPoints !== 0) {
+    err(
+      `[map] ${placedPoints} points de carte ont des coordonnées : la règle est 0 (les 40 marqueurs ` +
+        `sont stockés séparément dans map.json, aucune coordonnée n'est inventée)`
+    );
+  }
+  if (placedPoints === 0 && withLoot === 267) {
+    ok('map : couverture 40/927 points (aucune coordonnée inventée), 267 points avec loot signalé');
+  }
+}
+
+// ---------- (h) Images locales + manifest ----------
 function checkImages() {
   const manifestPath = 'data/images-manifest.json';
   if (!exists(manifestPath)) {
@@ -383,12 +489,13 @@ function checkImages() {
 }
 
 function main() {
-  console.log('=== validate-data (P3/P4) ===\n');
+  console.log('=== validate-data (P3–P6) ===\n');
 
   checkI18nParity();
   checkNoCyrillic();
   checkCsvExist();
   checkGeneratedData();
+  checkMap();
   checkNoExternalUrls();
   checkImages();
 
