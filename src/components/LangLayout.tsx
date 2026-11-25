@@ -1,9 +1,10 @@
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
+import App from '@/App';
 import { setHtmlLangDir } from '@/lib/rtl';
 
-export default function LangLayout({ children }: { children?: React.ReactNode }) {
+export default function LangLayout() {
   const { i18n } = useTranslation();
   const location = useLocation();
 
@@ -26,8 +27,8 @@ export default function LangLayout({ children }: { children?: React.ReactNode })
   }, [i18n.language]);
 
   return (
-    <div className="min-h-screen" data-lang={i18n.language}>
-      {children}
+    <div data-lang={i18n.language}>
+      <App />
     </div>
   );
 }

@@ -16,6 +16,17 @@ const NOT_FOR_SALE_LABELS: Record<Lang, string> = {
   ar: 'غير قابل للبيع',
 };
 
+const NUMBER_LOCALES: Record<Lang, string> = {
+  en: 'en-US',
+  fr: 'fr-FR',
+  ar: 'ar-u-nu-latn',
+};
+
+/** Formate un compteur avec les chiffres occidentaux, quelle que soit la langue. */
+export function formatNumber(value: number, lang: Lang = 'fr'): string {
+  return new Intl.NumberFormat(NUMBER_LOCALES[lang]).format(value);
+}
+
 /**
  * Formate un prix en USD, avec le format de la langue active.
  * Aucune conversion de devise n'est effectuée.
